@@ -1,2 +1,5 @@
-#base "../_jofrehud/resource/loadingdialogerrorvacbanned.res"
-#base "../_tf2hud/resource/resource/loadingdialogerrorvacbanned.res"
+#base "#bases/loadingvac.res"
+#base "#bases/loading-cancel.res"
+"Resource/LoadingDialogErrorVACBanned.res"
+{
+}

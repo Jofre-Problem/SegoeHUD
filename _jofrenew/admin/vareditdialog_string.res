@@ -1,1 +1,0 @@
-#base "vareditdialog_base.res"

@@ -210,7 +210,7 @@ Scheme
 	{
 	//	"40"
 	//	{
-	//		"font" "_jofrehud/DroidSansMono.ttf"
+	//		"font" "_jofrenew/DroidSansMono.ttf"
 	//		"name" "Droid Sans Mono"
 	//	}			
 	}	

@@ -20,9 +20,19 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"				"W_ColorTheme2"	//"W_ColorTheme2"
-			"border"			"B_Icons1"
 		}
-
+	"Left"				// background for the left side buttons
+	{
+		ControlName				EditablePanel
+		FieldName				"Left"
+		xPos					0
+		yPos					0
+		zPos					3001
+		wide					p0.0015
+		tall					f0		//p0.05 = 1mm...		525+15=		1-  p0.0540		
+		bgcolor_override				"W_ColorIcons1"//"W_ColorIcons1"
+		mouseInputEnabled			0			// mouse input passes though to panels below	
+	}
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"

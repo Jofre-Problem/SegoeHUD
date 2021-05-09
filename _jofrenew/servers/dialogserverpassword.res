@@ -1,1 +1,0 @@
-#base "base/gamelabel_main.res"

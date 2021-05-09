@@ -1,5 +1,12 @@
 "GameMenu" 
 {
+	"MMBackgroundPanel"
+	{
+		"label"			""
+		"command"		"engine alias none"
+		"OnlyAtMenu"	"1"
+		"subimage" "glyph_muted"
+	}
 	"CallVote"
 	{
 		label				"Æ"

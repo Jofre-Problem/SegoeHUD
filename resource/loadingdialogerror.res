@@ -1,2 +1,19 @@
-#base "../_jofrehud/resource/loadingdialogerror.res"
-#base "../_tf2hud/resource/resource/loadingdialogerror.res"
+#base "#bases/loading-cancel.res"
+#base "#bases/1bannerad.res"
+#base "#bases/1sysmenu.res"
+#base "#bases/1progress.res"
+#base "#bases/1loadinglabel.res"
+"Resource/LoadingDialog.res"
+{
+	"InfoLabel"
+	{
+		"labelText"		"#GameUI_ParseBaseline"
+	}
+	"progress"
+	{
+	}
+
+	"Label1"
+	{
+	}
+}

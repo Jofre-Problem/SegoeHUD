@@ -282,14 +282,6 @@ Copy("4plug/4plug_overrides/summersale/azul.res", "_jofrehud/_customization/reso
 {
 Copy("4plug/4plug_overrides/summersale/neon.res", "_jofrehud/_customization/resource/ui/summersale_border.res");
 }
-#if Chapter Backgrounds Multiple == "Default"
-{
-Copy("4plug/4plug_overrides/ChapterBackgrounds_def.txt", "scripts/ChapterBackgrounds.txt");
-}
-#if Chapter Backgrounds Multiple == "Disabled (Upward)"
-{
-Copy("4plug/4plug_overrides/ChapterBackgrounds_upw.txt", "scripts/ChapterBackgrounds.txt");
-}
 #if UI Match Status == "No Name - Small"
 {
 Copy("4plug/4plug_overrides/match/match1.res", "_jofrehud/_customization/resource/ui/hudmatchstatus.res");

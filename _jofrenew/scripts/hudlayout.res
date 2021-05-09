@@ -3,21 +3,6 @@
 	#base "../_customization/scripts/damageindicator.res"
 "Resource\HudLayout.res"
 {
-	HudControlPointIcons
-	{
-		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
-		"wide"					"f0"
-		"tall"					"200"
-		"visible"				"1"
-		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
-	}
-
 	HudDeathNotice
 	{
 		"xpos"	 "rs1-5" // 6 KF
@@ -112,20 +97,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
+
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
@@ -248,142 +220,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 	}
-	
-	"HudMenuSpyDisguise"
-	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"ypos_hidef"	"0"
-		"ypos_lodef"	"0"
-		"wide"			"f0"
-		"tall"			"f0"	[$WIN32]
-		"tall"			"f0"	[$X360]
-		"PaintBackgroundType"	"0"
-	//	"pin_to_sibling"	"DisguiseStatus"	 //HELL			
-	}	
-	
-	"HudMenuEngyBuild"
-	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	//	"pin_to_sibling"	"HudMenuSpyDisguise"	 //HELL			
-	}
-	
-	"HudMenuEngyDestroy"
-	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	//	"pin_to_sibling"	"HudMenuEngyBuild"	 //HELL				
-	}
 
-	"HudEurekaEffectTeleportMenu"
-	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	//	"pin_to_sibling"	"HudMenuEngyBuild"	 //HELL			
-	}
-	
-	BuildingStatus_Spy
-	{
-		"xpos"		"-8"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"-8"	[$X360]
-		"ypos"		"0"	[$X360]		
-		"wide"		"f0"
-		"tall"		"480"
-	}
-	
-	\\ Engineer
-	BuildingStatus_Engineer
-	{
-		"xpos"		"-8"
-		"xpos_hidef"		"-8"
-		"xpos_lodef"		"-8"
-		"ypos"		"0"
-		"ypos_hidef"		"0"
-		"ypos_lodef"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		
-	}
-	
-	HudKothTimeStatus
-	{
-		"xpos"	"cs-0.5"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-		
-		"blue_active_xpos"			"4"
-		"blue_active_xpos_minmode"	"4"
-	
-		"red_active_xpos"			"52"
-		"red_active_xpos_minmode"	"52"
-	}
-	
-	"HudUpgradePanel"
-	{
-		"fieldName"		"HudUpgradePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"		
-	}
-	
-	HudControlPointIcons
-	{
-		"xpos"					"0"
-		"ypos"					"410"
-		"wide"					"f0"
-		"tall"					"200"
-		"visible"				"1"
-		"enabled"				"1"
-		"separator_width"		"3"	\\ distance between the icons (including their backgrounds)
-		"separator_height"		"3"
-		"height_offset"			"0"	[$WIN32] \\ distance from the bottom of the panel
-	}
-	
-	"ItemAttributeTracker"
-	{
-		"fieldName" 	"ItemAttributeTracker"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"PaintBackgroundType"	"0"
-	}
-	
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
-	}
 	HudVoiceStatus
 	{
 		"fieldName"				"HudVoiceStatus"
@@ -424,84 +261,12 @@
 		
 		"text_xpos"				"58"
 	}
-	HudInspectPanel
-	{
-		"xpos"					"r130"
-		"ypos"					"rs1"
-		"zpos"					"10"
-		"wide"					"120"
-		"tall"					"f0"
-	}
-	
-	HudArenaClassLayout [$WIN32]
-	{
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-	
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"10"
-		"wide"					"f0"
-		"tall"					"480"
-	}
-	ArenaWinPanel
-	{
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		//"pin_to_sibling"	"WinPanel"	 //HELL				
-	}
-	
-	HudSpellMenu
-	{
-		"wide"	 "f0"
-		"tall"	 "f0"
-		"zpos" 	"2"
-		"xpos"			"0"
-		"ypos"			"0"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
-	}
-	
-	HudStopWatch
-	{
-		"fieldName"				"HudStopWatch"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"ypos_minmode"			"0"
-		"ypos_lodef"			"0"
-		"wide"					"f0"
-		"tall"					"480"
-	}
-	
 	"HudMenuTauntSelection"
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_hidef"	"0"
-		"ypos_lodef"	"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		
-	}
-	HudStalemate
-	{
-		"xpos"					"cs-0.5"
-		"ypos"					"65"
-		"wide"					"f0"
-		"tall"					"f0"
 	}
 	HudBossHealth
 	{
@@ -529,15 +294,5 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	//	"pin_to_sibling"	"HudCrosshair"	 //HELL				
-	}		
-	HudArenaVsPanel [$WIN32]
-	{
-		"fieldName"				"HudArenaVsPanel"		
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"20"
-		"wide"					"f0"
-		"tall"					"240"
-	}	
+	}
 }

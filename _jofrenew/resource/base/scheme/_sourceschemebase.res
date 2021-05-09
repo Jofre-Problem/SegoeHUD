@@ -1,0 +1,1 @@
+#base "cs_global.res"

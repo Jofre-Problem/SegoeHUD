@@ -62,27 +62,27 @@ Scheme
 	{
 		"60"
 		{
-			"font" "resource/font/LowAmmoWarningZero.ttf"
+			"font" "_jofrenew/font/LowAmmoWarningZero.ttf"
 			"name" "LowAmmoWarning Zero"
 		}
 		"61"
 		{
-			"font" "resource/font/OpenSans-Nodash.ttf"
+			"font" "_jofrenew/font/OpenSans-Nodash.ttf"
 			"name" "Open Sans Nodash"
 		}
 		"62"
 		{
-			"font" "resource/font/OpenSans-Checkmark.ttf"
+			"font" "_jofrenew/font/OpenSans-Checkmark.ttf"
 			"name" "Open Sans Checkmark"
 		}
 		"36"
 		{
-			"font" "resource/font/OpenSans-LowAmmo.ttf"
+			"font" "_jofrenew/font/OpenSans-LowAmmo.ttf"
 			"name" "Open Sans LowAmmo"
 		}
 		"48"
 		{
-			"font" "resource/font/OpenSans-AlphaInvertedNEW.ttf"
+			"font" "_jofrenew/font/OpenSans-AlphaInvertedNEW.ttf"
 			"name" "Open Sans AlphaInvertedNEW"
 		}
 	}	
