@@ -1,6 +1,7 @@
 # SegoeHUD
 TF2 Interface similar of Windows OS.
 This was the projet called JofreHUD before being a FPS focused.
+WARNING: This HUD is still on early development! Really! 
 
 # HUD Structure
 Well! This is the first ever implementation of JofreHUD I made!
