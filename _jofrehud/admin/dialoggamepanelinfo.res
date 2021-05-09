@@ -2,7 +2,8 @@
 #base "base/graphpanel.res"
 #base "base/serverlog.res"
 #base "base/playerlist.res"
-"Admin\DialogGamePanelInfo.res"
+#base "../#uni_base/filesv1/budgetpanel/main.res"
+"Admin/DialogGamePanelInfo.res"
 {
 	"ChatPanel"
 	{
@@ -35,7 +36,6 @@
 	"BudgetPanel"
 	{
 		"ControlName"		"CBudgetPanelContainer"
-		"fieldName"		"BudgetPanel"
 		"xpos"		"0"
 		"ypos"		"28"
 		"wide"		"520"
@@ -43,7 +43,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"tabPosition"		"0"
 	}
 	"ServerInfo"

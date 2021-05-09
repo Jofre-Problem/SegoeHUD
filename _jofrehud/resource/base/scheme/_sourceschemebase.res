@@ -10,6 +10,7 @@
 #base "font/achievement.res"
 #base "font/default_bold.res"
 #base "bs/mainmenu_cons.res"
+#base "bs/mainmenu_cons_extra.res"
 #base "bs/wizard.res"
 #base "bs/matchmaking.res"
 #base "border/titlebutton_1.res"
@@ -24,3 +25,4 @@
 #base "colors/dullwhite.res"
 #base "colors/offwhite.res"
 #base "bs/borderdot.res"
+// #base "!custom/tf2.res"

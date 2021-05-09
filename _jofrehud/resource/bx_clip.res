@@ -1,13 +1,11 @@
-"resource\Bx_clip.res"
+"resource/Bx_clip.res"
 {
 	"ClipImagePanel"
 	{
 		"ControlName"		"CStoryBoardClipImagePanel"
 		"fieldName"		"ClipImagePanel"
-		"xpos"		"243"
 		"ypos"		"30"
 		"wide"		"150"
-		"tall"		"135"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

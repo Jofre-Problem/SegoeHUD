@@ -1,57 +1,45 @@
-#base "../base/hudmenueurekaeffect.res"
-"Resource/UI/build_menu/HudMenuEurekaEffect.res"
-{
-	"MainBackground"	
-	{
-		"visible"		"0"
-	}
+#base "../../base/build-more/mainbg/main.res"
+#base "../../base/build-more/mainbg/position/wide250.res"
+#base "../../base/build-more/mainbg/position/xpos0.res"
+#base "../../base/build-more/mainbg/position/ypos10.res"
+#base "../../base/build-more/mainbg/position/tall170.res"
+#base "../../base/build-more/mainbg/position/ctrl_other.res"
+// hud_menu_item_bg
+// hud_menu_item_bg
 
-	"ItemBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"250"
-		"tall"			"180"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
-	}
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"205"
-		"ypos"			"140"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
-	}
+#base "../../base/build-more/itembg/main.res"
+#base "../../base/build-more/itembg/content2.res"
+#base "../../base/build-more/itembg/ypos0.res"
+// 4 14 0 98 105
+#base "../../base/build-more/bgengineer/main.res"
 
-	"BuildIcon"	
-	{
-		"visible"		"0"
-	}
-	
-	"TitleLabel"
-	{	
-		"visible"		"0"
-	}
-	
-	"CancelLabel"
-	{	
-		"visible"		"0"
-	}
-	
-}
+#base "../../base/build-more/buildicon/main.res"
+
+#base "../../base/build-more/titlelabel/main.res"
+#base "../../base/build-more/titlelabel/font/giant.res"
+#base "../../base/build-more/titlelabel/position/content1.res"
+#base "../../base/build-more/titlelabel/position/tall38.res"
+s"
+#base "../../base/build-more/titlelabel/text/left.res"
+
+#base "../../base/build-more/cancellabel/main.res"
+#base "../../base/build-more/cancellabel/ctrl/cex.res"
+#base "../../base/build-more/cancellabel/autopin0.res"
+#base "../../base/build-more/cancellabel/dullbright.res"
+#base "../../base/build-more/cancellabel/visenabled1.res"
+#base "../../base/build-more/cancellabel/position/zpos1.res"
+#base "../../base/build-more/cancellabel/position/wide200.res"
+#base "../../base/build-more/cancellabel/position/tall13.res"
+#base "../../base/build-more/cancellabel/position/ypos35.res"
+#base "../../base/build-more/cancellabel/font/spec.res"
+#base "../../base/build-more/cancellabel/text/east.res"
+
+#base "../../base/build-more/available_target/1/ctrl_edit.res"
+#base "../../base/build-more/available_target/1/vis1.res"
+#base "../../base/build-more/available_target/1/main.res"
+#base "../../base/build-more/available_target/1/ypos47.res"
+
+#base "../../base/build-more/unavailable_item/1/ctrl_edit.res"
+#base "../../base/build-more/unavailable_item/1/vis0.res"
+#base "../../base/build-more/unavailable_item/1/main.res"
+#base "../../base/build-more/unavailable_item/1/ypos47.res"

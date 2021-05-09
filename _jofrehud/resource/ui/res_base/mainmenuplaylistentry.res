@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuPlayListEntry.res"
+"Resource/UI/mainmenuplaylistentry.res"
 {
 	"ModeImage"
 	{
@@ -157,24 +157,12 @@
 
 	"DescLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
-		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
 		"xpos"			"rs1"
 		"ypos"			"18"
-		"zpos"			"2"
 		"wide"			"125"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanLight"
-		"proportionaltoparent" "1"
-		"mouseinputenabled"	"0"
 	}
 
 	"DescLabelShadow"

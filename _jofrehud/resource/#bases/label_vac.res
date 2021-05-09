@@ -22,8 +22,8 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"centerwrap"		"0"
-		"bgcolor_override"	"W_ColorTheme4"
-		"fgcolor_override"	"W_ColorTheme1"
+	//	"bgcolor_override"	"W_ColorTheme4"
+	//	"fgcolor_override"	"W_ColorTheme1"
 	}
 	"VACImage"
 	{
@@ -47,6 +47,6 @@
 		"tileImage"		"0"
 		"tileHorizontally"		"0"
 		"tileVertically"		"0"
-		"border"		"noborder"
+		"border"		"NoBorder"
 	}
 }

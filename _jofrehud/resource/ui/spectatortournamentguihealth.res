@@ -1,190 +1,26 @@
-"Resource/UI/SpectatorGUIHealth.res"
-{
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"226"
-		"ypos"			"2"
-		"zpos"			"4"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"224"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"
-	}
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"r0"
-	}
-	"HPReal"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"HPReal"
-		"xpos"			"0"//-9
-		"ypos"			"5"//11
-		"zpos"			"28"
-		"wide"			"85"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"%Health%"
-		"textAlignment"		"east"
-		"font"			"QuestMap_Medium"//"DefaultVerySmall"
-		"fgcolor_override"		"220 220 220 250"
-	}
+#base "base/filesv2/playerstatushealthvalue/main.res"
+#base "base/filesv2/playerstatushealthvalue/zpos5.res"
+#base "base/filesv2/playerstatushealthvalue/font.res"
+#base "base/filesv2/playerstatushealthvalue/wt20.res"
+#base "base/filesv2/playerstatushealthvalue/xypos_6.res"
 
+#base "base/filesv2/playerstatushealthimage/main.res"
+#base "base/filesv2/playerstatushealthimage/zpos4.res"
+#base "base/filesv2/playerstatushealthimage/xypos_6.res"
+#base "base/filesv2/playerstatushealthimage/wt20.res"
 
-	"TournShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TournShadow"
-		"xpos"			"0"
-		"ypos"			"14"
-		"zpos"			"13"
-		"wide"			"76"
-		"tall"			"13"
-		"visible"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"west"
-		"border"	"noborder"
-		"font"			"HudNumbers"
-		"fgcolor_override"		"210 210 210 255"
-	}
-	"TournShadow2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TournShadow2"
-		"xpos"			"50"
-		"ypos"			"14"
-		"zpos"			"13"
-		"wide"			"76"
-		"tall"			"13"
-		"visible"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"west"
-		"border"	"noborder"
-		"font"			"HudNumbers"
-		"fgcolor_override"		"210 210 210 255"
-	}
+#base "base/filesv2/playerstatushealthimage/bonus/main.res"
+#base "base/filesv2/playerstatushealthimage/bonus/xypos_4.res"
+#base "base/filesv2/playerstatushealthimage/bonus/wt24.res"
+#base "base/filesv2/playerstatushealthimage/bonus/zpos3.res"
 
+#base "base/filesv2/buildingstatushealthimagebg/main.res"
+#base "base/filesv2/buildingstatushealthimagebg/zpos2.res"
+#base "base/filesv2/buildingstatushealthimagebg/wt28.res"
+#base "base/filesv2/buildingstatushealthimagebg/xpos0.res"
+#base "base/filesv2/buildingstatushealthimagebg/ypos2.res"
 
-	"HPBARBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HPBARBG"
-		"xpos"			"0"
-		"ypos"			"17"
-		"zpos"			"12"
-		"wide"			"0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"210 210 210 255"
-		"scaleImage"	"1"
-
-	}
-
-	"NameMask"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"NameMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"15"
-		"wide"			"120"
-		"tall"			"18"
-		"alpha"			"255"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACTblur"
-		"scaleImage"	"1"
-
-	}
-	
-	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ScaleableImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"85"
-		"ypos"			"0"
-		"zpos"			"14"
-		"wide"			"0"
-		"tall"			"19"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/white"
-		"border"			"blurborder"
-		"scaleImage"	"1"
-	}
-
-	"NORMBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NORMBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"100"
-		"alpha"			"255"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"180 180 180 55"
-		"border"			"blurborder"
-		"scaleImage"	"1"
-
-	}
-
-	"BuffBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuffBG2"
-		"xpos"			"0"
-		"ypos"			"17"
-		"zpos"			"14"
-		"wide"			"200"
-		"alpha"			"0"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"47 185 123 255"
-		"scaleImage"	"1"
-	}
-	
-
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
-	}
-}
+#base "base/filesv2/playerstatushealthimage/bg/main.res"
+#base "base/filesv2/playerstatushealthimage/bg/zpos3.res"
+#base "base/filesv2/playerstatushealthimage/bg/wt24.res"
+#base "base/filesv2/playerstatushealthimage/bg/xypos_4.res"

@@ -21,6 +21,11 @@
 #base "colors/green.res"
 #base "colors/dullwhite.res"
 #base "colors/offwhite.res"
+
+// #base "colors/orange.res"
+// added cuz due to mainmenu_cons.res has an entry of Orange
+
+
 //not deleted cuz mayaplugins
 Scheme
 {
@@ -114,7 +119,7 @@ Scheme
 		TimeCode.ClipBgColor		"255 255 255 63"
 		
 		IFM.CurrentTimeScrubber		"100 150 255 192"  // In the timeline views, the grabbable scrubber color
-		IFM.CurrentTimeScrubberOutline	"0 0 0 0"  // In the timeline views, the outline around the bar and scrubber
+		IFM.CurrentTimeScrubberOutline	"Blank"  // In the timeline views, the outline around the bar and scrubber
 		IFM.CurrentTimeBarColor		"100 150 255 192" 
 		
 		IFM.ClipTransitionBgColor	"180 180 255 192"
@@ -144,7 +149,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"32"
+				"weight"	"1000"
+				"outline"	"1"
+				"antialias" "1"			
 			}
 		}
 		
@@ -152,7 +162,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"12"
+				"weight"	"1000"
+				"antialias" "1"				
 			}
 		}
 
@@ -160,7 +174,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"				
 			}
 		}
 
@@ -168,7 +187,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"13"
+				"weight"	"0"
+				"antialias" "1"				
 			}
 		}
 
@@ -176,7 +199,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"14"
+				"weight"	"0"
+				"antialias" "1"				
 			}
 		}
 
@@ -184,7 +211,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"18"
+				"weight"	"0"
+				"antialias" "1"				
 			}
 		}
 
@@ -192,7 +223,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"22"
+				"weight"	"0"
+				"antialias" "1"				
 			}
 		}
 	}

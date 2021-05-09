@@ -1,6 +1,34 @@
-#base "../resource/#bases/1sysmenu.res"
-"Servers\DialogGameInfo.res"
+#base "../../resource/#bases/1sysmenu.res"
+#base "../../#uni_base/filesv1/refresh/main.res"
+#base "../../#uni_base/filesv1/maplabel/main.res"
+#base "../../#uni_base/filesv1/maplabel/text/east.res"
+#base "../../#uni_base/filesv1/maplabel/position/tall20.res"
+
+#base "../../#uni_base/filesv1/label1/main.res"
+#base "../../#uni_base/filesv1/label1/position/tall20.res"
+#base "../../#uni_base/filesv1/label1/auto.res"
+#base "../../#uni_base/filesv1/label1/pin.res"
+#base "../../#uni_base/filesv1/label1/enabled.res"
+#base "../../#uni_base/filesv1/label1/tab.res"
+#base "../../#uni_base/filesv1/label1/wrap0.res"
+#base "../../#uni_base/filesv1/label1/text/east.res"
+"Servers/DialogGameInfo.res"
 {
+	"Label1"
+	{
+	//	"ControlName"		"Label"
+	//	"fieldName"		"Label1"
+		"xpos"		"15"
+		"ypos"		"162"
+		"wide"		"108"
+	//	"tall"		"20"
+	//	"autoResize"		"0"
+	//	"pinCorner"		"0"
+	//	"enabled"		"1"
+	//	"tabPosition"		"0"
+	//	"textAlignment"		"east"
+	//	"wrap"		"0"
+	}
 	"DialogGameInfo"
 	{
 		"ControlName"		"CDialogGameInfo"
@@ -30,19 +58,14 @@
 	}
 	"Refresh"
 	{
-		"ControlName"		"Button"
-		"fieldName"		"Refresh"
 		"xpos"		"218"
 		"wide"		"80"
 		"tall"		"24"
-		"autoResize"		"0"
 		"pinCorner"		"2"
 		"enabled"		"1"
 		"tabPosition"		"2"
 		"labelText"		"#ServerBrowser_Refresh"
 		"textAlignment"		"west"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"AutoRetry"
 	{
@@ -108,7 +131,7 @@
 		"labelText"		"#ServerBrowser_ServerName"
 		"textAlignment"		"east"
 		"wrap"		"0"
-		"fgcolor"	"W_ColorTheme1"
+	//	"fgcolor"	"W_ColorTheme1"
 	}
 	"GameLabel"
 	{
@@ -124,23 +147,16 @@
 		"labelText"		"#ServerBrowser_GameLabel"
 		"textAlignment"		"east"
 		"wrap"		"0"
-		"fgcolor"	"W_ColorTheme1"		
+	//	"fgcolor"	"W_ColorTheme1"		
 	}
 	"MapLabel"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"MapLabel"
 		"xpos"		"16"
 		"ypos"		"114"
 		"wide"		"108"
-		"tall"		"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
+	//	"tall"		"20"
 		"labelText"		"#ServerBrowser_MapLabel"
-		"textAlignment"		"east"
-		"wrap"		"0"
+	//	"textAlignment"		"east"
 	}
 	"PlayersLabel"
 	{
@@ -267,21 +283,7 @@
 		"textAlignment"		"west"
 		"wrap"		"0"
 	}
-	"Label1"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"Label1"
-		"xpos"		"15"
-		"ypos"		"162"
-		"wide"		"108"
-		"tall"		"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"textAlignment"		"east"
-		"wrap"		"0"
-	}
+
 	"SecureText"
 	{
 		"ControlName"		"Label"

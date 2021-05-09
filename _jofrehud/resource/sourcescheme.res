@@ -1,5 +1,4 @@
 #base "base/scheme/_sourceschemebase.res"
-
 //#base "sourceschemebase.res"
 Scheme
 {
@@ -19,11 +18,6 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFMediumBrown"				"69 64 58 255"
 	}	
-	BaseSettings
-	{
-		Frame.FocusTransitionEffectTime	"0.25"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.25"	
-	}
 	
 	Fonts
 	{
@@ -34,20 +28,21 @@ Scheme
 			"name"           "Verdana" [$WINDOWS]
 			"name"           "Verdana" [$X360]
 			"name"           "Verdana" [$POSIX]
-			"tall"          "10" [$LINUX]
-			"tall"          "10" [$OSX]
-			"tall"           "10"
-			"tall_lodef" "10"
-			"tall_hidef" "10"
-			"weight"         "0"
+			"tall"          "15" [$LINUX]
+			"tall"          "15" [$OSX]
+			"tall"           "15"
+			"tall_lodef" "30"	//probably the smaller ones
+			"tall_hidef" "30"	//probably....
+			"weight"         "600"
 			"outline"        "1"
 			}
 		}	
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
 		"MenuLarge"
@@ -62,7 +57,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
 
@@ -70,7 +66,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -80,23 +77,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
 		
@@ -105,7 +107,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
 		
@@ -113,7 +116,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
 		
@@ -121,12 +125,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 			}
 		}
-	}
-	
-	CustomFontFiles
-	{
 	}
 }

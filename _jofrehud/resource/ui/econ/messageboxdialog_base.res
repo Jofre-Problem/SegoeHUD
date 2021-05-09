@@ -1,20 +1,47 @@
+#base "../../../#uni_base/filesv2/confirmdialog/main.res"
+#base "../../../#uni_base/filesv2/confirmdialog/x_pos/cen_-150.res"
+#base "../../../#uni_base/filesv2/confirmdialog/y_pos/_140.res"
+#base "../../../#uni_base/filesv2/confirmdialog/wide_/300.res"
+//#base "../../../#uni_base/filesv2/confirmdialog/tall_/230.res"
+
+#base "../base/filesv2/explanationlabel/main.res"
+#base "../base/filesv2/explanationlabel/font/econfont.res"
+#base "../base/filesv2/explanationlabel/label/%text.res"
+#base "../base/filesv2/explanationlabel/text/north.res"
+#base "../base/filesv2/explanationlabel/vis1.res"
+#base "../base/filesv2/explanationlabel/auto0.res"
+#base "../base/filesv2/explanationlabel/pin0.res"
+#base "../base/filesv2/explanationlabel/position/xpos10.res"
+#base "../base/filesv2/explanationlabel/position/ypos50.res"
+#base "../base/filesv2/explanationlabel/position/wide280.res"
+#base "../base/filesv2/explanationlabel/position/tall170.res"
+
+#base "../base/filesv1/icon/main.res"
+#base "../base/filesv1/icon/vis0.res"
+#base "../base/filesv1/icon/enabled1.res"
 "Resource/UI/MessageBoxDialog.res"
 {
+	"Icon"
+	{
+		"xpos"			"105"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"90"
+		"mouseinputenabled" "0"
+	}		
+	"ExplanationLabel"
+	{
+		"centerwrap"	"1"
+		"fgcolor_override" "200 80 60 255"
+	}
+
 	"ConfirmDialog"
 	{
-		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-150"
-		"ypos"			"140"
-		"wide"			"300"
+	//	"xpos"			"c-150"
+	//	"ypos"			"140"
+	//	"wide"			"300"
 		"tall"			"230"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
@@ -37,25 +64,6 @@
 		"enabled"		"1"
 	}
 	
-	"ExplanationLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ExplanationLabel"
-		"font"			"EconFontSmall"
-		"labelText"		"%text%"
-		"textAlignment"	"north"
-		"xpos"			"10"
-		"ypos"			"50"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"170"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
-	}
 
 	"ConfirmButton"
 	{
@@ -88,19 +96,5 @@
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
 
-	"Icon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Icon"
-		"xpos"			"105"
-		"ypos"			"90"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"90"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled" "0"
-		"image"			""
-		"scaleImage"	"1"
-	}	
+
 }

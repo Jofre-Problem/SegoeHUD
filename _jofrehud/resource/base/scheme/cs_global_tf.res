@@ -4,22 +4,28 @@ Scheme
 {
 	BaseSettings
 	{
-		TextEntry.CursorColor		"W_BorderArmed"
-		Button.DepressedTextColor		"W_ColorTheme3"
-		Button.DepressedBgColor			"W_ColorTheme1"	
-		Button.FocusBorderColor			"W_BorderArmed"	
-		ProgressBar.BgColor				"W_ColorTheme2"	
-		ScrollBarButton.FgColor				"W_ColorIcons1"
-		ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
-		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"			
-		Slider.NobColor				"W_ColorIcons1"	
-		Slider.TrackColor			"W_BorderArmed"
-        Slider.DisabledTextColor2	"Blank"	
+		TextEntry.CursorColor		"215 215 215 255"
+
+		Button.DepressedTextColor		"50 50 50 255"
+		Button.DepressedBgColor			"70 70 70 255"
+	//	Button.FocusBorderColor			"W_BorderArmed"
+
+
+	//	ProgressBar.BgColor				"W_ColorTheme2"
+	//	ScrollBarButton.FgColor				"W_ColorIcons1"
+	//	ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
+	//	ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
+	//	Slider.NobColor				"W_ColorIcons1"
+	//	Slider.TrackColor			"W_BorderArmed"
+        Slider.DisabledTextColor2	"Blank"
 		Frame.AutoSnapRange				"0"
 		FrameSystemButton.FgColor		"Blank"
 		FrameSystemButton.BgColor		"Blank"
+	//	FrameSystemButton.Icon			"replay/thumbnails/null"
+	//	FrameSystemButton.DisabledIcon	"replay/thumbnails/null"
 		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""		
+		FrameSystemButton.DisabledIcon	""
+		
 	}
 	Fonts
 	{	
@@ -27,8 +33,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -37,7 +43,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"16"
 				"weight"	"500"
 				"italic"	"0"
@@ -47,8 +54,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -57,8 +64,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"0"

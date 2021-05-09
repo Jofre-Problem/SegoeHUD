@@ -1,11 +1,11 @@
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
+"Resource/UI/build_menu/hudmenuengybuild.res"
 {
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
-		"fgcolor"		"Black"
+		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

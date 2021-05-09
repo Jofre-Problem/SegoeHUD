@@ -4,6 +4,7 @@
 #base "cff_hl2_1.res"
 #base "cff_hl2_ep2.res"
 #base "bs/mainmenu_cons.res"
+#base "bs/mainmenu_cons_extra.res"
 #base "bs/wizard.res"
 #base "bs/graphpanel.res"
 #base "colors/green.res"
@@ -16,96 +17,51 @@ Scheme
 {
 	BaseSettings
 	{
-		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TextEntry.TextColor			"215 215 215 255"
 	}
 	Fonts
 	{
-		"MarlettSmall"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"7"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"9"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"11"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"symbol"	"1"
-			}
-		}
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"			"Segoe UI"
-				"tall"			"14"
-				"weight"		"700"
-				"dropshadow"	"1"
-				"antialias"		"1"
+				"tall"			"10" // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"480 599" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
+				"tall"			"12" // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"600 767" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"tall"			"13" // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"768 1023" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
-				"tall"		"16"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"tall"			"15" // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"1024 1199" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
-				"tall"		"21"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"tall"			"20" // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"1200 10000" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 		}
 	}

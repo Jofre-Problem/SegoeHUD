@@ -1,22 +1,33 @@
+#base "../../#uni_base/filesv1/summarylabel/main.res"
+
+#base "../../#uni_base/filesv1/closebutton/main.res"
+#base "../../#uni_base/filesv1/closebutton/auto0.res"
+#base "../../#uni_base/filesv1/closebutton/pin3.res"
+#base "../../#uni_base/filesv1/closebutton/vis1.res"
+#base "../../#uni_base/filesv1/closebutton/tab0.res"
+#base "../../#uni_base/filesv1/closebutton/enabled.res"
+#base "../../#uni_base/filesv1/closebutton/ctrl/btn.res"
+#base "../../#uni_base/filesv1/closebutton/position/wide75.res"
+#base "../../#uni_base/filesv1/closebutton/position/tall24.res"
+#base "../../#uni_base/filesv1/closebutton/text/west.res"
+#base "../../#uni_base/filesv1/closebutton/bright0.res"
+#base "../../#uni_base/filesv1/closebutton/def0.res"
 "AddOns/Hearts/HeartsSetupDialog.res"
 {
+	"CloseButton"
+	{
+		"xpos"		"485"
+		"ypos"		"330"
+		"labelText"		"#SteamAddOn_Close"
+	}		
 	"SummaryLabel"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"SummaryLabel"
 		"xpos"		"360"
 		"ypos"		"25"
 		"wide"		"200"
 		"tall"		"48"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"tabPosition"		"0"
 		"labelText"		"#SteamAddOn_ReviewMoves"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"MoveHistoryPanel"
 	{
@@ -35,23 +46,4 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"CloseButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"CloseButton"
-		"xpos"		"485"
-		"ypos"		"330"
-		"wide"		"75"
-		"tall"		"24"
-		"autoResize"		"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#SteamAddOn_Close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
-	}	
 }

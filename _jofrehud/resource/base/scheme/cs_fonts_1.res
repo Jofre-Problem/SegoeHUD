@@ -7,7 +7,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"10"
 				"weight"	"500"
 				"antialias" "1"
@@ -18,7 +19,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"7"
 				"weight"	"500"
 				"antialias" "1"
@@ -26,9 +28,10 @@ Scheme
 		}
 		"DefaultFixedOutline"
 		{
-		"1"
+			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -36,23 +39,25 @@ Scheme
 			}
 		}
 
-		"DefaultBold"
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"Segoe UI"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
+//		"DefaultBold"
+//		{
+//			"1"	[$WIN32]
+//			{
+//				"name"		"Segoe UI" [$WINDOWS]
+//				"name"		"Verdana" [$POSIX]
+//				"tall"		"14"
+//				"weight"	"0"
+//				"antialias"	"1"
+//			}
+//		}
 
 
 		"DefaultSmallDropShadow"
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -63,8 +68,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Droid Sans Mono"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -74,7 +79,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"24"
 				"weight"	"900"
 			}
@@ -84,7 +90,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"20"
 				"weight"	"900"
 			}
@@ -94,7 +101,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -106,7 +114,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"40"
 				"weight"	"900"
 			}
@@ -115,7 +124,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"41"
 				"weight"	"900"
 			}
@@ -124,7 +134,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"42"
 				"weight"	"900"
 			}
@@ -133,7 +144,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"43"
 				"weight"	"900"
 			}
@@ -142,7 +154,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"44"
 				"weight"	"900"
 			}
@@ -151,7 +164,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"45"
 				"weight"	"900"
 			}
@@ -160,7 +174,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -177,7 +192,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [$WINDOWS]
+				"name"		"Segoe UI" [$WINDOWS]
+				"name"		"Verdana" [$POSIX]
 				"tall"		"10"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -192,10 +208,10 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"40"
-		{
-			"font" "resource/font/DroidSansMono.ttf"
-			"name" "Droid Sans Mono"
-		}			
+	//	"40"
+	//	{
+	//		"font" "_jofrehud/DroidSansMono.ttf"
+	//		"name" "Droid Sans Mono"
+	//	}			
 	}	
 }	

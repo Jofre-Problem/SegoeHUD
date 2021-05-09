@@ -1,19 +1,16 @@
-#base "res_base/spectator.res"
+#base "res_base/spectatortournament.res"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
 	{
-		"team1_player_base_offset_x"		"0"
-		"team1_player_base_x"				"4"
-		"team1_player_base_y"				"217"
-		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-18"
-		
-		"team2_player_base_offset_x"		"0"
-		"team2_player_base_x"				"4"
-		"team2_player_base_y"				"247"
-		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"18"
+		"team1_player_base_offset_x"				"0"
+		"team1_player_base_y"						"325"
+		"team1_player_delta_x"						"0"
+		"team1_player_delta_y"						"15"
+		"team2_player_base_offset_x"				"303"
+		"team2_player_base_y"						"325"
+		"team2_player_delta_x"						"0"
+		"team2_player_delta_y"						"15"
 		
 		"playerpanels_kv"
 		{
@@ -40,7 +37,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor_override"		"WhiteSolid"
+				"fgcolor_override"		"HudWhite"
 					
 				if_mvm
 				{
@@ -206,8 +203,8 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"WhiteSolid"
-				"fgcolor_override"		"WhiteSolid"
+				"fgcolor"		"HudWhite"
+				"fgcolor_override"		"HudWhite"
 				"bgcolor_override"	"Blank"
 				
 				if_mvm
@@ -250,8 +247,8 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"WhiteSolid"
-				"fgcolor_override"		"WhiteSolid"
+				"fgcolor"		"HudWhite"
+				"fgcolor_override"		"HudWhite"
 			}
 			
 			"specindex"
