@@ -1,7 +1,19 @@
-# JofreHUD
-TF2 Interface focused on optimization. Sequel of Garmen Hud 7.8
-WARNING: This is still in WIP, somethings might be unchanged or bad positioned!
+# SegoeHUD
+TF2 Interface similar of Windows OS.
+This was the projet called JofreHUD before being a FPS focused.
 
-Uploaded here to future projects.
+# HUD Structure
+Well! This is the first ever implementation of JofreHUD I made!
+This one HUD has this "advanced" feeling, due to the tricks did here...
+Most of it its like MagnumHUD.
 
-There are some bugs here, its up to you download this.
+All this changes are located on:
+"_jofrenew"
+
+# HUD Customization Features
+- Light & Dark Main Menu Theme!
+- 4plugsettings.exe!
+- Font switcher
+- Scoreboard Slide In
+- Custom Crosshair Implementation
+Etc.
