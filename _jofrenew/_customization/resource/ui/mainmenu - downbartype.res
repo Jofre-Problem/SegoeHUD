@@ -91,7 +91,7 @@
 		{
 			ControlName				ImagePanel
 			FieldName				"IngameBar1"
-			xPos					260
+			xPos					240
 			yPos					rs1-5
 			zPos					1040
 			wide					1

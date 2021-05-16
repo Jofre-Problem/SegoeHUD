@@ -5,7 +5,7 @@
 //#base "../#jofre/v2/blur_bg.res"
 //#base "../#jofre/socialmedia.res"
 //#base "../../#jofre/partymembers.res"
-#base "../../_customization/resource/ui/summersale_border.res"
+//#base "../../_customization/resource/ui/summersale_border.res"
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	// can't change pos, width, height
@@ -21,54 +21,16 @@
 
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
-	}
-	"PartySlot0"
-	{
-		"ControlName""CDashboardPartyMember"
-		"fieldName""PartySlot0"
-		"xpos""cs-0.5"
-		"ypos""40"
-		"zpos""50"
-		"wide""42"
-		"tall""o1"
-		"party_slot"	"0"
 	}		
-		"ImprovisedBG2"				// 
-		{
-			ControlName				ImagePanel
-			FieldName				"ImprovisedBG2"
-			xPos					0
-			yPos					0
-			zPos					-2
-			wide					f0
-			tall					140
-			fillColor				"W_ColorTheme2"		// hides console and stuff
-			//"fillColor"				"W_ColorTheme4"
-			"alpha"					"250"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-		}	
-		"ImprovisedBG3"				// 
-		{
-			ControlName				ImagePanel
-			FieldName				"ImprovisedBG3"
-			xPos					0
-			yPos					140
-			zPos					-2
-			wide					f0
-			tall					f0
-			fillColor				"W_ColorTheme4"		// hides console and stuff
-			//"fillColor"				"W_ColorTheme4"
-			"alpha"					"200"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-		}			
+
 	// #region CLASS BUTTONS 
 	// #endregion
 	"ScoutButton"			// other classes pinned to this
 	{
 		ControlName				CExButton
 		fieldName				"ScoutButton"
-		xpos					0
-		ypos					110
+		xpos					40
+		ypos					rs1
 		zpos					1051
 		wide					42
 		tall					p0.045

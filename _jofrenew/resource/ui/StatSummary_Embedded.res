@@ -1,5 +1,3 @@
-#base "../#bases/reload_scheme.res"
-#base "res_base/statsummary.res"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"

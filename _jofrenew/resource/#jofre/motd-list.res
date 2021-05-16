@@ -620,8 +620,7 @@
 				yPos					240
 				zPos					-100
 				wide					p0.2666	//f0
-				tall					50
-				mouseInputEnabled			0					// mouse input passes though to panels below
+				tall					50	// mouse input passes though to panels below
 
 				matchgroup				MatchGroup_Casual_12v12		// check out!
 				show_model				1					// check out!

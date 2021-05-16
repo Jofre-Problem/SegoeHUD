@@ -18,11 +18,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-82"
-		"team1_max_expand"	"192"
+		"team1_max_expand"	"220"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c82"
-		"team2_max_expand"	"192"
+		"team2_max_expand"	"220"
 
 		"playerpanels_kv"
 		{
@@ -47,7 +47,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Default"
+				"font"			"SpectatorVerySmall"
 				"xpos"			"1"
 				"ypos"			"-1"
 				"zpos"			"8"
@@ -63,7 +63,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playernameshadow"
-				"font"			"Default"
+				"font"			"SpectatorVerySmall"
 				"xpos"			"1"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -105,17 +105,17 @@
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"20 20 20 150"
+				"bgcolor_override"		"20 20 20 0"
 			}
 			"classimagebg"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"24"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"25"
+				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"

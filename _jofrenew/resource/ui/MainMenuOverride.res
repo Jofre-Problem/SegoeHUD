@@ -14,8 +14,6 @@
 	#base "../#jofre/desktop icons black.res"
 	
 //	#base "../#jofre/safe-mode.res"
-
-#base "../#bases/1rankpanel.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -23,173 +21,9 @@
 	}
 	"TFCharacterImage"
 	{
-		// "ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"rs1"
-		"ypos"			"rs1+25"
-		"zpos"			"1002"
-		"wide"			"400"
-		"tall"			"400"
+		"tall"			"0"
 	}	
-	"MMBackgroundPanel"  //Credits to Prism Hud...JarateKing.
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MMBackgroundPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-300"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
 
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"1"
-			"tall"			"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-		"MMBackground1"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground1"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background"
-			"scaleImage"	"1"
-		}
-		"MMBackground2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground2"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background2"
-			"scaleImage"	"1"
-		}
-		"MMBackground3"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground3"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background3"
-			"scaleImage"	"1"
-		}
-		"MMBackground4"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground4"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background4"
-			"scaleImage"	"1"
-		}
-		"MMBackground5"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground5"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background5"
-			"scaleImage"	"1"
-		}
-		"MMBackground6"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground6"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background6"
-			"scaleImage"	"1"
-		}
-		"MMBackground7"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MMBackground6"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-300"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mainmenu/mm_background7"
-			"scaleImage"	"1"
-		}	
-	}
 	"TFLogoImage"
 	{
 		"wide"			"0"
@@ -211,7 +45,7 @@
 		"zpos""1001"
 		"wide"			"p0.085"
 		"tall"			"40"
-		"fgcolor_override" "W_BorderArmed"
+		"fgcolor_override" "W_ColorIcons1"
 	}	
 	"Background"
 	{
@@ -268,40 +102,6 @@
 			"image"		""
 		}			
 	}	
-	"MyHome"		// open advanced options
-	{
-		ControlName				EditablePanel
-		FieldName				"MyHome"
-		xPos					225
-		yPos					rs1
-		zPos					1050
-		wide					20
-		tall					p0.0462
-		"bgcolor_override"		"Blank"
-		"paintBackgroundType"	"2"
-
-		"SubButton"
-		{
-			ControlName				CExImageButton
-			fieldName				"SubButton"
-			xpos					0
-			ypos					0
-			wide					f0
-			tall					f0
-			proportionaltoparent		1
-
-		//	font					"NewIcons18"
-			textAlignment			center
-			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-							
-			defaultFgColor_override		"W_ColorIcons1"
-			armedFgColor_override		"W_ColorIconsArmed1"
-
-			paintbackground			0
-		}
-	}
 		
 	"CallVote"			// call a vote
 	{
@@ -483,7 +283,7 @@
 		tall					p0.045
 		textInsetx				"1"
 
-		labelText				"p"
+		labelText				"j"
 		textAlignment			center
 		
 		command				"engine workshop"
@@ -1500,18 +1300,7 @@
 
 	"StoreHasNewItemsImage"		//Possible use in the future
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
-		"ypos"			"r50"
-		"zpos"			"13"
 		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../vgui/new"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
 	}	
 	"Notifications_Panel"
 	{

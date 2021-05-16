@@ -8,7 +8,7 @@
 	"font"					"CustomPrimero"
 	"labelText""Zoom:       Mouse2"
 	"textAlignment""west"
-	"xpos""rs1-3"
+	"xpos""rs1-30"
 	"ypos""36"
 	"zpos""1001"
 	"wide""p0.085"

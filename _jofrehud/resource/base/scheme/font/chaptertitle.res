@@ -2,24 +2,24 @@ Scheme
 {
 	Fonts
 	{
-		"ChapterTitle"	[$X360]
+		"ChapterTitle"
 		{
 			"1"
 			{
 				"name"		"Segoe UI" [$WINDOWS]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Helvetica" [$POSIX]
 				"tall"			"20"
 				"tall_hidef"	"28"
 				"weight"		"2000"
 				"outline"		"1"
 			}
 		}
-		"ChapterTitleBlur"	[$X360]
+		"ChapterTitleBlur"
 		{
 			"1"
 			{
 				"name"		"Segoe UI" [$WINDOWS]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Helvetica" [$POSIX]
 				"tall"			"20"
 				"tall_hidef"	"28"
 				"weight"		"2000"

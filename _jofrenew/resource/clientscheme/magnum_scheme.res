@@ -72,7 +72,8 @@ Scheme
 		}
 		"62"
 		{
-			"font" "_jofrenew/font/OpenSans-Checkmark.ttf"
+			"font" "_jofrenew/font/OpenSans-Checkmark.ttf" [$WINDOWS]
+			"font" "_jofrenew/font/OpenSans-Checkmark-linux.otf" [$POSIX]			
 			"name" "Open Sans Checkmark"
 		}
 		"36"

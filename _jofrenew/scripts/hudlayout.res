@@ -1,4 +1,4 @@
-//	#base "..\resource\#beta\c_spacer.res"
+	#base "..\resource\#beta\spacer.res"
 	#base "../_customization/scripts/transparent.res"
 	#base "../_customization/scripts/damageindicator.res"
 "Resource\HudLayout.res"
@@ -17,19 +17,19 @@
 		"CornerRadius"	"0" // 2 KF
 		"RightJustify"	"1"	// If 1, draw notices from the right
 		
-		"TextFont"		"CustomSegundo"
+		"TextFont"		"Default"
 		
 		"TeamBlue"		"G_KillfeedBlue"
 		"TeamRed"		"G_KillfeedRed"
 		"IconColor"		"G_KillfeedIcon"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"Blank"
+		"BaseBackgroundColor"	"0 0 0 100"
 		"LocalBackgroundColor"	"255 255 255 214"//"G_Killfeed_Local"	
 	}
-//	"Spacer"
-//	{
-//	}
+	"Spacer"
+	{
+	}
 	HudWeaponAmmo
 	{
 		"xpos"	"0"	[$WIN32]
@@ -53,7 +53,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"zpos"			"2"
-	//	"pin_to_sibling"	"HudWeaponAmmo"	 //HELL		
+		"pin_to_sibling"	"Spacer"	 //HELL		
 	}
 	
 	HudDemomanCharge
@@ -183,44 +183,6 @@
 
 	}
 	
-	HudTournament
-	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"ypos_lodef"			"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-
-	HudTournamentSetup
-	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"ypos_lodef"			"0"
-		"zpos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-	//	"pin_to_sibling"	"HudTournament"	 //HELL		
-	}
-	
-	\\ Spy
-	DisguiseStatus
-	{
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"wide"		"f0"
-		"tall"		"480"
-	}
-
 	HudVoiceStatus
 	{
 		"fieldName"				"HudVoiceStatus"

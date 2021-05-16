@@ -7,13 +7,16 @@
 		"ClassLabel"
 		{
 			"ypos"		"rs1-30"
-			"xpos"		"cs-0.5"
+			"xpos"		"5"
 			"zpos"		"4000"
 			//"wide"					0
 			//"tall"					0
 		}			
 	// ---		
-		
+	"2ndPanel"
+	{
+		"wide"				"p0.123"
+	}			
 	"class_loadout_panel"
 	{
 		ControlName					Frame

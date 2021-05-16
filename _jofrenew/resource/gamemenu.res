@@ -1,12 +1,5 @@
 "GameMenu" 
 {
-	"MMBackgroundPanel"
-	{
-		"label"			""
-		"command"		"engine alias none"
-		"OnlyAtMenu"	"1"
-		"subimage" "glyph_muted"
-	}
 	"CallVote"
 	{
 		label				"Æ"
@@ -30,10 +23,4 @@
 		OnlyInGame			1
 		"tooltip"			"#MMenu_ReportPlayer"			
 	}
-	"MyHome"
-	{
-		"label"	"("
-		"command" "engine JoinMyServer; echo make an command to connect your server with JoinMyServer as alias"
-		"tooltip" "Connect to Your Server!"
-	}	
 }
