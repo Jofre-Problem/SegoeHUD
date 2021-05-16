@@ -1,12 +1,5 @@
-#base "cs_global.res"
 Scheme
 {
-	BaseSettings
-	{
-		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
-	}
 	Fonts
 	{
 		"MarlettSmall"

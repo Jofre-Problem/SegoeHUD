@@ -1,6 +1,15 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
-	"file"		"_jofrenew/scripts/toonhudanimations.txt"
+	"file"		"_jofrenew/scripts/hudanimations.txt"
+	"file"		"_jofrenew/_customization/scripts/_main.txt"
+	"file"		"_jofrenew/_customization/scripts/chat_bg.txt"
+	"file"		"_jofrenew/_customization/scripts/removescope.txt"
+	"file"		"_jofrenew/_customization/scripts/cart_glow_anim.txt"
+	"file"		"_jofrenew/_customization/scripts/uber_type.txt"
+	"file"		"_jofrenew/_customization/scripts/vida.txt"
+	"file"		"_jofrenew/_customization/scripts/municion.txt"
+	"file"		"_jofrenew/_customization/scripts/crosshair_on_scoreboard.txt"
+	"file"		"_jofrenew/_customization/scripts/scoreboard_slide.txt"	
 	"file"		"scripts/hudanimations_tf.txt"
 }

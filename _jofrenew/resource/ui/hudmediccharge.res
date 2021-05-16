@@ -1,64 +1,154 @@
-//#base "../#beta/c_spacer.res"
 #base "../#beta/spacer.res"
 "Resource/UI/HudMedicCharge.res"
 {
+	"Background"
+	{
+		"ControlName"		"CircularProgressBar"
+		"fieldName"		"Background"
+		xpos						rs1-205
+		ypos						r148
+		"zpos"			"2"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"variable"		"charge"
+		"fg_image"		"replay/thumbnails/hp/cover"
+		"bg_image"		"replay/thumbnails/bg_blank"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"255 255 255 255"
+		"scaleImage"		"1"					
+	}
+	"TimerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredAmmoTextBG2"
+		xpos						rs1-200
+		ypos						r150
+		"zpos"			"1"
+		"wide"			"35"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/cover"
+		"scaleImage"		"1"	
+		"teambg_2"		"replay/thumbnails/hp/redteam2"
+		"teambg_3"		"replay/thumbnails/hp/bluteam2"		
+	}	
+	"UberCheck"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"UberCheck"
+		xpos						rs1-200
+		ypos						r153
+		"zpos"			"100"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"y"
+		"textAlignment"	"center"
+		"font"			"NewIcons57"
+		"fgcolor"		"Blank"
+	}	
+	"ChargeMeter"
+	{
+		"wide"			"0"
+	}		
+	"TeamColoredAmmoTextBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredAmmoTextBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"90"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/cover"
+		"scaleImage"		"1"	
+		"teambg_2"		"replay/thumbnails/hp/redteam2"
+		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}	
+	"ResistIconAnchor"		// force position
+	{
+		ControlName				EditablePanel
+		fieldName				"ResistIconAnchor"
+		xpos						3
+		ypos						0
+		wide						2
+		tall						0
+		visible					1
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"		
+	}	
+	"ChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"font"			"HealthAndAmmo"
+		"fgcolor"		"35 35 35 255"
+		"xpos"			"c-472+2500"//"-2421+c-230"//"c-230-2421"
+		//.....
+		"ypos"			"0"//"330"
+		"zpos"			"6"
+		"wide"			"5000-124"//"124-5000"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"#uberpadded"	
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"			
+	}	
+	"ChargeLabelShadow"
+	{
+		"wide"			"0"
+		"tall"			"0"	
+	}	
+	"AmmoBlackCover"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"AmmoWhiteCover"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Black"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"			
+	}
+	"AmmoBlackCover2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"AmmoWhiteCover2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"17"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Black"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"			
+	}			
 	"Background"
 	{
 		"wide"			"0"
 		"tall"			"0"
 	}
 	
-	"ChargeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"font"			"CustomOctavo"
-		"fgcolor"		"G_AmmoClipValue"
-		"pin_to_sibling"	"Spacer"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"			
-	}
-	"ChargeLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"font"			"CustomOctavoBlur"
-		"fgcolor"		"Black"
-		"pin_to_sibling"	"Spacer"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"			
-	}
-	"ChargeMeter"
-	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"5"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"		"W_ColorTheme4"
-		"bgcolor_override"		"0 0 0 140"	
-	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExImageButton"
@@ -72,22 +162,10 @@
 		"enabled"		"1"
 		"defaultbgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
-		"textinsety" 	"99"
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"			
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"				
 	}	
-	"ResistIconAnchor"		// force position
-	{
-		ControlName				EditablePanel
-		fieldName				"ResistIconAnchor"
-		xpos						c-18
-		ypos						c33
-		wide						2
-		tall						0
-		visible					1
-	}
-	
 	"ResistIcon"
 	{
 		ControlName				ImagePanel

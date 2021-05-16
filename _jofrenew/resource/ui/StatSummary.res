@@ -11,17 +11,6 @@
 		"tall"			"458"
 		"visible"		"1"
 	}
-	"SecondaryBarBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SecondaryBarBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"fillcolor"			"W_ColorTheme4"
-	}
 
 	"MainBackground"
 	{
@@ -323,6 +312,6 @@
 			defaultFgColor_override		"W_ColorIcons1"
 			defaultBgColor_override		"W_ColorTheme1"
 			armedBgColor_override		"W_CerrarArmed"
-			armedFgColor_override		"W_ColorTheme1"	
+			armedFgColor_override		"W_ColorTheme1"
 	}
 }

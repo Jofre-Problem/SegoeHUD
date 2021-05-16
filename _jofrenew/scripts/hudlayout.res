@@ -1,4 +1,3 @@
-	#base "..\resource\#beta\spacer.res"
 	#base "../_customization/scripts/transparent.res"
 	#base "../_customization/scripts/damageindicator.res"
 "Resource\HudLayout.res"
@@ -27,9 +26,6 @@
 		"BaseBackgroundColor"	"0 0 0 100"
 		"LocalBackgroundColor"	"255 255 255 214"//"G_Killfeed_Local"	
 	}
-	"Spacer"
-	{
-	}
 	HudWeaponAmmo
 	{
 		"xpos"	"0"	[$WIN32]
@@ -52,8 +48,7 @@
 		"ypos"			"0"	[$X360]
 		"wide"			"f0"
 		"tall"			"480"
-		"zpos"			"2"
-		"pin_to_sibling"	"Spacer"	 //HELL		
+		"zpos"			"2"			
 	}
 	
 	HudDemomanCharge

@@ -28,7 +28,6 @@
 		"stats_width"		"30"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
-		"bgcolor_override"	"0 0 0 0"
 	}
 	"RedTeamBG"
 	{
@@ -195,7 +194,7 @@
 		"wide"			"p0.35"		//p0.85 - 1 = p0.15 / 2 = p0.075
 		"tall"			"20"
 		"fgcolor_override"		"WhiteSolid"
-		"pin_to_sibling"	"BlueScoreBG3"
+		"pin_to_sibling"	"BlueScoreBG"
 	}								
 	"RedTeamLabel"
 	{
@@ -230,7 +229,7 @@
 		"tall"			"40"
 		"fgcolor_override"		"WhiteSolid"
 		"centerwrap"	"1"
-		"pin_to_sibling"	"RedScoreBG3"
+		"pin_to_sibling"	"RedScoreBG"
 	}
 	"RedTeamScoreDropshadow"
 	{
@@ -269,7 +268,6 @@
 			"wide"			"p0.85"
 			"tall"			"9"
 			fgcolor			"102 255 0 255"
-			"bgcolor_override"		"TransparentBlack"
 	}			
 	"TimerBG"		//pin1 
 	{
@@ -522,7 +520,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"200 0 0 0"
 		
 		"render_texture"	"0"
 		"fov"			"52"
@@ -723,43 +720,7 @@
 		"tall"			"f0"
 		"paintbackgroundType"	"0"
 		"border"		"noborder"
-		"bgcolor_override"	"Blank"
-		"KILLSASSISTSDEATHS2"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"KILLSASSISTSDEATHS2"
-			"font"			"NewIcons20"
-			"labelText"		"#scoreboard_K_A_D_list3"//"%kills%"
-			"textAlignment"		"center"
-			"xpos" 			"cs-0.5"					//"c-60"//			"180"
-			"ypos"			"rs1-35"
-			"zpos"			"3"
-			"wide"			"f0"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"245 245 245 255"
-		}				
-		"KILLSASSISTSDEATHS"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"KILLSASSISTSDEATHS"
-			"font"			"CustomOctavo"
-			"labelText"		"#scoreboard_K_A_D_list2"//"%kills%"
-			"textAlignment"		"center"
-			"xpos" 			"0"					//"c-60"//			"180"
-			"ypos"			"rs1"
-			"zpos"			"3"
-			"wide"			"f0"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"245 245 245 255"
-		}			
+		
 		"KillsLabel"
 		{
 			"font"			"NewIcons57"
