@@ -27,6 +27,8 @@
 		"ypos"			"4"
 		"zpos"			"10"
 		"wide"			"37"
+		"TextInsetx"	"5" [$POSIX]		
+		"TextInsetY"	"-20" [$POSIX]
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"

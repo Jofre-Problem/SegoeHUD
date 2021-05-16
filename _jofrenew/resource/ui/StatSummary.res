@@ -45,7 +45,7 @@
 			"tall"				"f0"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"	"W_ColorTheme4"
+			"bgcolor_override"	"W_ColorLinea1"
 		}
 	
 		"Background"
@@ -211,7 +211,7 @@
 		"zpos"			"91"
 		"wide"			"f0"
 		"tall"			"25"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "W_ColorTheme3"
 	}			
 	"MapLabel"
 	{
@@ -226,7 +226,7 @@
 		"wide"				"f0"
 		"tall"				"35"
 		"AllCaps"			"1"
-		"fgcolor_override"	"W_ColorTheme1"
+		"fgcolor_override"	"W_ColorTheme3"
 	}
 
 	"MapType"
@@ -245,7 +245,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor" 		"W_ColorTheme1"
+		"fgcolor" 		"W_ColorTheme3"
 	}			
 	"TipImage"
 	{

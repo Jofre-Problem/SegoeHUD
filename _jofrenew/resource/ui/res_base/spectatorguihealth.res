@@ -1,7 +1,6 @@
-#base "spectatorguihealth_1.res"
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthValueID2"	//vida de quien te cura 
+"PlayerStatusHealthValueID2"	//vida de quien te cura 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID2"
@@ -36,7 +35,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CustomSegundo"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusHealthValue2S"
@@ -53,7 +52,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CustomSegundo"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValueID2"
 	}
 	"PlayerStatusHealthValueID3"
@@ -61,7 +60,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID3"
 		"xpos"			"0"
-		"ypos"			"1010"
+		"ypos"			"1014"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"24"
@@ -69,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CustomSeptimo"
+		"font"			"CustomCuarto"
 		"fgcolor"		"236 240 241 255"
 	}
 	"PlayerStatusHealthValue3S"
@@ -85,24 +84,19 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CustomSeptimo"
+		"font"			"CustomCuarto"
 		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValueID3"
-	}
-	"PlayerStatusPlayerLevel"
+	}				
+	"PlayerStatusHealthValue"	//vida de los demas
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"
+		"xpos"			"0"
+		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
-	}							
+		"wide"			"654"
+		"tall"			"20"
+		"textAlignment"	"center"
+		"font"			"CustomSegundo"
+		"fgcolor"		"236 240 241 255"		
+	}						
 }

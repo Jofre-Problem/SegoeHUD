@@ -132,9 +132,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBot"
-		"font"			"CustomSeptimo"
+		"font"			"CustomCuarto"
 		"xpos"			"40"
-		"ypos"			"1010"
+		"ypos"			"1014"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
@@ -150,7 +150,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBotS"
-		"font"			"CustomSeptimo"
+		"font"			"CustomCuarto"
 		"xpos"			"0"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -204,19 +204,14 @@
 	}
 	"TargetDataLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"TargetDataLabel"
-		"font"			"CustomPrimero"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 	"TargetDataLabelTrue"	//indica cuanto de uber y de metal tienen los demas	//bugeado con las otras clases
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue"
-		"font"			"CustomPrimero"
+		"font"			"Default"
 		"xpos"			"3"
 		"ypos"			"30"
 		"zpos"			"1"
@@ -231,13 +226,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor"		"White"
-		"alpha"		"100"
 	}
 	"TargetDataLabelTrueShadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrueShadow"
-		"font"			"CustomPrimero"
+		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"-1"
 		"zpos"			"0"
