@@ -1,6 +1,7 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
+	"file"		"ui_overrides/scripts/4plug/hitmarker.txt"	
 	"file"		"_jofrenew/scripts/hudanimations.txt"
 	"file"		"_jofrenew/_customization/scripts/_main.txt"
 	"file"		"_jofrenew/_customization/scripts/chat_bg.txt"

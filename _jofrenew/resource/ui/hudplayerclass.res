@@ -1,7 +1,7 @@
 //#base "../#jofre/partymembers.res"
 #base "../../../4plug/DLC/1.res"  //Resolution crosshairs
 #base "../../../4plug/DLC/2.res"  //Crosshairs
-#base 	"../../_customization/resource/ui/hudplayerclass - transparent.res"	
+#base "../../_customization/resource/ui/hudplayerclass - transparent.res"	
 "resource/ui/hudplayerclass.res"
 {
 	"PlayerStatusClassImageBG"

@@ -3,8 +3,12 @@
 	#base "../_customization/resource/font.res"
 	#base "../_customization/resource/scheme_4plug1.res"	
 	#base "cs_windows.res"
-	#base "cs_global_tf.res"	
-	#base "../../_dlc/dlc_crosshair.res"	
+	#base "cs_global_tf.res"
+
+//dlc
+	#base "../../ui_overrides/resource/scheme/dlc/2.res"
+
+
 	#base "clientscheme/clientscheme_colors.res"
 	#base "clientscheme/clientscheme_borders.res"
 	#base "clientscheme/magnum_scheme_sc.res"	

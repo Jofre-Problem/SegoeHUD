@@ -18,3 +18,5 @@ exec "hud_always.cfg"
 // display the startup level
 startupmenu
 sv_unlockedchapters 99
+
+exec "hud_cfg/all_4plug_cfgs_garm3n.cfg"

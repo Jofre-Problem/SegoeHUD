@@ -1,5 +1,6 @@
 	#base "../_customization/scripts/transparent.res"
 	#base "../_customization/scripts/damageindicator.res"
+	#base "../../ui_overrides/resource/ui/hitmarkers.res"
 "Resource\HudLayout.res"
 {
 	HudCloseCaption
