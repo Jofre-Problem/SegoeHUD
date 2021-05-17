@@ -399,6 +399,10 @@ Scheme
 
 	CustomFontFiles
 	{
-	"98"		"resource/font/JofreIconsMaster.otf"	// aparentemente mejor 	
+	"98"
+		{
+			"font" "_jofrenew/font/JofreIconsMaster.otf"
+			"name" "JofreIconsRe"
+		}	
 	}	
 }
