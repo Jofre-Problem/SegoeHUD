@@ -73,30 +73,4 @@
 	{
 		"bgcolor_override"		"W_ColorTheme1"			
 	}	
-		"IngameBar2"
-		{
-			ControlName				ImagePanel
-			FieldName				"IngameBar2"
-			xPos					-2
-			yPos					0
-			zPos					1040
-			wide					1
-			tall					p0.0225
-			fillColor				"W_ColorIcons1"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-			
-			pin_to_sibling		"IngameBar1"
-		}		
-		"IngameBar1"				// WINDOWS ->
-		{
-			ControlName				ImagePanel
-			FieldName				"IngameBar1"
-			xPos					240
-			yPos					rs1-5
-			zPos					1040
-			wide					1
-			tall					p0.0225
-			fillColor				"W_ColorIcons1"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-		}	
 }	

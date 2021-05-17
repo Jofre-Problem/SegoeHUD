@@ -5,11 +5,11 @@
 	{
 		"ControlName"		"CircularProgressBar"
 		"fieldName"		"Background"
-		xpos						rs1-205
-		ypos						r148
+		xpos						rs1-203
+		ypos						r130
 		"zpos"			"2"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"variable"		"charge"
@@ -17,30 +17,31 @@
 		"bg_image"		"replay/thumbnails/bg_blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 255"
+		"pin_to_sibling"	"UberCheck"
 		"scaleImage"		"1"					
 	}
 	"TimerBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredAmmoTextBG2"
-		xpos						rs1-200
-		ypos						r150
+
 		"zpos"			"1"
-		"wide"			"35"
+		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/hp/redteam2"
-		"teambg_3"		"replay/thumbnails/hp/bluteam2"		
+		"teambg_3"		"replay/thumbnails/hp/bluteam2"	
+		"pin_to_sibling"	"Background"
 	}	
 	"UberCheck"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UberCheck"
 		xpos						rs1-200
-		ypos						r153
+		ypos						r132
 		"zpos"			"100"
 		"wide"			"36"
 		"tall"			"36"
@@ -172,7 +173,7 @@
 		fieldName				"ResistIcon"
 		xpos						0					// position hardcoded
 		ypos						0
-		zpos						10
+		zpos						1000
 		wide						33
 		tall						32
 		visible					1

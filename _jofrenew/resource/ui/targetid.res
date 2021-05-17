@@ -170,8 +170,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid"
 		"font"			"CustomSegundo"
-		"xpos"			"150"
-		"ypos"			"470"
+		"xpos"			"rs1-320"
+		"ypos"			"rs1"
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"24"
@@ -180,7 +180,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"fgcolor"		"236 240 241 255"
 	}
 	"TargetNameLabelMidS" //healing targetid
@@ -198,7 +198,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"		"TargetNameLabelMid"
 	}
