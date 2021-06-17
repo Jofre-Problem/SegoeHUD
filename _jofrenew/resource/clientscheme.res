@@ -1,7 +1,7 @@
 	#base "../_customization/resource/fonts_name.res"
 	#base "../_customization/resource/fonts_blur.res"
 	#base "../_customization/resource/font.res"
-	#base "../_customization/resource/scheme_4plug1.res"	
+	#base "../_customization/resource/scheme_4plug1.res"
 	#base "cs_windows.res"
 	#base "cs_global_tf.res"
 
@@ -11,7 +11,7 @@
 
 	#base "clientscheme/clientscheme_colors.res"
 	#base "clientscheme/clientscheme_borders.res"
-	#base "clientscheme/magnum_scheme_sc.res"	
+	#base "clientscheme/magnum_scheme_sc.res"
 	#base "../font/font.res"
 Scheme
 {
@@ -71,16 +71,9 @@ Scheme
 		Slider.DisabledTextColor1							"117 117 117 255"
 	//	Slider.DisabledTextColor2							"Blank"
 
-		TextEntry.TextColor									"W_ColorIcons1"
 
-		TextEntry.DisabledTextColor							"W_ColorIcons1"
-		TextEntry.DisabledBgColor							"Blank"
-		TextEntry.SelectedTextColor							"W_ColorTheme1"
 		TextEntry.OutOfFocusSelectedBgColor					"Blank"
 		TextEntry.FocusEdgeColor							"Blank"
-		TextEntry.SelectedBgColor		"W_BorderArmed"
-		TextEntry.BgColor				"W_ColorTheme3"
-
 
 		"MapDescriptionText"								"Gray"
 		"HudIcon_Green"										"0 160 0 255"

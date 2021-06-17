@@ -127,11 +127,22 @@ Scheme
 				"name"		"Product Sans"
 			}
 		}
-	
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Droid Sans Mono"
+			}
+		}		
 	}
 	CustomFontFiles
 	{
 		// Be sure the following number is past "8" and not the same as any other number on a custom font file!
+		"103"
+		{
+			"font" "_jofrenew/font/DroidSansMono.ttf"
+			"name" "Droid Sans Mono"
+		}	
 		"104"
 		{
 			"font" "_jofrenew/font/ProductSans-Regular.ttf"

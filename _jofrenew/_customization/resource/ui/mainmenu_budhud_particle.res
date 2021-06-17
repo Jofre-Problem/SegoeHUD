@@ -1,3 +1,3 @@
-"genericname"
+"genericname.res"
 {
 }	

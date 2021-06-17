@@ -1,7 +1,22 @@
 //#base "../#jofre/partymembers.res"
 #base "../../_customization/resource/ui/summersale_border.res"
 "Resource/UI/Scoreboard.res"
-{	
+{
+	"BluePlayerBG1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BluePlayerBG1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-90"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"fillcolor"		"50 50 50 150"
+		"image"			"replay/thumbnails/hp/REFRACTblurBluLightish"
+		"scaleImage"	"1"
+	}	
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"

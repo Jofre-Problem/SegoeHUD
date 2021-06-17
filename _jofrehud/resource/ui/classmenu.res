@@ -1,1 +1,0 @@
-#base "../../#uni_base/filesv1/class/main.res"
