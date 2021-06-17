@@ -14,4 +14,20 @@
 	{
 		"tall"			"0"
 	}
+	"MapLabel"
+	{
+		"tall"			"0"
+	}
+	"topbar"
+	{
+		"tall"			"0"
+	}
+	"BottomBar"
+	{
+		"tall"			"0"
+	}
+	"bottombarblank"
+	{
+		"tall"			"0"
+	}	
 }

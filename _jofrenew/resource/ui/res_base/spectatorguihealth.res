@@ -1,6 +1,6 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-"PlayerStatusHealthValueID2"	//vida de quien te cura 
+	"PlayerStatusHealthValueID2"	//vida de quien te cura 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID2"
