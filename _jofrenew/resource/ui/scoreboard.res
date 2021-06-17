@@ -1,5 +1,5 @@
 //#base "../#jofre/partymembers.res"
-#base "../../_customization/resource/ui/summersale_border.res"
+#base "../../#customization/resource/ui/summersale_border.res"
 "Resource/UI/Scoreboard.res"
 {
 	"BluePlayerBG1"

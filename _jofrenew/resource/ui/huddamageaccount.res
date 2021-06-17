@@ -1,4 +1,5 @@
 #base "../#beta/spacer.res"
+	#base 	"#customization/resource/ui/huddamageaccount - style.res"	
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

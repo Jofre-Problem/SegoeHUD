@@ -6,91 +6,91 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}			
 		"CustomSexto"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}			
 		"CustomNoveno"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 		"CustomNovenoBlur"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}			
 		"CustomOctavoBlur"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 		"CustomSeptimo"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 		"CustomSeptimoBlur"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 		"CustomTercero"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}		
 		"CustomCuarto"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}	
 		"CustomSegundo"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}	
 		"CustomPrimero"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}	
 		"CustomQuinto"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 		"CustomQuintoBlur"
 		{
 			"1"
 			{
-			"name"		"Product Sans"
+			"name"		"Renogare Soft"
 			}
 		}
 	}

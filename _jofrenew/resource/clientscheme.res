@@ -1,7 +1,7 @@
-	#base "../_customization/resource/fonts_name.res"
-	#base "../_customization/resource/fonts_blur.res"
-	#base "../_customization/resource/font.res"
-	#base "../_customization/resource/scheme_4plug1.res"
+	#base "../#customization/resource/fonts_name.res"
+	#base "../#customization/resource/fonts_blur.res"
+	#base "../#customization/resource/font.res"
+	#base "../#customization/resource/scheme_4plug1.res"
 	#base "cs_windows.res"
 	#base "cs_global_tf.res"
 
@@ -347,11 +347,11 @@ Scheme
 				}
 			}
 		}
-		ReplayFatLineBorderOpaque
+			ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"87 89 93 255"
+			"color"					"W_ColorTheme1"
 			"image"					"replay/thumbnails/mainmenu/fill"
 			"src_corner_height"		"5"
 			"src_corner_width"		"5"
@@ -373,7 +373,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"87 89 93 255"
+			"color"					"W_ColorTheme15"
 			"image"					"replay/thumbnails/mainmenu/fill"
 			"src_corner_height"		"5"
 			"src_corner_width"		"5"
@@ -384,14 +384,20 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"87 89 93 255"
+			"color"					"W_ColorTheme1"
 			"image"					"replay/thumbnails/mainmenu/fill"
 			"src_corner_height"		"5"
 			"src_corner_width"		"5"
 			"draw_corner_width"		"4"	
 			"draw_corner_height" 	"4"	
 		}
-
+		ReplayDefaultBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Blank"
+			"image"					"replay/thumbnails/null"
+		}
 	}
 
 	CustomFontFiles

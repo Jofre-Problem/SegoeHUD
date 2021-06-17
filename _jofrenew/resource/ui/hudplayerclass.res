@@ -1,9 +1,15 @@
-//#base "../#jofre/partymembers.res"
 #base "../../../4plug/DLC/1.res"  //Resolution crosshairs
 #base "../../../4plug/DLC/2.res"  //Crosshairs
-#base "../../_customization/resource/ui/hudplayerclass - transparent.res"	
+#base "../../#customization/resource/ui/hudplayerclass - transparent.res"
 "resource/ui/hudplayerclass.res"
 {
+	"HudPlayerClass"
+	{
+		"xpos_minmode"			"0"
+		ypos_minmode		0	
+		"wide_minmode"			"f0"
+		"tall_minmode"			"f0"
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"xpos"			"c-183"
@@ -33,12 +39,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-	}	
-		"PartySlot0"
-		{
-			"ypos"			"rs1-5"
-			"zpos"			"100"			
-		}			
+	}				
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

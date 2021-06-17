@@ -5,7 +5,7 @@
 //#base "../#jofre/v2/blur_bg.res"
 //#base "../#jofre/socialmedia.res"
 //#base "../../#jofre/partymembers.res"
-//#base "../../_customization/resource/ui/summersale_border.res"
+//#base "../../#customization/resource/ui/summersale_border.res"
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	// can't change pos, width, height

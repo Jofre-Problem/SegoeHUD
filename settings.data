@@ -126,158 +126,158 @@ GlobalComboBox("Damage Indicator", "Damage Indicator")
 }
 #if CFG Advanced Scoreboard == "Disabled"
 {
-Copy("4plug/4plug_overrides/cfg/scoreboard_def.cfg", "cfg/_customization/scoreboard.cfg");
+Copy("4plug/4plug_overrides/cfg/scoreboard_def.cfg", "cfg/#customization/scoreboard.cfg");
 }
 #if CFG Advanced Scoreboard == "Enabled (Hurts FPS)"
 {
-Copy("4plug/4plug_overrides/cfg/scoreboard_advanced.cfg", "cfg/_customization/scoreboard.cfg");
+Copy("4plug/4plug_overrides/cfg/scoreboard_advanced.cfg", "cfg/#customization/scoreboard.cfg");
 }
 #if Damage Indicator == "Stock"
 {
-Copy("4plug/4plug_overrides/HudLayout/damageindicator_stock.res", "_jofrenew/_customization/scripts/damageindicator.res");
+Copy("4plug/4plug_overrides/HudLayout/damageindicator_stock.res", "_jofrenew/#customization/scripts/damageindicator.res");
 }
 #if Damage Indicator == "Disabled"
 {
-Copy("4plug/4plug_overrides/HudLayout/damageindicator_disabled.res", "_jofrenew/_customization/scripts/damageindicator.res");
+Copy("4plug/4plug_overrides/HudLayout/damageindicator_disabled.res", "_jofrenew/#customization/scripts/damageindicator.res");
 }
 #if Damage Indicator == "Around crosshair (10 sec)"
 {
-Copy("4plug/4plug_overrides/HudLayout/damageindicator_critheal.res", "_jofrenew/_customization/scripts/damageindicator.res");
+Copy("4plug/4plug_overrides/HudLayout/damageindicator_critheal.res", "_jofrenew/#customization/scripts/damageindicator.res");
 }
 #if Damage Indicator == "Crosshair dot (10 sec)"
 {
-Copy("4plug/4plug_overrides/HudLayout/damageindicator_crosshairdot.res", "_jofrenew/_customization/scripts/damageindicator.res");
+Copy("4plug/4plug_overrides/HudLayout/damageindicator_crosshairdot.res", "_jofrenew/#customization/scripts/damageindicator.res");
 }
 #if EXPERIMENTAL Square Shadows == "OFF"
 {
-Copy("4plug/empty_scheme.res", "_jofrenew/_customization/resource/scheme_4plug1.res");
-Copy("4plug/empty.txt", "cfg/_customization/squareaddon1.cfg");
+Copy("4plug/empty_scheme.res", "_jofrenew/#customization/resource/scheme_4plug1.res");
+Copy("4plug/empty.txt", "cfg/#customization/squareaddon1.cfg");
 }
 #if EXPERIMENTAL Square Shadows == "ON"
 {
-Copy("4plug/4plug_overrides/square/ON.res", "_jofrenew/_customization/resource/scheme_4plug1.res");
-Copy("4plug/4plug_overrides/addon1.cfg", "_jofrenew/_customization/cfg/addon1.cfg");
+Copy("4plug/4plug_overrides/square/ON.res", "_jofrenew/#customization/resource/scheme_4plug1.res");
+Copy("4plug/4plug_overrides/addon1.cfg", "_jofrenew/#customization/cfg/addon1.cfg");
 }
 #if EXPERIMENTAL Scope Removal == "OFF"
 {
-Copy("4plug/4plug_overrides/magnumhud/removescope_off.txt", "_jofrenew/_customization/scripts/removescope.txt");
+Copy("4plug/4plug_overrides/magnumhud/removescope_off.txt", "_jofrenew/#customization/scripts/removescope.txt");
 }
 #if EXPERIMENTAL Scope Removal == "ON"
 {
-Copy("4plug/4plug_overrides/magnumhud/removescope.txt", "_jofrenew/_customization/scripts/removescope.txt");
+Copy("4plug/4plug_overrides/magnumhud/removescope.txt", "_jofrenew/#customization/scripts/removescope.txt");
 }
 #if EXPERIMENTAL Scoreboard Slide In == "OFF"
 {
-Copy("4plug/4plug_overrides/magnumhud/scoreboard_slide_off.txt", "_jofrenew/_customization/scripts/scoreboard_slide.txt");
+Copy("4plug/4plug_overrides/magnumhud/scoreboard_slide_off.txt", "_jofrenew/#customization/scripts/scoreboard_slide.txt");
 }
 #if EXPERIMENTAL Scoreboard Slide In == "ON"
 {
-Copy("4plug/4plug_overrides/magnumhud/scoreboard_slide.txt", "_jofrenew/_customization/scripts/scoreboard_slide.txt");
+Copy("4plug/4plug_overrides/magnumhud/scoreboard_slide.txt", "_jofrenew/#customization/scripts/scoreboard_slide.txt");
 }
 #if EXPERIMENTAL Crosshair in Scoreboard == "OFF"
 {
-Copy("4plug/4plug_overrides/magnumhud/crosshair_on_scoreboard_off.txt", "_jofrenew/_customization/scripts/crosshair_on_scoreboard.txt");
+Copy("4plug/4plug_overrides/magnumhud/crosshair_on_scoreboard_off.txt", "_jofrenew/#customization/scripts/crosshair_on_scoreboard.txt");
 }
 #if EXPERIMENTAL Crosshair in Scoreboard == "ON"
 {
-Copy("4plug/4plug_overrides/magnumhud/crosshair_on_scoreboard.txt", "_jofrenew/_customization/scripts/crosshair_on_scoreboard.txt");
+Copy("4plug/4plug_overrides/magnumhud/crosshair_on_scoreboard.txt", "_jofrenew/#customization/scripts/crosshair_on_scoreboard.txt");
 }
 #if EXPERIMENTAL No Chat BG == "OFF"
 {
-Copy("4plug/4plug_overrides/magnumhud/chat_bg_off.txt", "_jofrenew/_customization/scripts/chat_bg.txt");
+Copy("4plug/4plug_overrides/magnumhud/chat_bg_off.txt", "_jofrenew/#customization/scripts/chat_bg.txt");
 }
 #if EXPERIMENTAL No Chat BG == "ON"
 {
-Copy("4plug/4plug_overrides/magnumhud/chat_bg.txt", "_jofrenew/_customization/scripts/chat_bg.txt");
+Copy("4plug/4plug_overrides/magnumhud/chat_bg.txt", "_jofrenew/#customization/scripts/chat_bg.txt");
 }
 #if EXPERIMENTAL Cart BG Glow == "OFF (Default)"
 {
-Copy("4plug/empty.txt", "_jofrenew/_customization/scripts/cart_glow_anim.txt");
+Copy("4plug/empty.txt", "_jofrenew/#customization/scripts/cart_glow_anim.txt");
 }
 #if EXPERIMENTAL Cart BG Glow == "ON (Needs Transparent V.)"
 {
-Copy("4plug/4plug_overrides/CartGlow/ON.txt", "_jofrenew/_customization/scripts/cart_glow_anim.txt");
+Copy("4plug/4plug_overrides/CartGlow/ON.txt", "_jofrenew/#customization/scripts/cart_glow_anim.txt");
 }
 #if Steam Summer Sale Border == "Disabled"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/_customization/resource/ui/summersale_border.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/summersale_border.res");
 }
 #if Steam Summer Sale Border == "Portal Orange"
 {
-Copy("4plug/4plug_overrides/summersale/orange.res", "_jofrenew/_customization/resource/ui/summersale_border.res");
+Copy("4plug/4plug_overrides/summersale/orange.res", "_jofrenew/#customization/resource/ui/summersale_border.res");
 }
 #if Steam Summer Sale Border == "Portal Blue"
 {
-Copy("4plug/4plug_overrides/summersale/azul.res", "_jofrenew/_customization/resource/ui/summersale_border.res");
+Copy("4plug/4plug_overrides/summersale/azul.res", "_jofrenew/#customization/resource/ui/summersale_border.res");
 }
 #if Steam Summer Sale Border == "Neon"
 {
-Copy("4plug/4plug_overrides/summersale/neon.res", "_jofrenew/_customization/resource/ui/summersale_border.res");
+Copy("4plug/4plug_overrides/summersale/neon.res", "_jofrenew/#customization/resource/ui/summersale_border.res");
 }
 #if UI Match Status == "No Name - Small"
 {
-Copy("4plug/4plug_overrides/match/match1.res", "_jofrenew/_customization/resource/ui/hudmatchstatus.res");
+Copy("4plug/4plug_overrides/match/match1.res", "_jofrenew/#customization/resource/ui/hudmatchstatus.res");
 }
 #if UI Match Status == "Swissolo"
 {
-Copy("4plug/4plug_overrides/match/match2.res", "_jofrenew/_customization/resource/ui/hudmatchstatus.res");
+Copy("4plug/4plug_overrides/match/match2.res", "_jofrenew/#customization/resource/ui/hudmatchstatus.res");
 }
 
 #if MAIN MENU Character Image == "Enabled"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_on.res", "_jofrenew/_customization/resource/ui/mainmenu_player.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_on.res", "_jofrenew/#customization/resource/ui/mainmenu_player.res");
 }
 #if MAIN MENU Character Image == "Disabled"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_off.res", "_jofrenew/_customization/resource/ui/mainmenu_player.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_off.res", "_jofrenew/#customization/resource/ui/mainmenu_player.res");
 }
 #if MAIN MENU Task Bar Type == "Default"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_downbar_def.res", "_jofrenew/_customization/resource/ui/mainmenu - downbartype.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_downbar_def.res", "_jofrenew/#customization/resource/ui/mainmenu - downbartype.res");
 }
 #if MAIN MENU Task Bar Type == "Concept (Cleaner)"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_downbar_concept.res", "_jofrenew/_customization/resource/ui/mainmenu - downbartype.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_downbar_concept.res", "_jofrenew/#customization/resource/ui/mainmenu - downbartype.res");
 }
 #if MAIN MENU Advanced Dev Menu == "Disabled"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_safemode_off.res", "_jofrenew/_customization/resource/ui/mainmenu_safemode.res");
-Copy("4plug/empty.txt", "cfg/_customization/safemode.cfg");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_safemode_off.res", "_jofrenew/#customization/resource/ui/mainmenu_safemode.res");
+Copy("4plug/empty.txt", "cfg/#customization/safemode.cfg");
 }
 #if MAIN MENU Advanced Dev Menu == "Enabled (Hurts FPS)"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_safemode_on.res", "_jofrenew/_customization/resource/ui/mainmenu_safemode.res");
-Copy("4plug/4plug_overrides/Mainmenu/safemode.cfg", "cfg/_customization/safemode.cfg");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_safemode_on.res", "_jofrenew/#customization/resource/ui/mainmenu_safemode.res");
+Copy("4plug/4plug_overrides/Mainmenu/safemode.cfg", "cfg/#customization/safemode.cfg");
 }
 #if MAIN MENU Preload == "Disabled"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/_customization/resource/ui/mainmenu_preload.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/mainmenu_preload.res");
 }
 #if MAIN MENU Preload == "Enabled (Possibly longer load time)"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_preload.res", "_jofrenew/_customization/resource/ui/mainmenu_preload.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_preload.res", "_jofrenew/#customization/resource/ui/mainmenu_preload.res");
 }
 #if MAIN MENU Particle == "Disabled"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/_customization/resource/ui/mainmenu_budhud_particle.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/mainmenu_budhud_particle.res");
 }
 #if MAIN MENU Particle == "Enabled (Possibly hurt FPS)"
 {
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_particle.res", "_jofrenew/_customization/resource/ui/mainmenu_budhud_particle.res");
+Copy("4plug/4plug_overrides/Mainmenu/mainmenu_particle.res", "_jofrenew/#customization/resource/ui/mainmenu_budhud_particle.res");
 }
 #if ADDON Transparent == "On"
 {
-Copy("4plug/4plug_overrides/HudLayout/transparent_on.res", "_jofrenew/_customization/scripts/transparent.res");
+Copy("4plug/4plug_overrides/HudLayout/transparent_on.res", "_jofrenew/#customization/scripts/transparent.res");
 }
 #if ADDON Transparent == "Off"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/_customization/scripts/transparent.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/scripts/transparent.res");
 }
 #if ADDON Transparent Class Model == "On"
 {
-Copy("4plug/4plug_overrides/ui/class-transparent.res", "_jofrenew/_customization/resource/ui/hudplayerclass - transparent.res");
+Copy("4plug/4plug_overrides/ui/class-transparent.res", "_jofrenew/#customization/resource/ui/hudplayerclass - transparent.res");
 }
 #if ADDON Transparent Class Model == "Off"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/_customization/resource/ui/hudplayerclass - transparent.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudplayerclass - transparent.res");
 }

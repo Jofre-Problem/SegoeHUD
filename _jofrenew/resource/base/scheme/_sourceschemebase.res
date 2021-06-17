@@ -11,7 +11,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -19,55 +19,55 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"DefaultFixedOutline"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 
@@ -75,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 	
@@ -83,7 +83,7 @@ Scheme
 		{
 			"1"	[$POSIX]
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		
@@ -91,7 +91,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 
@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 
@@ -108,23 +108,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 			}
 		}
 		"ConsoleText"
@@ -145,8 +145,8 @@ Scheme
 		}	
 		"104"
 		{
-			"font" "_jofrenew/font/ProductSans-Regular.ttf"
-			"name" "Product Sans"
+			"font" "_jofrenew/font/Renogare.ttf"
+			"name" "Renogare Soft"
 		}
 	}	
 }	

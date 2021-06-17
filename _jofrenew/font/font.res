@@ -11,14 +11,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"15"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"antialias"	"1"
@@ -26,35 +26,35 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"6"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"7"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"antialias"	"1"
 				"weight"	"500"
 			}
@@ -64,31 +64,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"weight"	"500"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"13"
 				"weight"	"500"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -105,31 +105,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"weight"	"500"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"weight"	"500"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -138,37 +138,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"weight"	"500"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"21"
 				"weight"	"500"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"22"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"28"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"30"
 				"weight"	"500"
 			}
 			"6"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"weight"	"500"
 			}
@@ -202,29 +202,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"tall_lodef"	"80"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"32"
 				"tall_hidef"	"120"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"44"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"48"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"52"
 			}
 		}
@@ -232,7 +232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"44"
 				"tall_lodef"	"52"
 			}
@@ -242,7 +242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"35"
 				"tall_lodef"	"40"
 			}
@@ -252,7 +252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"36"
 				"tall_hidef"	"48"
 			}
@@ -261,7 +261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"30"
 			}
 		}	
@@ -269,7 +269,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"30"
 			}
 		}		
@@ -277,7 +277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"tall_lodef"		"28"
 			}
@@ -286,7 +286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -294,7 +294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -302,7 +302,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}
@@ -310,7 +310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -320,7 +320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -330,7 +330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 				"tall_lodef"	"16"
 			}
@@ -339,7 +339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 			}
 		}
@@ -347,7 +347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -355,7 +355,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -363,7 +363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 			}
 		}
@@ -371,7 +371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}
@@ -379,7 +379,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}
@@ -387,7 +387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"4"
 			}
 		}
@@ -395,7 +395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 		}
@@ -403,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 			}
 		}
@@ -411,7 +411,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"9"
 			}
 		}
@@ -419,7 +419,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"9"
 			}
 		}
@@ -427,7 +427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"6"
 			}
 		}
@@ -435,7 +435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -445,7 +445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}
@@ -453,7 +453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -473,28 +473,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"15"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"21"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -503,7 +503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -511,7 +511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 				"tall_lodef"	"14"
 			}
@@ -520,7 +520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 			}
 		}	
@@ -529,7 +529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Renogare Soft"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -539,7 +539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Renogare Soft"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -549,7 +549,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -559,7 +559,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Renogare Soft"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -572,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 				"tall_hidef"	"14"
 				"tall_lodef"	"14"
@@ -583,7 +583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -593,7 +593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -601,7 +601,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 			}
 		}
@@ -609,7 +609,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -619,7 +619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -627,7 +627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -635,7 +635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -646,7 +646,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"36"
 				"tall_hidef"	"48"
 			}
@@ -655,29 +655,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"52"
 				"tall_lodef"		"80"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"72"
 				"tall_hidef"	"120"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"100"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"140"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"180"
 			}
 		}
@@ -686,7 +686,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 		}
@@ -694,7 +694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"7"
 			}
 		}
@@ -703,7 +703,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -714,34 +714,34 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
@@ -751,35 +751,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
@@ -790,7 +790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 				"tall_lodef"	"18"
 			}
@@ -799,7 +799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 			}
 		}
@@ -807,7 +807,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 			}
 		}	
@@ -816,7 +816,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"36"
 				"tall_lodef"		"28"
 			}
@@ -825,7 +825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"30"
 				"tall_lodef"		"22"
 			}
@@ -834,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"28"
 				"tall_lodef"	"24"
 			}
@@ -843,7 +843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"22"
 			}
 		}
@@ -851,7 +851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}
@@ -860,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"36"
 			}
 		}
@@ -868,7 +868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}		
@@ -876,7 +876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}	
@@ -905,7 +905,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 			}
 		}
@@ -913,7 +913,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"9"
 			}
 		}
@@ -921,7 +921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"12"
 			}
 		}
@@ -929,7 +929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}
@@ -937,7 +937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"7"
 			}
 		}
@@ -953,7 +953,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 			}
 		}
@@ -961,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}	
@@ -969,7 +969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -978,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"9"
 			}
 		}
@@ -986,7 +986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"9"
 			}
 		}
@@ -995,7 +995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"20"
 			}
 		}
@@ -1004,17 +1004,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"22"
 			}
 		}
@@ -1023,17 +1023,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"22"
 			}
 		}
@@ -1042,17 +1042,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}
@@ -1061,7 +1061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"13"
 			}
 		}
@@ -1070,7 +1070,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"16"
 			}
 		}
@@ -1079,7 +1079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"10"
 			}
 		}
@@ -1119,7 +1119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}
@@ -1160,7 +1160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"11"
 			}
 		}
@@ -1168,7 +1168,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -1176,7 +1176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1186,7 +1186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -1194,7 +1194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 			}
 		}
@@ -1206,7 +1206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"14"
 			}
 		}
@@ -1214,7 +1214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 			}
 		}
@@ -1223,7 +1223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Renogare Soft"
 				"tall"		"15"
 			}
 		}
@@ -1236,7 +1236,7 @@ Scheme
 		"104"
 		{
 			"font" "_jofrenew/font/ProductSans-Regular.ttf"
-			"name" "Product Sans"
+			"name" "Renogare Soft"
 		}
 	}
 }

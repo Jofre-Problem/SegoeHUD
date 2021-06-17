@@ -1,7 +1,7 @@
 #base "../#bases/reload_scheme.res"
 #base "../#jofre/loadout_explanation.res"
 #base "../#jofre/loadout_bg.res"
-//#base "../../_customization//resource/ui/summersale_border.res"
+//#base "../../#customization//resource/ui/summersale_border.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
 		"ClassLabel"
