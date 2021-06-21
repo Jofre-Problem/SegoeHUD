@@ -1,12 +1,7 @@
 Scheme
 {
-	// All fonts are defined in this file.
-	// However, crosshair fonts are found in their own file, crosshairs/crosshairscheme.res.
-	
 	Fonts
 	{
-		
-		// Scoreboard Fonts
 		"Default"
 		{
 			"1"
@@ -204,13 +199,11 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"24"
-				"tall_lodef"	"80"
 			}
 			"2"
 			{
 				"name"		"Renogare Soft"
 				"tall"		"32"
-				"tall_hidef"	"120"
 			}
 			"3"
 			{
@@ -234,7 +227,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"44"
-				"tall_lodef"	"52"
+				//"tall_lodef"	"52"
 			}
 		}
 
@@ -244,7 +237,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"35"
-				"tall_lodef"	"40"
+				//"tall_lodef"	"40"
 			}
 		}
 
@@ -279,7 +272,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"24"
-				"tall_lodef"		"28"
+				//"tall_lodef"		"28"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -312,8 +305,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 			}
 		}
 		"HudFontMediumSmallSecondary"
@@ -322,8 +313,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 			}
 		}
 		"HudFontSmall"
@@ -332,7 +321,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"14"
-				"tall_lodef"	"16"
 			}
 		}	
 		"HudFontSmallishBold"
@@ -437,8 +425,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 			}
 		}
 		"TextTooltipFont"
@@ -455,8 +441,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 			}
 		}
 		"HudClassHealth"
@@ -465,8 +449,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 			}
 		}
 		"HudSelectionText"
@@ -513,7 +495,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"11"
-				"tall_lodef"	"14"
 			}
 		}
 		"MenuKeys"
@@ -531,8 +512,6 @@ Scheme
 			{
 				"name"			"Renogare Soft"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -541,8 +520,6 @@ Scheme
 			{
 				"name"			"Renogare Soft"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -551,8 +528,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
 			}
 		}
 		"ChalkboardText"
@@ -562,8 +537,6 @@ Scheme
 				"name"			"Renogare Soft"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
 			}
 		}
 		
@@ -574,8 +547,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"14"
-				"tall_hidef"	"14"
-				"tall_lodef"	"14"
 			}
 		}
 		
@@ -585,8 +556,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -611,8 +580,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -637,8 +604,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
 			}
 		}
 
@@ -648,7 +613,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"36"
-				"tall_hidef"	"48"
 			}
 		}
 		"ScoreboardTeamScore"
@@ -657,13 +621,11 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"52"
-				"tall_lodef"		"80"
 			}
 			"2"
 			{
 				"name"		"Renogare Soft"
 				"tall"		"72"
-				"tall_hidef"	"120"
 			}
 			"3"
 			{
@@ -705,8 +667,6 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 			}
 		}
 		
@@ -792,7 +752,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"14"
-				"tall_lodef"	"18"
+				//"tall_lodef"	"18"
 			}
 		}			
 		CapPlayerFont
@@ -818,7 +778,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"36"
-				"tall_lodef"		"28"
+				//"tall_lodef"		"28"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
@@ -827,7 +787,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"30"
-				"tall_lodef"		"22"
+				//"tall_lodef"		"22"
 			}
 		}
 		MatchmakingDialogMenuLarge
@@ -836,7 +796,7 @@ Scheme
 			{
 				"name"		"Renogare Soft"
 				"tall"		"28"
-				"tall_lodef"	"24"
+				//"tall_lodef"	"24"
 			}
 		}	
 		MatchmakingDialogMenuMedium
@@ -1179,7 +1139,7 @@ Scheme
 				"name"		"Renogare Soft"
 				"tall"		"18"
 				"tall_hidef"	"24"
-				"tall_lodef"	"18"
+				//"tall_lodef"	"18"
 			}
 		}
 		"ReplayBrowserTab"
