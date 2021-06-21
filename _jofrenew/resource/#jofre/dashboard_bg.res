@@ -34,8 +34,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"PanelDoble2"
-		"xpos"			"rs1-85"
-		"ypos"			"10"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"-3"
 		"wide"			"p0.03"//"p0.0425"
 		"tall"			"20"
@@ -43,7 +43,9 @@
 		"tabPosition"	"1"	
 		"bgcolor_override"		"W_ColorTheme1"
 		"PaintBackgroundType"	"2"
-	
+		"pin_to_sibling"	"PanelDoble"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "2"		
 	}	
 	
 }

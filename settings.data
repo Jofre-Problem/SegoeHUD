@@ -25,7 +25,14 @@ GlobalComboBox("UI Match Status", "UI Match Status")
 	No Name - Small
 	Swissolo
 }
-
+[Name:UI Style, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("UI Style", "UI Style")
+{
+	Default
+	Gradient Numbers
+	Team Colored Text
+	Transparent Box
+}
 [Border:0, FG:#1C1B1C]
 Banner("4plug/4plug_main/team_colored_text.png", "auto", "topleft");
 [Name:ADDON Transparent, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
@@ -123,6 +130,65 @@ GlobalComboBox("Damage Indicator", "Damage Indicator")
 	Default
 	Around crosshair (10 sec)
 	Crosshair dot (10 sec)
+}
+#if UI Style == "Team Colored Box"
+{
+Copy("4plug/4plug_overrides/Styles/TCB/style_health.res", "_jofrenew/#customization/resource/ui/hudplayerhealth - style.res");
+Copy("4plug/4plug_overrides/Styles/TCB/style_ammo.res", "_jofrenew/#customization/resource/ui/hudammoweapons - style.res");
+Copy("4plug/4plug_overrides/Styles/TCB/mediccharge.res", "_jofrenew/#customization/resource/ui/hudmediccharge - style.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/huddamageaccount - style.res");
+Copy("4plug/4plug_overrides/Styles/def_hp.txt", "_jofrenew/#customization/scripts/vida.txt");
+Copy("4plug/4plug_overrides/Styles/def_ammo.txt", "_jofrenew/#customization/scripts/municion.txt");
+Copy("4plug/empty.txt", "_jofrenew/resource/clientscheme/magnum_scheme_sc.res");
+}
+#if UI Style == "Transparent Box"
+{
+Copy("4plug/4plug_overrides/Styles/hp_box.res", "_jofrenew/#customization/resource/ui/hudplayerhealth - style.res");
+Copy("4plug/4plug_overrides/Styles/ammo_box.res", "_jofrenew/#customization/resource/ui/hudammoweapons - style.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudmediccharge - style.res");
+
+Copy("4plug/4plug_overrides/Styles/transparent_box_hp.txt", "_jofrenew/#customization/scripts/vida.txt");
+Copy("4plug/4plug_overrides/Styles/def_ammo.txt", "_jofrenew/#customization/scripts/municion.txt");
+Copy("4plug/empty.txt", "_jofrenew/resource/clientscheme/magnum_scheme_sc.res");
+}
+#if UI Style == "Team Colored Text"
+{
+
+//RES
+Copy("4plug/4plug_overrides/Styles/TCT/hp_colored_text.res", "_jofrenew/#customization/resource/ui/hudplayerhealth - style.res");
+Copy("4plug/4plug_overrides/Styles/TCT/ammo_colored_text.res", "_jofrenew/#customization/resource/ui/hudammoweapons - style.res");
+Copy("4plug/4plug_overrides/Styles/TCT/mediccharge_tct.res", "_jofrenew/#customization/resource/ui/hudmediccharge - style.res");
+Copy("4plug/4plug_overrides/empty.txt", "_jofrenew/#customization/resource/ui/huddamageaccount - style.res");
+Copy("4plug/4plug_overrides/magnumhud/magnum_scheme_on.res", "_jofrenew/resource/clientscheme/magnum_scheme_sc.res");
+//ANIM
+Copy("4plug/4plug_overrides/empty.txt", "_jofrenew/#customization/scripts/uber_type.txt");
+Copy("4plug/4plug_overrides/Styles/TCT/anim_hp_colored_text.txt", "_jofrenew/#customization/scripts/vida.txt");
+Copy("4plug/4plug_overrides/Styles/TCT/anim_ammo.txt", "_jofrenew/#customization/scripts/municion.txt");
+
+	#if UI Circular Uber Charge == "Enabled"
+	{
+	Copy("4plug/4plug_overrides/Styles/circular_uber_on_tct.txt", "_jofrenew/#customization/scripts/uber_type.txt");
+	}
+}
+#if UI Style == "Gradient Numbers"
+{
+Copy("4plug/4plug_overrides/Styles/GRA/health.res", "_jofrenew/#customization/resource/ui/hudplayerhealth - style.res");
+Copy("4plug/4plug_overrides/Styles/GRA/ammo.res", "_jofrenew/#customization/resource/ui/hudammoweapons - style.res");
+Copy("4plug/4plug_overrides/Styles/GRA/empty.res", "_jofrenew/#customization/resource/ui/hudmediccharge - style.res");
+Copy("4plug/4plug_overrides/Styles/GRA/damage.res", "_jofrenew/#customization/resource/ui/huddamageaccount - style.res");
+Copy("4plug/empty.txt", "_jofrenew/resource/clientscheme/magnum_scheme_sc.res");
+Copy("4plug/4plug_overrides/Styles/def_hp.txt", "_jofrenew/#customization/scripts/vida.txt");
+Copy("4plug/4plug_overrides/Styles/def_ammo.txt", "_jofrenew/#customization/scripts/municion.txt");
+}
+#if UI Style == "Default"
+{
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudplayerhealth - style.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudammoweapons - style.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudmediccharge - style.res");
+Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/huddamageaccount - style.res");
+Copy("4plug/4plug_overrides/Styles/def_hp.txt", "_jofrenew/#customization/scripts/vida.txt");
+Copy("4plug/4plug_overrides/Styles/def_ammo.txt", "_jofrenew/#customization/scripts/municion.txt");
+Copy("4plug/empty.txt", "_jofrenew/resource/clientscheme/magnum_scheme_sc.res");
 }
 #if CFG Advanced Scoreboard == "Disabled"
 {

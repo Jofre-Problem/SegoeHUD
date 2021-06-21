@@ -24,10 +24,12 @@
 	}
 	"BottomBar"
 	{
+		"YPOS"			"r0"
 		"tall"			"0"
 	}
 	"bottombarblank"
 	{
+		"YPOS"			"r0"	
 		"tall"			"0"
 	}	
 }

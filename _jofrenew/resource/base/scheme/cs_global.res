@@ -1,4 +1,4 @@
-#base "cs_windows.res"
+#base "../../cs_windows.res"
 #base "cs_global_tf.res"
 Scheme
 {

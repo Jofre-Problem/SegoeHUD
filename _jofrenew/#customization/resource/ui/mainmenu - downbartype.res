@@ -42,7 +42,18 @@
 			fillColor				"W_ColorIcons1"
 			mouseInputEnabled			0			// mouse input passes though to panels below
 		}
-
+		"QuitBar2"		
+		{
+			ControlName				ImagePanel
+			FieldName				"QuitBar2"
+			xPos					r34
+			yPos					rs1
+			zPos					1040
+			wide					1
+			tall					p0.045 //p0.525
+			fillColor				"W_ColorIcons1"
+			mouseInputEnabled			0			// mouse input passes though to panels below
+		}
 		"WBar2"
 		{
 			ControlName				ImagePanel

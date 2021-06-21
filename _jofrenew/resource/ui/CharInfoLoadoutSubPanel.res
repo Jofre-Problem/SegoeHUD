@@ -1,8 +1,9 @@
 #base "../#bases/reload_scheme.res"
 #base "../#jofre/downbar.res"
-//#base "../#jofre/home.res"
+#base "../#jofre/dashboard_bg.res"
 //#base "../#jofre/new_mm_panel1.res"
-//#base "../#jofre/v2/blur_bg.res"
+//#base "../#jofre/blur_bg.res"
+#base "../#jofre/blur_bg_image.res"
 //#base "../#jofre/socialmedia.res"
 //#base "../../#jofre/partymembers.res"
 //#base "../../#customization/resource/ui/summersale_border.res"
@@ -16,13 +17,14 @@
 		visible				1
 		enabled				1
 		settitlebarvisible		0	// ?
-	
+		"ypos"			"40"
+		"wide"			"f0"
+		"tall"			"485"	
 		paintbackground			0
 
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
 	}		
-
 	// #region CLASS BUTTONS 
 	// #endregion
 	"ScoutButton"			// other classes pinned to this

@@ -6,9 +6,10 @@
 {
 		"ClassLabel"
 		{
-			"ypos"		"rs1-30"
-			"xpos"		"5"
+			"ypos"		"c-60"
+			"xpos"		"cs-0.5"
 			"zpos"		"4000"
+			textAlignment	"center"
 			//"wide"					0
 			//"tall"					0
 		}			

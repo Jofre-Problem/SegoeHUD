@@ -1,7 +1,8 @@
-#base "../#bases/reload_scheme.res"
 //#base "../#jofre/downbar.res"
-#base "../#jofre/charbg.res"
+//#base "../#jofre/blur_bg.res"
+#base "../#jofre/blur_bg_image.res"
 #base "../#jofre/home.res"
+#base "../#jofre/downbar.res"
 "Resource/UI/CharInfoPanel.res"
 {
 

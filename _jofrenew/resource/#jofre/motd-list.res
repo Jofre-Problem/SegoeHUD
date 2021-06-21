@@ -11,7 +11,7 @@
 			"ypos"		"0"
 			"zpos"		"-1000"
 			"wide"		"p0.29"
-			"tall"		"p0.953"
+			"tall"		"f0"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -28,7 +28,7 @@
 		xPos					0
 		yPos					0
 		zPos					3001
-		wide					p0.0014
+		wide					p0.001
 		tall					f0		//p0.05 = 1mm...		525+15=		1-  p0.0540		
 		bgcolor_override				"W_ColorIcons1"//"W_ColorIcons1"
 		mouseInputEnabled			0			// mouse input passes though to panels below	

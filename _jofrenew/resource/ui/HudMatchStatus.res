@@ -1,4 +1,4 @@
-#base	"../../_customization/resource/ui/hudmatchstatus.res"	
+#base	"../../#customization/resource/ui/hudmatchstatus.res"	
 "Resource/UI/HudMatchStatus.res"
 {
 	"ObjectiveStatusTimePanel"

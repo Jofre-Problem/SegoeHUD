@@ -1,4 +1,3 @@
-#base "../../#bases/reload_scheme.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
 
@@ -31,7 +30,7 @@
 		page_button_x_delta 		2
 		page_button_y_delta 		2
 		page_button_per_row 		20
-		page_button_height 		12
+		page_button_height 		130
 
 		// width harcoded to align these with item_backpack_offcenter_x
 		"pagebuttons_kv"			// border ButtonBorder

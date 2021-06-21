@@ -1,6 +1,18 @@
-#base "loadout_explanation_bg.res"
+//#base "loadout_explanation_bg.res"
 "_jofrehud/resource/#jofre/1wide.res"
 {	
+	"Panel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Panel"
+		"xpos"				"rs1-5"
+		"ypos"				"35"
+		"zpos"				"1000"
+		"wide"				"p0.121"
+		"tall"				"40"
+		"bgcolor_override"		"W_ColorTheme1"
+		"PaintBackgroundType"	"2"
+	}	
 	"ZoomInfoLabel"
 	{
 	"ControlName"			"CExLabel"

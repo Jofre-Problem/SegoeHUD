@@ -1232,10 +1232,9 @@ Scheme
 
 	CustomFontFiles
 	{
-		// Be sure the following number is past "8" and not the same as any other number on a custom font file!
 		"104"
 		{
-			"font" "_jofrenew/font/ProductSans-Regular.ttf"
+			"font" "_jofrenew/font/Renogare.ttf"
 			"name" "Renogare Soft"
 		}
 	}

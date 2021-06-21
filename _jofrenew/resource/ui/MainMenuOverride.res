@@ -17,8 +17,163 @@
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
-	{
-	}
+	{	}
+		"PartySlot0"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot0"
+			"xpos"			"rs1-33"
+			"ypos"			"rs1"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"border"			"noborder"
+			"defaultborder"			"noborder"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+
+			"party_slot"	"0"
+		}
+
+		"PartySlot1"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"pin_to_sibling" "PartySlot0"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+
+			"party_slot"	"1"
+		}
+
+		"PartySlot2"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot2"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"pin_to_sibling" "PartySlot1"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+
+			"party_slot"	"2"
+		}
+
+		"PartySlot3"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot3"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"pin_to_sibling" "PartySlot2"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+
+			"party_slot"	"3"
+		}
+
+		"PartySlot4"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot4"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"pin_to_sibling" "PartySlot3"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+
+			"party_slot"	"4"
+		}
+
+		"PartySlot5"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot5"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1300"
+			"wide"			"20"
+			"tall"			"p0.04645"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"pin_to_sibling" "PartySlot4"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+
+			"party_slot"	"5"
+		}
+		"QuitBar3"		
+		{
+			ControlName				ImagePanel
+			FieldName				"QuitBar3"
+			xPos					0
+			yPos					0
+			zPos					1040
+			wide					1
+			tall					p0.045 //p0.525
+			fillColor				"W_ColorIcons1"
+			mouseInputEnabled			0			// mouse input passes though to panels below
+			"pin_to_sibling" "PartySlot5"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+		}		
 	"TFCharacterImage"
 	{
 		"tall"			"0"
@@ -280,7 +435,7 @@
 		yPos					rs1
 		zPos					1050
 		wide					35
-		tall					p0.045
+		tall					p0.043
 		textInsetx				"1"
 
 		labelText				"j"
@@ -1306,8 +1461,8 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"Notifications_Panel"
-		xPos					-2
-		yPos					30
+		xPos					rs1-5
+		yPos					80
 		zPos					2000
 		wide					210
 		tall					80
@@ -1315,12 +1470,25 @@
 		
 		paintBackground			1
 		bgcolor_override			"W_ColorTheme1"
-		"border"				"G_TargetBorder"
 		
-		pin_to_sibling 			"Notifications_ShowButtonPanel"
-		pin_corner_to_sibling		PIN_BOTTOMRIGHT
-		pin_to_sibling_corner		PIN_BOTTOMRIGHT
-		
+		"Windows_Notification"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Windows_Notification"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-1000"
+			"wide"		"210"
+			"tall"		"80"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"PaintBackgroundType"	"0"
+			"paintbackground"		"1"
+			"bgcolor_override"				"W_ColorTheme2"	//"W_ColorTheme2"
+		}		
 		"Notifications_CloseButton"
 		{
 			ControlName				CExButton
@@ -1370,19 +1538,7 @@
 			
 			paintBackground			0
 		}
-		"juliaNotesBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"juliaNotesBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"320"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"W_ColorTheme1"
-		}		
+
 		"Notifications_Scroller"
 		{
 			ControlName				ScrollableEditablePanel

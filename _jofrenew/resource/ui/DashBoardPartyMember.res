@@ -23,17 +23,18 @@
 		xpos					0
 		ypos					0
 		zpos					0
-		wide					f2
-		tall					f2
+		wide					20
+		tall					25
 		proportionaltoparent		1
 		visible				1
 		mouseinputenabled			0
-
-		labelText				"ú"
-		font					"NewIcons22"
+		
+		labelText				"^"
+		font					"NewIcons20"
 		textAlignment			center
 
 		fgcolor_override			"W_ColorIcons1"
+		alpha				"110"
 		paintbackground			0
 	}
 

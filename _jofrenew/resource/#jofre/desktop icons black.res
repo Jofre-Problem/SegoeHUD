@@ -7,13 +7,6 @@
 	{
 		font					"NewIcons17"
 	}
-	"MyHome"		// open advanced options
-	{
-		"SubButton"
-		{
-			font					"NewIcons17"
-		}
-	}
 	"CallVote"			// call a vote
 	{
 		"SubButton"
@@ -45,7 +38,7 @@
 		yPos					rs1
 		zPos					1050
 		wide					28
-		tall					p0.0435
+		tall					p0.043
 
 
 		labelText				"}"
@@ -73,7 +66,7 @@
 		yPos					rs1
 		zPos					1050
 		wide					28
-		tall					p0.0435
+		tall					p0.043
 		
 
 		"use_proportional_insets" "0"
@@ -104,7 +97,7 @@
 		yPos					rs1
 		zPos					1050
 		wide					28
-		tall					p0.0435
+		tall					p0.043
 
 		labelText				"Í"
 		font					"NewIcons17"
@@ -134,8 +127,7 @@
 		yPos					rs1
 		zPos					1050
 		wide					28
-		tall					p0.0435
-		
+		tall					p0.043
 		labelText				"_"
 		font					"NewIcons17"
 		textAlignment			center
@@ -204,7 +196,7 @@
 		yPos					rs1
 		zPos					1051
 		wide					33
-		tall					p0.0435
+		tall					p0.043
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"x"

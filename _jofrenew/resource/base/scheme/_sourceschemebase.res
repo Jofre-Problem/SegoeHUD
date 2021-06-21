@@ -132,6 +132,9 @@ Scheme
 			"1"
 			{
 				"name"		"Droid Sans Mono"
+				"tall"		"13"
+				"weight"	"500"
+				"antialias"	"1"				
 			}
 		}		
 	}

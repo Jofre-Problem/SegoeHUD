@@ -2,14 +2,14 @@ ADDON Transparent|On
 Steam Summer Sale Border|Portal Orange
 CFG Advanced Scoreboard|Enabled (Hurts FPS)
 UI Match Status|No Name - Small
-UI Style|Team Colored Text
-ADDON Transparent Class Model|Off
+UI Style|Gradient Numbers
+ADDON Transparent Class Model|On
 UI Health Cross|Disabled
 UI Circular Uber Charge|Enabled
 UI Damage Float Damage|Normal
 UI Damage Value|Normal
 UI Damage Position X|Left
-MAIN MENU Character Image|Enabled
+MAIN MENU Character Image|Disabled
 MAIN MENU Task Bar Type|Default
 MAIN MENU Advanced Dev Menu|Enabled (Hurts FPS)
 MAIN MENU Particle|Disabled
