@@ -1468,9 +1468,6 @@
 		tall					80
 		visible				0
 		
-		paintBackground			1
-		bgcolor_override			"W_ColorTheme1"
-		
 		"Windows_Notification"
 		{
 			"ControlName"	"EditablePanel"

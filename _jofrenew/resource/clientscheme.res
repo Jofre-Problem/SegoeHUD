@@ -3,8 +3,6 @@
 	#base "../#customization/resource/font.res"
 	#base "../#customization/resource/scheme_4plug1.res"
 	#base "cs_windows.res"
-	#base "cs_global_tf.res"
-
 //dlc
 	#base "../../ui_overrides/resource/scheme/dlc/2.res"
 
@@ -17,6 +15,26 @@ Scheme
 {
 	BaseSettings
 	{
+
+		TextEntry.TextColor			"193 175 75 255"
+		TextEntry.BgColor			"W_ColorTheme2"
+		TextEntry.DisabledTextColor	"W_ColorIcons1"
+		TextEntry.DisabledBgColor	"W_ColorTheme3"
+		TextEntry.SelectedTextColor	"W_ColorIcons1"
+		TextEntry.SelectedBgColor	"W_ColorTheme1"
+		TextEntry.OutOfFocusSelectedBgColor	"Blank"
+		TextEntry.FocusEdgeColor	"Blank"	
+		TextEntry.CursorColor		"W_BorderArmed"
+		Button.DepressedTextColor		"W_ColorTheme3"
+		Button.DepressedBgColor			"W_ColorTheme1"
+		Button.FocusBorderColor			"W_BorderArmed"
+		ProgressBar.BgColor				"W_ColorTheme2"
+		ScrollBarButton.FgColor				"W_ColorIcons1"
+		ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
+		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
+		Slider.NobColor				"W_ColorIcons1"
+		Slider.TrackColor			"W_BorderArmed"
+        Slider.DisabledTextColor2	"Blank"	
 		Econ.Dialog.BgColor				"W_ColorTheme1"
 		ReplayBrowser.BgColor					"W_ColorTheme1"		
 		Replay.RenderDialog.BgColor							"W_ColorTheme1"
@@ -44,15 +62,32 @@ Scheme
 	//	GraphPanel.FgColor									"OrangeLight"
 	//	GraphPanel.BgColor									"TransparentBlack"
 		
-		Label.TextDullColor									"255 0 0 255" // Gray
+		Label.TextDullColor									"W_ColorIcons1" // Gray
 		Label.TextColor										"White" // White
-		Label.TextBrightColor								"Blue" // White
-		Label.SelectedTextColor								"255 255 0 255" // White
+		Label.TextBrightColor								"W_ColorIcons1" // White
+		Label.SelectedTextColor								"W_ColorIcons1" // White
 		Label.BgColor										"Blank" // Blank
 		Label.DisabledFgColor1								"Blank"		// text shadow
 		Label.DisabledFgColor2								"TanDark"	// text
 
-
+		ListPanel.TextColor					"W_ColorIcons1"
+		ListPanel.BgColor					"TransparentBlack"
+		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedBgColor			"Red"
+		ListPanel.SelectedOutOfFocusBgColor	"Red"
+		ListPanel.EmptyListInfoTextColor	"W_ColorIcons1"
+		
+		SectionedListPanel.HeaderTextColor	"W_ColorIcons1"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.TextColor		"W_ColorIcons1"
+		SectionedListPanel.BrightTextColor	"W_ColorIcons1"
+		SectionedListPanel.BgColor			"TransparentLightBlack"
+		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedBgColor				"Red"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		Menu.TextColor					"W_ColorIcons1"
 		RichText.TextColor									"Gray"
 		RichText.BgColor									"Blank"
 		RichText.SelectedTextColor							"Gray"
@@ -88,7 +123,7 @@ Scheme
 
 		"HintMessageBg" 									"BlackLightTransparent"
 
-		"ProgressBarFg"										"RedLight"
+		"ProgressBarFg"										"W_BorderArmed"
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"										"0"
 		"Main.Menu.Y"										"0"
@@ -100,7 +135,7 @@ Scheme
 	Colors
 	{	
 	//	"Green"					"0 135 68 255"
-		
+		"TanLight"				"193 175 75 255"		
 
 	//	"White"									"235 235 235 255"
 		"WhiteSolid"							"255 255 255 255"
@@ -363,6 +398,100 @@ Scheme
 	}
 	Borders
 	{	
+		StoreItemBorderSelected
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 0"
+				}
+			}
+		}	
+		OptionsCategoryBorder
+		{
+			"inset" "0 0 1 1"
+			
+			// This border is used just to create a horizontal line, so it only has a bottom border
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 0"
+				}
+			}
+		}	
+	ComboBoxBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "W_ColorIcons1"
+					"offset" "0 0"
+				}
+			}
+		}	
 		BlurBorder
 		{
 			"bordertype"			"scalable_image"
@@ -441,7 +570,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_ColorTheme3"   //
+			"color" "W_ColorTheme1"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -454,7 +583,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_ColorTheme3"   //
+			"color" "W_ColorIcons1"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -463,7 +592,19 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"
 		}			
-
+		GrayDialogBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "W_BorderArmed"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}	
 
 		
 		
@@ -1718,7 +1859,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"W_ColorTheme15"
+			"color"					"W_ColorTheme1"
 			"image"					"replay/thumbnails/mainmenu/fill"
 			"src_corner_height"		"5"
 			"src_corner_width"		"5"

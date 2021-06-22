@@ -31,7 +31,30 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 1 100 }
 		{ "90" }
 	}
-		
+	"ping"
+	{
+		"Matchmaking Ping"
+		{ CATEGORY }
+	}		
+	"tf_party_ignore_invites"
+	{
+		"#TF_MM_IgnoreInvites"
+		{ BOOL }
+		{ "0" }
+	}	
+	"tf_mm_custom_ping_enabled"
+	{	
+		"#TF_LobbyContainer_CustomPingButton"
+		{ BOOL }
+		{ "0" }
+	}		
+	"tf_mm_custom_ping"
+	{
+		"Select your ping:"
+		"#TF_LobbyContainer_CustomPingDesc"
+		{ SLIDER 1 400 }
+		{ "150" }
+	}	
 	"category1"
 	{
 		"#TF_OptionCategory_Combat"

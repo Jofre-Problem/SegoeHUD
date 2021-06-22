@@ -896,7 +896,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
 				"font"			"InstructionalText"
-				"labelText"		""
+				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"12"
 				"ypos"			"0"
@@ -955,7 +955,7 @@
 //					"enabled"		"1"
 //					"tabPosition"	"0"
 //					"use_proportional_insets" "1"
-//					"font"			"InstructionalText"
+//					"font"			"HudFontSmallBold"
 //					"textAlignment"	"center"
 //					"dulltext"		"0"
 //					"brighttext"	"0"
@@ -1025,7 +1025,7 @@
 //					"enabled"		"1"
 //					"tabPosition"	"0"
 //					"use_proportional_insets" "1"
-//					"font"			"InstructionalText"
+//					"font"			"HudFontSmallBold"
 //					"textAlignment"	"center"
 //					"dulltext"		"0"
 //					"brighttext"	"0"
@@ -1054,13 +1054,11 @@
 			{
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
-				"xpos"					"0"
-//				"ypos"					"p0.47"
+				"xpos"					"5"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"f0"
-//				"tall"					"p0.5"
-				"tall"					"f0"
+				"wide"					"f10"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -1072,109 +1070,19 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2020 Cosmetic Key" 
+						"item"		"Summer 2021 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2020 Cosmetic Case"
+						"item"		"Summer 2021 Cosmetic Case"
 						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Winter 2020 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Winter 2020 War Paint Case"
-						"show_market"	"1"
-					}
-					"4"
-					{
-						"item"		"Taunt: The Pooped Deck"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Time Out Therapy"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Taunt: Rocket Jockey"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Taunt: The Boston Boarder"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Taunt: Scorcher's Solo"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Taunt: Texas Truckin"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Taunt: Spin-to-Win"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Taunt: The Fist Bump"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Map Token Pier"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Strange Filter: Pier (Community)"
-						"show_market"	"0"
-					}					
-					"14"
-					{
-						"item"		"Map Token SnowVille"
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Strange Filter: SnowVille (Community)"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Map Token Snowfall"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Snowfall (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Map Token Wutville"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Wutville (Community)"
-						"show_market"	"0"
 					}
 				}
 			}
 
 		} // Background
 
-	} // EventPromo			
 	}
-}
+	}
+}	//motd

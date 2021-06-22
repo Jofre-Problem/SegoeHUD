@@ -2,8 +2,14 @@
 #base "../#jofre/w_op-panel.res"
 #base "../#jofre/charbg.res"
 #base "../#jofre/1ccvar.res"
+#base "../#jofre/blur_bg_image.res"
+#base "../#jofre/dashboard_bg.res"
 "Resource\UI\TFAdvancedOptionsDialog.res"
 {
+	"BlurMainBG"
+	{
+		tall				"p0.953"
+	}
 	"ImprovisedBG"
 	{
 		fillColor				"0 0 0 1"
@@ -55,6 +61,7 @@
 	{
 		ypos		0
 		command		close
+		
 		"pin_to_sibling" 							"WindowLeftBar"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
@@ -103,7 +110,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background2"
-		"xpos"		"218"
+		"xpos"		"rs1-p0.006"
 		"ypos"		"80"
 		"zpos"		"3"
 		"wide"		"485"
@@ -116,13 +123,11 @@
 		"paintbackgroundType"	"2"
 		"bgcolor_override"	"Blank"
 		"proportionalToParent"	"1"
-		"border"		"MaterialOscuro"		
+		"border"		"OutlinedGreyBox"		
 	}	
 	"PanelListPanel"
 	{
-		"ControlName"		"CPanelListPanel"
-		"fieldName"		"PanelListPanel"
-		"xpos"		"220"
+		"xpos"		"rs1-p0.01"
 		"ypos"		"80"
 		"zpos"		"20"
 		"wide"		"480"
@@ -147,13 +152,13 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MainMenuButtonGlow2"
+		"border"									"OutlinedGreyBox"
 		
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"TFFontMedium"
+			"font"									"CustomSegundo"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -165,7 +170,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor_override"						"W_ColorIcons1"
 			"wrap"									"1"
 			//"centerwrap"							"1"
 		}

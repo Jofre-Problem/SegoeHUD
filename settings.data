@@ -56,12 +56,6 @@ GlobalComboBox("MAIN MENU Character Image", "MAIN MENU Character Image")
 	Enabled
 	Disabled
 }
-[Name:MAIN MENU Task Bar Type, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
-GlobalComboBox("MAIN MENU Task Bar Type", "MAIN MENU Task Bar Type")
-{
-	Default
-	Concept (Cleaner)
-}
 [Name:MAIN MENU Advanced Dev Menu, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
 GlobalComboBox("MAIN MENU Advanced Dev Menu", "MAIN MENU Advanced Dev Menu")
 {

@@ -65,8 +65,8 @@
 		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"		
+		"border_default"	"OutlinedGreyBox"
+		"border_armed"		"OutlinedDullGreyBox"		
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"W_ColorIcons1"
@@ -97,8 +97,8 @@
 		"default"									"1"
 		"Command"									"Ok"
 		"AllCaps"									"1"
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"		
+		"border_default"	"OutlinedGreyBox"
+		"border_armed"		"OutlinedDullGreyBox"		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
