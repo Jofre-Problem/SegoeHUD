@@ -49,13 +49,15 @@ GlobalComboBox("ADDON Transparent Class Model", "ADDON Transparent Class Model")
 	Off
 	On
 }
-
-[Name:MAIN MENU Character Image, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
-GlobalComboBox("MAIN MENU Character Image", "MAIN MENU Character Image")
+Banner("4plug/4plug_images/class-transparent.png", "auto", "topleft");
+[Name:MAIN MENU Party on Menu, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("MAIN MENU Party on Menu", "MAIN MENU Party on Menu")
 {
 	Enabled
 	Disabled
 }
+Banner("4plug/4plug_images/party_menu.png", "auto", "topleft");
+
 [Name:MAIN MENU Advanced Dev Menu, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
 GlobalComboBox("MAIN MENU Advanced Dev Menu", "MAIN MENU Advanced Dev Menu")
 {
@@ -282,15 +284,6 @@ Copy("4plug/4plug_overrides/match/match1.res", "_jofrenew/#customization/resourc
 {
 Copy("4plug/4plug_overrides/match/match2.res", "_jofrenew/#customization/resource/ui/hudmatchstatus.res");
 }
-
-#if MAIN MENU Character Image == "Enabled"
-{
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_on.res", "_jofrenew/#customization/resource/ui/mainmenu_player.res");
-}
-#if MAIN MENU Character Image == "Disabled"
-{
-Copy("4plug/4plug_overrides/Mainmenu/mainmenu_player_off.res", "_jofrenew/#customization/resource/ui/mainmenu_player.res");
-}
 #if MAIN MENU Task Bar Type == "Default"
 {
 Copy("4plug/4plug_overrides/Mainmenu/mainmenu_downbar_def.res", "_jofrenew/#customization/resource/ui/mainmenu - downbartype.res");
@@ -339,5 +332,13 @@ Copy("4plug/4plug_overrides/ui/class-transparent.res", "_jofrenew/#customization
 }
 #if ADDON Transparent Class Model == "Off"
 {
-Copy("4plug/empty_res.txt", "_jofrenew/#customization/resource/ui/hudplayerclass - transparent.res");
+Copy("4plug/4plug_overrides/ui/class-transparent-off.res", "_jofrenew/#customization/resource/ui/hudplayerclass - transparent.res");
+}
+#if MAIN MENU Party on Menu == "On"
+{
+Copy("4plug/4plug_overrides/ui/shortcut/mainmenu_party_on_menu_sc_on.res", "_jofrenew/#customization/resource/ui/sc/mainmenu_party_on_menu_sc.res");
+}
+#if MAIN MENU Party on Menu == "Off"
+{
+Copy("4plug/4plug_overrides/empty.txt", "_jofrenew/#customization/resource/ui/sc/mainmenu_party_on_menu_sc.res");
 }

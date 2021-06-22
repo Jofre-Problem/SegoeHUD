@@ -88,6 +88,18 @@
 	}
 	"InnerGradient"
 	{
-		visible		0
+		wide		0
 	}
+	"TitleGradient"
+	{
+		wide		0
+	}	
+	"OuterGradient"
+	{
+		wide		0
+	}		
+	"BGPanel"
+	{
+		border		"noborder"
+	}		
 }

@@ -4,7 +4,7 @@
 {
 	"TooltipPanel"
 	{ 
-		border		"OutlinedGreyBox"
+		border		"noborder"	//"OutlinedGreyBox"
 		
 		"TipLabel"
 		{

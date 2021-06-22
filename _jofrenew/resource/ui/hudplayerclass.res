@@ -29,16 +29,7 @@
 	}	
 	"classmodelpanelBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"0"
-		"ypos"			"r0"
-		"zpos"			"50"		
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"
+
 	}				
 	"classmodelpanel"
 	{

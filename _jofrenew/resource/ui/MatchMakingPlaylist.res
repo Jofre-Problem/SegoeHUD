@@ -9,9 +9,6 @@
 		zpos							3
 		tall							0
 		wide							0
-		proportionaltoparent		1
-
-		button_command				"play_event"
 	}
 
 	"CasualEntry"

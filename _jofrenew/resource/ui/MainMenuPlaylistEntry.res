@@ -10,17 +10,13 @@
 		wide									f0
 		tall									f0
 		proportionaltoparent				1
-		visible								1
-		enabled								1
 
-		labelText							"%button_token%"
 		use_proportional_insets 		1
 		font									"IntroMenuCaption"
 		textAlignment						center
 		wrap									1
 		centerwrap							1
-		actionsignallevel					0
-		
+
 		defaultFgColor_override			"W_ColorIcons1"
 		armedFgColor_override			"W_ColorTexto1"
 		
@@ -221,45 +217,45 @@
 	
 	"DescLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
-		"font"			"MMenuPlayListDesc"
-		"labelText"		"%desc_token%"
-		"textAlignment"	"north-west"
-		"xpos"			"rs1"
-		"ypos"			"18"
-		"zpos"			"2"
 		"wide"			"0"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanLight"
-		"proportionaltoparent" "1"
-		"mouseinputenabled"	"0"
 	}
 
 	"DescLabelShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabelShadow"
-		"font"			"MMenuPlayListDesc"
-		"labelText"		"%desc_token%"
-		"textAlignment"	"north-west"
-		"xpos"			"rs1+1"
-		"ypos"			"19"
-		"zpos"			"1"
 		"wide"			"0"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "Black"
-		"proportionaltoparent" "1"
-		"mouseinputenabled"	"0"
 	}
-}
+	"GradientHoriz"
+	{
+		"xpos"			"r0"
+		"wide"			"0"
+	}
+	"Gradient"
+	{
+		"wide"			"0"
+	}	
+	"Gradient2"
+	{
+		"wide"			"0"
+	}	
+	"Gradient3"
+	{
+		"wide"			"0"
+	}		
+
+	"shade"
+	{
+		visible		0
+	}
+	"InnerGradient"
+	{
+		wide		0
+	}
+	"TitleGradient"
+	{
+		wide		0
+	}	
+	"OuterGradient"
+	{
+		wide		0
+	}		
+}	

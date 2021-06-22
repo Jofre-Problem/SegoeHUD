@@ -28,6 +28,7 @@
 		"expanded_height"		"200"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
+
 	}
 
 	"chatlog"

@@ -2,10 +2,10 @@
 	#base "../#jofre/motd-code.res"
 
 //	#base "../#jofre/downbar.res" :: check mainmenu - downbartype.res"
-
+	#base "../../#customization/resource/ui/mainmenu_budhud_particle.res"
 	#base "../../#customization/resource/ui/mainmenu - downbartype.res"
 	#base "../../#customization/resource/ui/mainmenu_safemode.res"
-		
+	#base "../../#customization/resource/ui/sc/mainmenu_party_on_menu_sc.res"		
 	#base "../#jofre/dashboard_bg.res"
 	#base "../#jofre/loadout_explanation_bg.res"
 
@@ -18,162 +18,6 @@
 {
 	"MainMenuOverride"
 	{	}
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"rs1-33"
-			"ypos"			"rs1"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"border"			"noborder"
-			"defaultborder"			"noborder"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-
-			"party_slot"	"0"
-		}
-
-		"PartySlot1"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot1"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot0"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-
-			"party_slot"	"1"
-		}
-
-		"PartySlot2"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot2"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot1"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-
-			"party_slot"	"2"
-		}
-
-		"PartySlot3"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot3"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot2"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-
-			"party_slot"	"3"
-		}
-
-		"PartySlot4"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot4"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot3"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-
-			"party_slot"	"4"
-		}
-
-		"PartySlot5"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot5"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot4"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-
-			"party_slot"	"5"
-		}
-		"QuitBar3"		
-		{
-			ControlName				ImagePanel
-			FieldName				"QuitBar3"
-			xPos					0
-			yPos					0
-			zPos					1040
-			wide					1
-			tall					p0.045 //p0.525
-			fillColor				"W_ColorIcons1"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-			"pin_to_sibling" "PartySlot5"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-		}		
 	"TFCharacterImage"
 	{
 		"tall"			"0"
@@ -472,7 +316,7 @@
 		FieldName				"Achievements"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 		
@@ -532,7 +376,7 @@
 		FieldName				"Achi1"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -556,7 +400,7 @@
 		FieldName				"Achi2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -583,7 +427,7 @@
 		wide					42
 		tall					o0.5
 		proportionalToParent		1
-		zpos			1010
+		zpos			110
 		font					"ControlPointTimerSmaller"
 		labelText				"#TF_Achievements_Title"
 	mouseinputenabled 		0
@@ -604,7 +448,7 @@
 		FieldName				"TF2Settings"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 
@@ -642,7 +486,7 @@
 		FieldName				"Opt1"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -665,7 +509,7 @@
 		FieldName				"Opt2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -688,7 +532,7 @@
 		FieldName				"Opt3"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -714,7 +558,7 @@
 		wide					42
 		tall					o0.5
 		proportionalToParent		1
-		zpos				1010
+		zpos				110
 		font					"ControlPointTimerSmaller"
 		labelText				"#MMenu_AdvOptions"
 	mouseinputenabled 		0
@@ -735,7 +579,7 @@
 		FieldName				"GeneralStoreButton"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 		"pinCorner"		"0"
@@ -764,7 +608,7 @@
 		yPos					-14
 		wide					42
 		tall					o0.5
-		zpos					1010
+		zpos					110
 		proportionalToParent		1
 	mouseinputenabled 		0
 		font					"ControlPointTimerSmaller"
@@ -786,7 +630,7 @@
 		FieldName				"Store1"
 		xPos					0
 		yPos					0
-		zPos					1051
+		zPos					151
 		wide					42
 		tall					o1
 
@@ -809,7 +653,7 @@
 		FieldName				"Store2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -832,7 +676,7 @@
 		FieldName				"OpenContracker"
 		xPos					2
 		yPos					0
-		zPos					1009
+		zPos					109
 		wide					42
 		tall					o1
 		labelText				""
@@ -859,7 +703,7 @@
 		wide					42
 		tall					o0.5
 		proportionalToParent		1
-		zpos					1010
+		zpos					110
 		font					"ControlPointTimerSmaller"
 		labelText				"Quest Log"
 
@@ -880,7 +724,7 @@
 		FieldName				"TestQuest"
 		xPos					2
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -896,7 +740,7 @@
 		FieldName				"TestQuest2"
 		xPos					2
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -912,7 +756,7 @@
 		FieldName				"OpenDemo"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 
@@ -938,7 +782,7 @@
 		FieldName				"DemoTest"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -963,7 +807,7 @@
 		FieldName				"DemoNewIcons25"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 	mouseinputenabled 		0
@@ -991,7 +835,7 @@
 		wide					42
 		tall					o0.5
 		proportionalToParent		1
-		zpos				1040
+		zpos				140
 		font					"ControlPointTimerSmaller"
 		labelText				"#TF_OptionCategory_DemoSupport"
 	mouseinputenabled 		0
@@ -1012,7 +856,7 @@
 		FieldName				"OpenMinmode"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 
@@ -1043,11 +887,11 @@
 		mouseinputenabled 		0
 		font					"ControlPointTimerSmaller"
 		labelText				"Minmode"
-		zpos 					1040
+		zpos 					140
 		centerwrap					1
 		enabled					1
 		visible					1
-		zpos				1040
+		zpos				140
 		paintBackground			0
 			
 		pin_to_sibling			"OpenMinmode"
@@ -1061,7 +905,7 @@
 		FieldName				"Minmode1"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1084,7 +928,7 @@
 		FieldName				"Minmode2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1107,7 +951,7 @@
 		FieldName				"YoutubeURL"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 
@@ -1131,7 +975,7 @@
 		FieldName				"yt1"
 		xPos					0
 		yPos					0
-		zPos					1049
+		zPos					149
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1154,7 +998,7 @@
 		FieldName				"yt2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1183,7 +1027,7 @@
 		mouseinputenabled 		0
 		font					"ControlPointTimerSmaller"
 		labelText				"Youtube"
-		zpos 					1040
+		zpos 					140
 		centerwrap					1
 		enabled					1
 		visible					1
@@ -1201,13 +1045,13 @@
 		FieldName				"ChromeURL"
 		xPos					0
 		yPos					0
-		zPos					1002
+		zPos					102
 		wide					42
 		tall					o1
 
 		font					"Blank"
 		labelText				""
-		zpos 					1040
+		zpos 					140
 		enabled					1
 		visible					1
 		paintBackground			0
@@ -1224,7 +1068,7 @@
 		FieldName				"chr1"
 		xPos					0
 		yPos					0
-		zPos					1049
+		zPos					149
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1247,7 +1091,7 @@
 		FieldName				"chr2"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1270,7 +1114,7 @@
 		FieldName				"chr3"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1293,7 +1137,7 @@
 		FieldName				"chr4"
 		xPos					0
 		yPos					0
-		zPos					1050
+		zPos					150
 		wide					42
 		tall					o1
 		mouseinputenabled 		0
@@ -1322,7 +1166,7 @@
 		mouseinputenabled 		0
 		font					"ControlPointTimerSmaller"
 		labelText				"Google Chrome"
-		zpos 					1040
+		zpos 					140
 		centerwrap					1
 		enabled					1
 		visible					1
@@ -1467,7 +1311,7 @@
 		wide					210
 		tall					80
 		visible				0
-		
+		border			"noborder"
 		"Windows_Notification"
 		{
 			"ControlName"	"EditablePanel"

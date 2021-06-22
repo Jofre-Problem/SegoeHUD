@@ -1,0 +1,1 @@
+#base "../mainmenu_party_on_menu.res"
