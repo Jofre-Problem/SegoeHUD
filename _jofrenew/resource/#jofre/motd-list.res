@@ -1,4 +1,5 @@
 // contains all the useless / not-important stuff
+#base "!event_promo.res"
 "_jofrehud/resource/motd-list.res"
 {
 	"MOTD_Panel"
@@ -56,6 +57,7 @@
 			"tabPosition"		"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
+			"border"			"SteamWorkshopBorder"
 			"bgcolor_override"				"W_ColorTheme1"
 		}	
 	
@@ -294,7 +296,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			labelText				"\"
-			font					"NewIcons20"
+			font					"NewIcons17"
 			textAlignment			center
 		
 			command				"watch_stream"
@@ -617,7 +619,7 @@
 				ControlName				CPvPRankPanel
 				FieldName				"RankPanel"
 				xPos					10
-				yPos					240
+				yPos					247	// 170 + 53
 				zPos					-100
 				wide					p0.2666	//f0
 				tall					50	// mouse input passes though to panels below
@@ -627,6 +629,7 @@
 				show_type				1			
 
 				bgcolor_override		"W_ColorTheme1"
+				"border"			"SteamWorkshopBorder"		
 				// check out!
 		}	
 
@@ -768,13 +771,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"10"
-		"ypos"			"170"
+		"ypos"			"170" //70 + 75
 		"zpos"			"20"
 		"wide"			"p0.266"
-		"tall"			"50"
+		"tall"			"53"
 		"visible"		"1"
 
 		"bgcolor_override"		"W_ColorTheme1"
+				"border"			"SteamWorkshopBorder"	
 
 		"SteamFriendsList"
 		{
@@ -784,7 +788,7 @@
 			"ypos"			"0"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"50"
+			"tall"			"53"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -860,6 +864,7 @@
 			wide					p0.266
 			tall					75
 			fillColor				"W_ColorTheme1"
+			"border"			"SteamWorkshopBorder"			
 			mouseInputEnabled			0			// mouse input passes though to panels below
 		}	
 	
@@ -876,25 +881,11 @@
 
 		"Background"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"f0"
-//			"tall"			"120"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"0"
 			"border"		"NoBorder"
 
 			"TitleLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
 				"font"			"InstructionalText"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
@@ -909,179 +900,20 @@
 				"textinsetx"	"0"
 				"fgcolor_override"	"W_ColorIcons1"
 			}
-
-//			"ViewDetailsGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewDetailsGlow"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewDetailsButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewDetailsButton"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewUpdateDetails"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_update_page"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
-//
-//			"ViewWarButtonGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewWarButtonGlow"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"124"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewWarButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewWarButton"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewWar"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_war"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
 			
 			"CyclingAd"
 			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
+
+				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"f10"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
+				"wide"					"f0"
+				"tall"					"75"
 
 				"bgcolor_override"		"Blank"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Summer 2021 Cosmetic Key" 
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Summer 2021 Cosmetic Case"
-						"show_market"	"1"
-					}
-				}
 			}
 
-		} // Background
+	} // Background
 
 	}
 	}

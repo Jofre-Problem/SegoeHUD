@@ -21,8 +21,7 @@
 	"TFCharacterImage"
 	{
 		"tall"			"0"
-	}	
-
+	}		
 	"TFLogoImage"
 	{
 		"wide"			"0"
@@ -749,7 +748,8 @@
 		textAlignment			center
 		paintBackground			0
 		fgcolor_override		"201 122 35 255"
-	}		
+	}	
+
 	"OpenDemo"		// open achievements window
 	{
 		ControlName				CExButton
@@ -891,7 +891,6 @@
 		centerwrap					1
 		enabled					1
 		visible					1
-		zpos				140
 		paintBackground			0
 			
 		pin_to_sibling			"OpenMinmode"
@@ -957,7 +956,6 @@
 
 		font					"Blank"
 		labelText				""
-		zpos 					1040
 		enabled					1
 		visible					1
 
@@ -1031,7 +1029,6 @@
 		centerwrap					1
 		enabled					1
 		visible					1
-		zpos				1040
 		paintBackground			0
 			
 		pin_to_sibling			"YoutubeURL"
@@ -1051,7 +1048,6 @@
 
 		font					"Blank"
 		labelText				""
-		zpos 					140
 		enabled					1
 		visible					1
 		paintBackground			0
@@ -1290,6 +1286,7 @@
 	{
 		"wide"			"0"
 	}	
+	
 	"Notifications_Panel"
 	{
 		ControlName				EditablePanel

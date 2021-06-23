@@ -58,12 +58,6 @@ GlobalComboBox("MAIN MENU Party on Menu", "MAIN MENU Party on Menu")
 }
 Banner("4plug/4plug_images/party_menu.png", "auto", "topleft");
 
-[Name:MAIN MENU Advanced Dev Menu, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
-GlobalComboBox("MAIN MENU Advanced Dev Menu", "MAIN MENU Advanced Dev Menu")
-{
-	Disabled
-	Enabled (Hurts FPS)
-}
 [Name:MAIN MENU Particle, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
 GlobalComboBox("MAIN MENU Particle", "MAIN MENU Particle")
 {

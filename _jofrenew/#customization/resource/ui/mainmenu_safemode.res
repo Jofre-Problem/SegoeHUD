@@ -4,14 +4,78 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"			"0"
-		"ypos"			"rs1-p0.0465"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-p0.048"
 		"zpos"			"1038"
-		"wide"			"f0"
-		"tall"			"38"
+		"wide"			"p0.43"
+		"tall"			"p0.73"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 232"
+		"bgcolor_override"	"Blank"
+		
+		"Windows_Notification"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Windows_Notification"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-1"
+			"wide"		"p0.42"
+			"tall"		"p0.72"
+			"bgcolor_override"		"W_ColorTheme1"
+			"PaintBackgroundType"	"2"
+				
+			"LogoImage"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"LogoImage"
+				"xpos"			"7"		//perfect center - c-221
+				"ypos"			"50"
+				"wide"		"45"
+				"tall"		"45"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"		"0"
+				"image"		"logos/UI/spray"
+				"scaleImage"		"1"
+				"scaleAmount"		"0.000000"
+				"tileImage"		"0"
+				"tileHorizontally"		"0"
+				"tileVertically"		"0"
+			}	
+			"LogoLabel"
+			{
+				ControlName				CExLabel
+				FieldName				"LogoLabel"
+				xPos					5
+				yPos					0
+				wide					60
+				tall					15
+				font					"InstructionalText"
+				fgcolor_override		"W_ColorIcons1"
+				labelText				"Your Scripts:"
+				zpos 					2
+				textAlignment		"west"
+				pin_to_sibling			"LogoImage"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			}			
+			"TFLogoImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TFLogoImage"
+				"xpos"			"c-323-p0.001"	
+				"ypos"			"5"
+				"zpos"			"2"
+		"wide"				"160"
+		"tall"				"40"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../logo/new_tf2_logo"
+				"scaleImage"	"1"
+				"alpha"			"10"
+			}				
+		}	
 
 		"ClosePanel"
 		{
@@ -176,12 +240,110 @@
 			"visible"				"0"
 			"enabled"				"0"
 		}		
-	"HudReload"
+		"Script1"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Script1"
+			"xpos"										"53"
+			"ypos"										"60"
+			"zpos"										"2"
+			"wide"										"7"
+			"tall"										"15"
+			"labelText"									"1"
+			font					"InstructionalText"
+			fgcolor_override		"W_ColorIcons1"
+			"actionsignallevel"	"2"
+			"command"		"engine exec your_scripts_m8/your_script_1.cfg"
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"
+			"armedFgColor_override" 					"W_BorderArmed"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"wide"			"0"
+				"tall"			"0"
+				"image"			"replay/thumbnails/null"
+			}				
+		}			
+		"Script2"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script2"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+			"labelText"									"2"
+			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			"command"		"engine exec your_scripts_m8/your_script_2.cfg"
+		
+			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"		"armedFgColor_override" 					"W_BorderArmed"		"depressedFgColor_override" 				"W_ColorLinea1"
+			pin_to_sibling		"Script1"	
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}			
+		"Script3"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script3"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+			"labelText"									"3"
+			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			"command"		"engine exec your_scripts_m8/your_script_3.cfg"
+		
+			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"		"armedFgColor_override" 					"W_BorderArmed"		"depressedFgColor_override" 				"W_ColorLinea1"
+			pin_to_sibling		"Script2"	
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
+		"Script4"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script4"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+			"labelText"									"4"
+			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			"command"		"engine exec your_scripts_m8/your_script_4.cfg"
+		
+			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"		"armedFgColor_override" 					"W_BorderArmed"		"depressedFgColor_override" 				"W_ColorLinea1"
+			pin_to_sibling		"Script3"	
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
+		"Script5"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script5"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+			"labelText"									"5"
+			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			"command"		"engine exec your_scripts_m8/your_script_5.cfg"
+		
+			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"		"armedFgColor_override" 					"W_BorderArmed"		"depressedFgColor_override" 				"W_ColorLinea1"
+			pin_to_sibling		"Script4"	
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}			
+		"HudReload"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"HudReload"
 			"xpos"										"2"
-			"ypos"										"2"
+			"ypos"										"100"
 			"zpos"										"2"
 			"wide"										"p0.1"
 			"tall"										"15"
