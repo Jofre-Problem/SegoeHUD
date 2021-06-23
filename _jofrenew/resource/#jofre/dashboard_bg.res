@@ -23,7 +23,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"0"
-		"wide"			"p0.00125"
+		"wide"			"p0.00124"
 		"tall"			"17"
 		"bgcolor_override"		"W_ColorIcons1"
 		"pin_to_sibling"		"PanelDoble"

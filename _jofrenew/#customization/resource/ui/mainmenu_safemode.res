@@ -29,8 +29,8 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"LogoImage"
-				"xpos"			"7"		//perfect center - c-221
-				"ypos"			"50"
+				"xpos"			"20+p0.002"		//perfect center - c-221
+				"ypos"			"30"
 				"wide"		"45"
 				"tall"		"45"
 				"visible"		"1"
@@ -50,31 +50,72 @@
 				xPos					5
 				yPos					0
 				wide					60
-				tall					15
+				tall					7
 				font					"InstructionalText"
 				fgcolor_override		"W_ColorIcons1"
 				labelText				"Your Scripts:"
 				zpos 					2
 				textAlignment		"west"
 				pin_to_sibling			"LogoImage"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-			}			
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			}				
 			"TFLogoImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"TFLogoImage"
-				"xpos"			"c-323-p0.001"	
-				"ypos"			"5"
+				"xpos"			"cs-2.02"	
+				"ypos"			"r190"
 				"zpos"			"2"
-		"wide"				"160"
-		"tall"				"40"
+				"wide"				"160"
+				"tall"				"40"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../logo/new_tf2_logo"
 				"scaleImage"	"1"
-				"alpha"			"10"
-			}				
+			}
+			"InfoLabel"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"InfoLabel"
+				"font"										"InstructionalText"
+				"labelText"									"#TF_Quickplay_AdvancedOptions"
+				"textAlignment"								"center"
+				"xpos"										"cs-2.02"	
+				"ypos"										"5"
+				"zpos"										"2"
+				"wide"				"160"
+				"tall"				"20"
+				"fgcolor_override" 							"W_ColorTexto1"
+			}		
+			"Separator0"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"Separator0"
+				"xpos"			"-4"
+				"ypos"			"-20"
+				"zpos"			"2"
+				"wide"			"p0.37"
+				"tall"			"p0.0015"
+				"bgcolor_override"		"W_ColorIcons1"	
+			"pin_to_sibling"		"InfoLabel"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"				
+			}			
+			"Separator1"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"Separator1"
+				"xpos"			"0"
+				"ypos"			"5"
+				"zpos"			"2"
+				"wide"			"p0.15"
+				"tall"			"p0.0015"
+				"bgcolor_override"		"W_ColorIcons1"	
+			"pin_to_sibling"		"LogoImage"
+		pin_corner_to_sibling		PIN_TOPLEFT
+		pin_to_sibling_corner		PIN_BOTTOMLEFT			
+			}			
 		}	
 
 		"ClosePanel"
@@ -244,17 +285,17 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Script1"
-			"xpos"										"53"
-			"ypos"										"60"
+			"xpos"										"68"
+			"ypos"										"40"
 			"zpos"										"2"
-			"wide"										"7"
-			"tall"										"15"
+			"wide"										"9"
+			"tall"										"12"
 			"labelText"									"1"
 			font					"InstructionalText"
 			fgcolor_override		"W_ColorIcons1"
 			"actionsignallevel"	"2"
 			"command"		"engine exec your_scripts_m8/your_script_1.cfg"
-		
+
 			"sound_depressed"							"UI/buttonclick.wav"
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
@@ -275,7 +316,7 @@
 			}				
 		}			
 		"Script2"
-		{		"ControlName"	"CExImageButton"		"fieldName"		"Script2"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script2"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"9"		"tall"										"12"
 			"labelText"									"2"
 			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
 			"command"		"engine exec your_scripts_m8/your_script_2.cfg"
@@ -291,7 +332,7 @@
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}			
 		"Script3"
-		{		"ControlName"	"CExImageButton"		"fieldName"		"Script3"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script3"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"9"		"tall"										"12"
 			"labelText"									"3"
 			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
 			"command"		"engine exec your_scripts_m8/your_script_3.cfg"
@@ -307,7 +348,7 @@
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}	
 		"Script4"
-		{		"ControlName"	"CExImageButton"		"fieldName"		"Script4"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script4"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"9"		"tall"										"12"
 			"labelText"									"4"
 			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
 			"command"		"engine exec your_scripts_m8/your_script_4.cfg"
@@ -323,7 +364,7 @@
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}	
 		"Script5"
-		{		"ControlName"	"CExImageButton"		"fieldName"		"Script5"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"7"		"tall"										"15"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"Script5"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"9"		"tall"										"12"
 			"labelText"									"5"
 			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
 			"command"		"engine exec your_scripts_m8/your_script_5.cfg"
@@ -337,27 +378,34 @@
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 			
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
-		}			
+		}		
+		"4plugsettings"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"4plugsettings"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"80"		"tall"										"25"
+			"labelText"									"Reload 4plug Settings"
+			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			"command"		"engine exec hud_cfg/all_4plug_cfgs_garm3n.cfg"
+			"wrap"		"1"
+			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorIcons1"		"armedFgColor_override" 					"W_BorderArmed"		"depressedFgColor_override" 				"W_ColorLinea1"
+			pin_to_sibling		"Script1"	
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT	
+			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}				
 		"HudReload"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"HudReload"
-			"xpos"										"2"
-			"ypos"										"100"
-			"zpos"										"2"
+			"xpos"										"cs-2.0"
+			"ypos"										"27"
 			"wide"										"p0.1"
 			"tall"										"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"									"ReloadScheme"
-			"font"										"Default"
-			"textAlignment"								"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
+			"font"										"InstructionalText"
+			"textAlignment"		"east"
 			"actionsignallevel"	"2"
 			"command"		"engine hud_reloadscheme"
 		
@@ -367,42 +415,13 @@
 			"paintbackground"							"0"
 
 			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}			
-		"Separator1"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator1"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"HudReload"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}		
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}				
 		"MatchStatus"
 		{
 			"ControlName"	"CExImageButton"
@@ -418,8 +437,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"MatchStatus"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -430,31 +449,16 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator1"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			pin_to_sibling				"HudReload"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
 		"Glitch"
 		{
 			"ControlName"	"CExImageButton"
@@ -464,17 +468,9 @@
 			"zpos"										"2"
 			"wide"										"p0.1"
 			"tall"										"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"									"Glitch Fix"
-			"font"										"Default"
-			"textAlignment"								"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"actionsignallevel"	"2"
 			"command"		"engine record !null; stop; jp_snd_beep"
 		
@@ -485,42 +481,13 @@
 			pin_to_sibling				"MatchStatus"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
-		"Separator2"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator2"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"MatchStatus"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}	
+
 		"ChatToggle"
 		{
 			"ControlName"	"CExImageButton"
@@ -536,8 +503,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Chat Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -548,31 +515,14 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator2"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			pin_to_sibling				"Glitch"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
-			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
 		"Killfeed"
 		{
 			"ControlName"	"CExImageButton"
@@ -588,8 +538,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Killfeed Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -603,41 +553,12 @@
 			pin_to_sibling				"ChatToggle"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}	
-		"Separator3"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator3"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"ChatToggle"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}			
 		"FPS"
 		{
@@ -654,8 +575,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"FPS Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -666,31 +587,15 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator3"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			pin_to_sibling				"Killfeed"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT			
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
 		"ViewmodelToggle"
 		{
 			"ControlName"	"CExImageButton"
@@ -706,8 +611,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Viewmodel Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -721,42 +626,12 @@
 			pin_to_sibling				"FPS"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
-		"Separator4"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator4"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"FPS"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
 		"Spray"
 		{
 			"ControlName"	"CExImageButton"
@@ -772,8 +647,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Spray Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -784,31 +659,14 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator4"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			pin_to_sibling				"ViewmodelToggle"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
-			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
 		"Captions"
 		{
 			"ControlName"	"CExImageButton"
@@ -824,8 +682,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Captions Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -839,41 +697,12 @@
 			pin_to_sibling				"Spray"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
-		"Separator5"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator5"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"Spray"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}	
 		"Sound"
 		{
@@ -890,8 +719,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Sound Restart"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -902,46 +731,16 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator5"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-			"defaultFgColor_override"					"Yellow"
+			pin_to_sibling				"Captions"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
 			"armedFgColor_override" 					"RedSolid"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}
-
-		"Separator6"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator6"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"Sound"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
+	
 		"Status"
 		{
 			"ControlName"	"CExImageButton"
@@ -957,8 +756,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Status"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -969,30 +768,15 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator6"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			pin_to_sibling				"Sound"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
 			"defaultFgColor_override"					"blue"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}	
 		"Clear"
 		{
@@ -1003,14 +787,9 @@
 			"zpos"										"2"
 			"wide"										"p0.1"
 			"tall"										"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"									"Clear Console (almost)"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -1024,42 +803,12 @@
 			pin_to_sibling				"Status"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
-			}				
-		}		
-		"Separator7"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator7"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"Status"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}				
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}			
 		"Sm_Nominate"
 		{
 			"ControlName"	"CExImageButton"
@@ -1075,8 +824,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"sm_nominate"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -1087,11 +836,11 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator7"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			pin_to_sibling				"Clear"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT			
 			"defaultFgColor_override"					"blue"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
@@ -1127,8 +876,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"sm_help"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -1142,8 +891,8 @@
 			pin_to_sibling				"Sm_Nominate"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
@@ -1164,20 +913,7 @@
 				"scaleImage"	"1"
 			}				
 		}			
-		"Separator8"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Separator8"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"p0.00125"
-			"tall"			"35"
-			"bgcolor_override"		"Green"
-			"pin_to_sibling"		"Sm_Nominate"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}		
+	
 		"Dev1"
 		{
 			"ControlName"	"CExImageButton"
@@ -1186,15 +922,11 @@
 			"ypos"										"0"
 			"zpos"										"2"
 			"wide"										"p0.1"
-			"tall"										"10"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
+			"tall"										"15"
+
 			"labelText"									"Developer Toggle"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -1205,11 +937,11 @@
 			"sound_released"							"UI/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
-			pin_to_sibling				"Separator8"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			pin_to_sibling				"Sm_Help"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT	
 			"defaultFgColor_override"					"blue"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
@@ -1238,15 +970,15 @@
 			"ypos"										"0"
 			"zpos"										"2"
 			"wide"										"p0.1"
-			"tall"										"10"
+			"tall"										"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"									"Show Pos"
-			"font"										"Default"
-			"textAlignment"								"west"
+			"font"										"InstructionalText"
+			"textAlignment"								"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
@@ -1260,8 +992,8 @@
 			pin_to_sibling				"Dev1"
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			"defaultFgColor_override"					"Green"
-			"armedFgColor_override" 					"W_ColorTheme1"
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
 			"depressedFgColor_override" 				"W_ColorLinea1"
 			
 			
