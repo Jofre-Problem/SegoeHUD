@@ -1,4 +1,5 @@
-#base "../#jofre/gradient.res"
+#base "../#hp/main-usage1.res"
+#base "../#hp/team-blur.res"
 "Resource/UI/HudBossHealth.res"
 {
 	"BorderImage"
@@ -19,39 +20,16 @@
 		"scaleImage"	"1"					
 	}
 	
-	"BossBG"
+	"Blur"
 	{
-		"fieldName"		"BossBG"
 		"xpos"			"15"
 		"ypos"			"16"
 		"zpos"			"0"
 		"wide"			"168"
 		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"			
-		"ControlName"	"CTFImagePanel"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"		
-
+		"border"		"SteamWorkshopBorder"
 	}
-	"Gradient"
-	{
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"9"
-		"wide"				"168"
-		"tall"				"8+p0.04"
-		"pin_to_sibling"	"BossBG"
-	}	
+
 
 	"HealthBarPanel"
 	{

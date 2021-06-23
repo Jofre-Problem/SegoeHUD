@@ -1176,17 +1176,6 @@
 		pin_to_sibling			"ChromeURL"
 		pin_corner_to_sibling		PIN_TOPLEFT
 		pin_to_sibling_corner		PIN_BOTTOMLEFT
-	}		
-	"ClickAwayPanel"  		// catches when player clicks away from something; needed to close context menus
-	{
-		ControlName				CExButton
-		FieldName				"ClickAwayPanel"
-		xPos					0
-		yPos					0
-		zPos					999				// below DashboardDimmer
-		wide					f0
-		tall					480
-		alpha					0
 	}
 	
 	"Notifications_ShowButtonPanel"	// notification alert
