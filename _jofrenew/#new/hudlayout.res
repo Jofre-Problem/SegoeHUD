@@ -32,22 +32,22 @@
 		"wide"	 "f0"
 		"tall"	 "p0.6"
 
-		"MaxDeathNotices" "8" // 1 KF
-		"IconScale"		"0.3"
-		"LineHeight"	"16" // 3 KF
-		"LineSpacing"	"1" // 4 KF
-		"CornerRadius"	"0" // 2 KF
-		"RightJustify"	"1"	// If 1, draw notices from the right
+		"MaxDeathNotices" 							"6"
+		"IconScale"	  								"0.35"
+		"LineHeight"	  							"12"
+		"LineSpacing"	 							"0"
+		"CornerRadius"	  							"0"
+		"RightJustify"	  							"1"
 		
-		"TextFont"		"Default"
+		"TextFont"									"TFFontSmall"
 		
-		"TeamBlue"		"G_KillfeedBlue"
-		"TeamRed"		"G_KillfeedRed"
-		"IconColor"		"G_KillfeedIcon"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"									"35 160 245 255"
+		"TeamRed"									"245 70 70 255"
+		"IconColor"									"White"
+		"LocalPlayerColor"							"Black"
 
-		"BaseBackgroundColor"	"0 0 0 100"
-		"LocalBackgroundColor"	"255 255 255 214"//"G_Killfeed_Local"	
+		"BaseBackgroundColor"						"0 0 0 200"
+		"LocalBackgroundColor"						"220 220 220 255"
 	}
 	HudWeaponAmmo
 	{

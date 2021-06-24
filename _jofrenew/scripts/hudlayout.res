@@ -2,4 +2,4 @@
 	#base "../#customization/scripts/damageindicator.res"
 	#base "../../ui_overrides/resource/ui/hitmarkers.res"
 	#base "../#new/hudlayout.res"
-	#base "../#customization/!addons/#enabled/tf2_def_hud/hudlayout.res"	
+	#base "../#customization/!addons/#enabled/tf2_def_hud/hudlayout.res"

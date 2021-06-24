@@ -115,6 +115,227 @@
 			"pin_to_sibling"		"LogoImage"
 		pin_corner_to_sibling		PIN_TOPLEFT
 		pin_to_sibling_corner		PIN_BOTTOMLEFT			
+			}
+			"RedSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"RedSlider"
+				"font"										"NewIcons18"
+				"labelText"									"o"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"Red"
+			"pin_to_sibling"		"Separator1"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}				
+			"RedDMGSlide"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"RedDMGSlide"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+				"leftText"		"0.00"
+				"rightText"		"255.00"
+				"minvalue"		"0"
+				"maxvalue"		"255"
+				"cvar_name"		"hud_combattext_red"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"RedSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			}	
+			"GreenSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"GreenSlider"
+				"font"										"NewIcons18"
+				"labelText"									"o"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"Green"
+			"pin_to_sibling"		"RedSlider"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}	
+			"GreenDMGSlide"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"GreenDMGSlide"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+				"leftText"		"0.00"
+				"rightText"		"255.00"
+				"minvalue"		"0"
+				"maxvalue"		"255"
+				"cvar_name"		"hud_combattext_green"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"GreenSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			}	
+			"BluSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"BluSlider"
+				"font"										"NewIcons18"
+				"labelText"									"o"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"blue"
+			"pin_to_sibling"		"GreenSlider"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}	
+			"BlueDMGSlide"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"BlueDMGSlide"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+				"leftText"		"0.00"
+				"rightText"		"255.00"
+				"minvalue"		"0"
+				"maxvalue"		"255"
+				"cvar_name"		"hud_combattext_blue"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"BluSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			}		
+			"CrossSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"CrossSlider"
+				"font"										"NewIcons18"
+				"labelText"									"w"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"W_ColorIcons1"
+			"pin_to_sibling"		"BluSlider"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}		
+			"RealCross"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"RealCross"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+			"leftText"		"0.00"
+			"rightText"		"35.00"
+			"minvalue"		"0"
+			"maxvalue"		"35"
+			"cvar_name"		"cl_crosshair_scale"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"CrossSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			
+			}
+			"ChatSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"ChatSlider"
+				"font"										"NewIcons15"
+				"labelText"									"z"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"W_ColorIcons1"
+			"pin_to_sibling"		"CrossSlider"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}	
+			"ChatCvar"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"ChatCvar"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+			"leftText"		"0.00"
+			"rightText"		"15.00"
+			"minvalue"		"0"
+			"maxvalue"		"15"
+			"cvar_name"		"hud_saytext_time"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"ChatSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			
+			}
+			"DeathSlider"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"DeathSlider"
+				"font"										"NewIcons18"
+				"labelText"									"0"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"wide"				"20"
+				"tall"				"o1"
+				"fgcolor_override" 							"W_ColorIcons1"
+			"pin_to_sibling"		"ChatSlider"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT					
+			}		
+			"DeathCvar"
+			{
+				"ControlName"		"CCvarSlider"
+				"fieldName"		"DeathCvar"
+				"xpos"		"0"
+				"ypos"		"-4"
+				"wide"		"p0.131"
+				"tall"		"20"
+			"leftText"		"0.00"
+			"rightText"		"15.00"
+			"minvalue"		"0"
+			"maxvalue"		"15"
+			"cvar_name"		"hud_deathnotice_time"
+				"allowoutofrange"		"0"		
+				"pin_to_sibling"	"DeathSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			
+			}		
+			"Separator2"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"Separator2"
+				"xpos"			"0"
+				"ypos"			"5"
+				"zpos"			"2"
+				"wide"			"p0.15"
+				"tall"			"p0.0015"
+				"bgcolor_override"		"W_ColorIcons1"	
+			"pin_to_sibling"		"DeathSlider"
+		pin_corner_to_sibling		PIN_TOPLEFT
+		pin_to_sibling_corner		PIN_BOTTOMLEFT			
 			}			
 		}	
 

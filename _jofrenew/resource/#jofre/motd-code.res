@@ -189,5 +189,48 @@
 		"fgcolor_override"		"W_ColorIcons1"
 		"font"					"NewIcons22"				
 	}	
-	}
+	"NetSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"NetSlider"
+		"xpos"		"0"
+		"ypos"		"15"
+		"wide"		"p0.2"
+		"tall"		"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"11"
+		"leftText"		"0"
+		"rightText"		"4.0"
+		"minvalue"		"0.0"
+		"maxvalue"		"4.0"
+		"cvar_name"		"net_graph"
+		"pin_to_sibling"	"FovSlider"
+		pin_corner_to_sibling		PIN_TOPLEFT
+		pin_to_sibling_corner		PIN_BOTTOMLEFT
+
+	}		
+	"NetLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"NetLabel"
+		"xpos"		"26"
+		"ypos"		"5"
+		"wide"		"22"
+		"zpos"		"1"
+		"tall"		"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"V"
+		"textAlignment"		"west"
+		"pin_to_sibling"	"NetSlider"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
+		"fgcolor_override"		"W_ColorIcons1"
+		"font"					"NewIcons22"
+	}		
+
+}
 }

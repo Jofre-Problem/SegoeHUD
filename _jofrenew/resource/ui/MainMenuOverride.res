@@ -40,7 +40,7 @@
 		"centerwrap"		"1"
 		"xpos""rs1-5"
 		"ypos""36"
-		"zpos""1001"
+		"zpos""999"
 		"wide"			"p0.085"
 		"tall"			"40"
 		"fgcolor_override" "W_ColorIcons1"
@@ -290,7 +290,7 @@
 		sound_released			"UI/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"236 71 233 255"
 	
 		paintBackground			0
 
@@ -1293,7 +1293,7 @@
 		FieldName				"Notifications_Panel"
 		xPos					rs1-5
 		yPos					80
-		zPos					2000
+		zPos					999
 		wide					210
 		tall					80
 		visible				0
@@ -1304,7 +1304,7 @@
 			"fieldName"		"Windows_Notification"
 			"xpos"		"0"
 			"ypos"		"0"
-			"zpos"		"-1000"
+			"zpos"		"-10"
 			"wide"		"210"
 			"tall"		"80"
 			"autoResize"		"0"
