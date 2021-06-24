@@ -30,7 +30,60 @@
 		"enabled"		"0"
 		"image"			"replay/thumbnails/null"
 	}	
-				
+	"IngameBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"IngameBG"
+		"xpos"			"0"
+		"ypos" "0" //			"28"
+		"zpos"			"-30"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos" "0" //			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"480"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			""
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"Command"		""
+
+			"sound_depressed"	"vo/null.wav"
+			"sound_released"	"vo/null.wav"
+
+			"SubImage"
+			{
+				"xpos"			"0"
+				"ypos" "0" //			"0"
+				"zpos"			"-200"
+				"wide"			"f0"
+				"tall"			"480"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/mm/ingameBG"
+				"scaleImage"	"1"
+			}
+		}
+	}				
 	"NotificationNoYet"
 	{
 		"ControlName"			"CExLabel"
@@ -40,7 +93,7 @@
 		"centerwrap"		"1"
 		"xpos""rs1-5"
 		"ypos""36"
-		"zpos""999"
+		"zpos""20"
 		"wide"			"p0.085"
 		"tall"			"40"
 		"fgcolor_override" "W_ColorIcons1"
@@ -1180,7 +1233,7 @@
 		FieldName				"Notifications_ShowButtonPanel"
 		xPos					rs1-5
 		yPos					35
-		zPos					1050
+		zPos					30
 		"wide"			"p0.085"
 		"tall"			"40"
 		"tabPosition"	"1"	
@@ -1292,8 +1345,8 @@
 		ControlName				EditablePanel
 		FieldName				"Notifications_Panel"
 		xPos					rs1-5
-		yPos					80
-		zPos					999
+		yPos					35
+		zPos					300
 		wide					210
 		tall					80
 		visible				0

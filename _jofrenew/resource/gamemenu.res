@@ -1,5 +1,12 @@
 "GameMenu" 
 {
+	"IngameBG"
+	{
+		"label" ""
+		"command"		"engine none"
+		"OnlyInGame" "1"
+		"subimage" "replay/thumbnails/mm/ingameBG"
+	}
 	"CallVote"
 	{
 		label				"Æ"

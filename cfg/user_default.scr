@@ -55,6 +55,35 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 1 400 }
 		{ "150" }
 	}	
+	"category-1"
+	{
+		"#TF_OptionCategory_Communication"
+		{ CATEGORY }
+	}
+	
+	"voice_modenable"
+	{
+		"#TF_EnableVoiceChat"
+		"#Tooltip_EnableVoiceChat"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_enable_text_chat"
+	{
+		"#TF_EnableTextChat"
+		"#Tooltip_EnableTextChat"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"chat_filter_settings"
+	{
+		"#TF_ChatFilterSettings"
+		"#Tooltip_ChatFilterSettings"
+		{ BUTTON }
+		{ "open_chat_filter_settings" }
+	}	
 	"category1"
 	{
 		"#TF_OptionCategory_Combat"

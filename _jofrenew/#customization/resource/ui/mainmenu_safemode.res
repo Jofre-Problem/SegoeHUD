@@ -65,15 +65,30 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"TFLogoImage"
 				"xpos"			"cs-2.02"	
-				"ypos"			"r190"
+				"ypos"			"cs-2.22"
 				"zpos"			"2"
 				"wide"				"160"
 				"tall"				"40"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../logo/new_tf2_logo"
+				"image"			"replay/thumbnails/new_tf2_logo"
 				"scaleImage"	"1"
+				"alpha"			"20"
 			}
+			"Monika"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"Monika"
+				"xpos"			"130"	
+				"ypos"			"40"
+				"xpos_minmode"			"cs-6.6"
+				"ypos_minmode"			"r180"
+				"zpos"			"2"
+				"wide"				"40"
+				"tall"				"o1"
+				"image"			"replay/thumbnails/monika_c"
+				"scaleImage"	"1"
+			}			
 			"InfoLabel"
 			{
 				"ControlName"								"CExLabel"
@@ -336,7 +351,25 @@
 			"pin_to_sibling"		"DeathSlider"
 		pin_corner_to_sibling		PIN_TOPLEFT
 		pin_to_sibling_corner		PIN_BOTTOMLEFT			
-			}			
+			}
+			"TrainingLabel"
+			{
+				"ControlName"								"CExLabel"
+				"fieldName"									"TrainingLabel"
+				"font"										"InstructionalText"
+				"labelText"									"Training"
+				"textAlignment"								"center"
+				"xpos"										"0"	
+				"ypos"										"0"
+				"zpos"										"2"
+				"wide"				"p0.15"
+				"tall"				"20"
+				"fgcolor_override" 							"W_ColorTexto1"
+			"pin_to_sibling"		"Separator2"
+		pin_corner_to_sibling		PIN_TOPLEFT
+		pin_to_sibling_corner		PIN_BOTTOMLEFT						
+			}		
+	
 		}	
 
 		"ClosePanel"
@@ -380,7 +413,7 @@
 				"enabled"		"1"
 				"image"			"replay/thumbnails/null"
 				"scaleImage"	"1"
-			}				
+			}			
 		}				
 
 		"Background"		//Only not removed cuz save settings button
@@ -601,9 +634,9 @@
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}		
 		"4plugsettings"
-		{		"ControlName"	"CExImageButton"		"fieldName"		"4plugsettings"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"80"		"tall"										"25"
+		{		"ControlName"	"CExImageButton"		"fieldName"		"4plugsettings"		"xpos"										"0"		"ypos"										"0"		"zpos"										"2"		"wide"										"p0.056"		"tall"										"20"
 			"labelText"									"Reload 4plug Settings"
-			font					"InstructionalText"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
+			font					"ControlPointTimer"		fgcolor_override		"W_ColorIcons1"		"actionsignallevel"	"2"
 			"command"		"engine exec hud_cfg/all_4plug_cfgs_garm3n.cfg"
 			"wrap"		"1"
 			"sound_depressed"							"UI/buttonclick.wav"		"sound_released"							"UI/buttonclickrelease.wav"		"paintbackground"							"0"

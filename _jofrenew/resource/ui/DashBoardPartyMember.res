@@ -30,7 +30,7 @@
 		mouseinputenabled			0
 		
 		labelText				"^"
-		font					"NewIcons20"
+		font					"NewIcons12"
 		textAlignment			center
 
 		fgcolor_override			"W_ColorIcons1"

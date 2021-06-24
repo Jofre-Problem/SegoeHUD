@@ -38,16 +38,6 @@
 		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
-		
-		"TextFont"									"TFFontSmall"
-		
-		"TeamBlue"									"35 160 245 255"
-		"TeamRed"									"245 70 70 255"
-		"IconColor"									"White"
-		"LocalPlayerColor"							"Black"
-
-		"BaseBackgroundColor"						"0 0 0 200"
-		"LocalBackgroundColor"						"220 220 220 255"
 	}
 	HudWeaponAmmo
 	{

@@ -335,7 +335,6 @@
 					"wide"			"p1"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"alpha"			"100"
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"
@@ -347,7 +346,7 @@
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
 						"progress"		"1"
-
+						"alpha"			"100"
 						"fgcolor_override"	"W_BorderArmed"
 						"bgcolor_override"	"0 0 0 0"
 					}
@@ -363,9 +362,9 @@
 						"zpos"			"10"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
-
+						"alpha"			"150"
 						"fgcolor_override"	"W_BorderArmed"
-						"bgcolor_override"	"W_BotonArmed"
+						"bgcolor_override"	"W_ColorLinea1"
 					}
 
 					"Frame"
