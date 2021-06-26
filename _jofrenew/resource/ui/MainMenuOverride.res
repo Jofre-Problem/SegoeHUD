@@ -1,6 +1,7 @@
 	#base "../#jofre/motd-list.res"
 	#base "../#jofre/motd-code.res"
-
+	#base "../../home/servers.res"
+	#base "../../#customization/resource/ui/summersale_border.res"
 //	#base "../#jofre/downbar.res" :: check mainmenu - downbartype.res"
 	#base "../../#customization/resource/ui/mainmenu_budhud_particle.res"
 	#base "../../#customization/resource/ui/mainmenu - downbartype.res"

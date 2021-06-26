@@ -1,75 +1,397 @@
-#base "../#hp/blur.res"
-#base "../#hp/main-usage1.res"
-"Resource/#jofre/teamcolored_blur.res"
+#base "../../#hp/blurred-screen.res"
+
+"Resource/UI/MapInfoMenu.res"
 {
-	"Blur"
+	"mapinfo"
 	{
-		"zpos"			"1"
-	}	
-	"MenuBG"
-	{
-		"wide"			"0"
-	}	
-	"ShadedBar"
-	{
-		"wide"			"0"
+		"ControlName"	"Frame"
+		"fieldName"		"mapinfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"bgcolor_override" "0 0 0 0"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
+	
+	"MainBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 0"
+		"alpha" "0"
+	}
+	
+	"MidPanelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MidPanelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"52"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"0 0 0 220"
+	}
+	
+	"SidePanelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SidePanelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"W_ColorTheme4"
+		"alpha" "0"
+	}
+	
 	"MapInfoTitle"
 	{
-		"xpos"			"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoTitle"
+		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"24"
+		"zpos"			"2"
+		"wide"			"400"
+		"tall"			"52"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%motddate%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardTitle"
-		"fgcolor"		"W_ColorIcons1"
-		"bgcolor_override"	"W_ColorTheme1"
-		"alpha"			"220"
-	}
-	"MapInfoContinue" 
-	{
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"24"
-		"textAlignment"	"east"
-		"font"			"ChalkboardTitle"
+		"font"			"CustomOctavo"
 		"fgcolor"		"W_ColorTheme1"
-		"bgcolor_override"	"W_ColorIcons1"
-		"alpha"			"220"
-			defaultFgColor_override		"W_ColorIcons1"
-			defaultBgColor_override		"W_ColorTheme1"
-			armedBgColor_override		"W_BorderArmed"
-			armedFgColor_override		"W_ColorTheme1"		
-	}	
+		"bgcolor_override"		"0 0 0 0"
+		"textinsetx"	"3"
+	}
+	
 	"MapInfoType"
 	{
-		"xpos"			"rs1"
-		"ypos"			"0"
-		"zpos"			"1"
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoType"
+		"xpos"			"2"
+		"ypos"			"26"
+		"zpos"			"5"
 		"wide"			"f0"
-		"tall"			"24"
-		"textAlignment"	"east"
-		"font"			"ChalkboardTitle"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%gamemode%"
+		"textAlignment"	"west"
+		"font"			"CustomOctavo"
 		"fgcolor"		"W_ColorTheme1"
-	}		
+		"textinsetx"	"2"
+		"bgcolor_override"	"0 0 0 0"
+	}	
+	
 	"MapInfoText"
 	{
-		"font"			"ChalkboardText"
-		"xpos"			"c-184"
-		"ypos"			"cs-0.5-24"
+		"ControlName"	"CExRichText"
+		"fieldName"		"MapInfoText"
+		"font"			"CustomOctavo"
+		"xpos"			"c-200"
+		"ypos"			"c-150" 
 		"zpos"			"3"
-		"wide"			"195"
-		"tall"			"200"
-		"autoResize"	"3"
+		"wide"			"400"
+		"tall"			"300"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
-		"fgcolor"		"W_ColorTheme3"
-		"alpha"			"50"
+		"textAlignment"	"west"
+		"fgcolor"		"W_ColorTheme1"
+		"MaximumWidth"	"214"
+	}
+	
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"275"
+		"tall"			"275"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"		
+	}
+	
+	"MapInfoContinue" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"r115"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"115"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Continue"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"CustomOctavo"
+		"paintbackground"	"0"
+		
+		"paintbackground"	"1"
+		
+		"fgcolor"		"W_ColorTheme1"
+		
+		"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "W_ColorTheme4"
+		"depressedFgColor_override" "W_ColorTheme4"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	"MapInfoContinue2" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue2"
+		"xpos"			"9999"
+		"ypos"			"200"
+		"zpos"			"5"
+		"wide"			"115"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&E)"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"CustomOctavo"
+		"paintbackground"	"0"
+		
+		"fgcolor"		"W_ColorLinea1"
+		"defaultFgColor_override" "W_ColorLinea1"
+		"armedFgColor_override" "W_ColorTheme1"
+		"depressedFgColor_override" "W_ColorTheme1"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	"MapInfoWatchIntro" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoWatchIntro"
+		"xpos"			"9999"
+		"ypos"			"r32"
+		"zpos"			"6"
+		"wide"			"180"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_WatchIntro"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"intro"
+		"default"		"1"
+		"font"			"CustomOctavo"
+		"paintbackground"	"1"
+
+		"paintbackground"	"1"
+		
+		"fgcolor"		"W_ColorTheme1"
+		
+		"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "W_ColorTheme4"
+		"depressedFgColor_override" "W_ColorTheme4"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	"MapInfoBack" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack"
+		"xpos"			"r205"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Back"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"CustomOctavo"
+		"paintbackground"	"0"
+		
+		"paintbackground"	"1"
+		
+		"fgcolor"		"W_ColorTheme1"
+		
+		"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "W_ColorTheme4"
+		"depressedFgColor_override" "W_ColorTheme4"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	"MapInfoBack2" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack2"
+		"xpos"			"9999"
+		"ypos"			"26"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"454"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&Q)"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"CustomOctavo"
+		"paintbackground"	"1"
+		
+		"fgcolor"		"W_ColorLinea1"
+		"defaultFgColor_override" "W_ColorLinea1"
+		"armedFgColor_override" "W_ColorTheme1"
+		"depressedFgColor_override" "W_ColorTheme1"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 255"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "310"
+			"origin_y" "0"
+			"origin_z" "-39"
+		}
+	}					
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"ypos_lodef"			"r74"
+		"ypos_hidef"			"r65"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"50"
+		"tall_lodef"			"74"
+		"tall_hidef"			"65"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}	
+
+	"Footer" [$X360]
+	{
+		"ControlName"		"CTFFooter"
+		"fieldName"			"Footer"
+		"zpos"				"6"
+		"tall"				"80"
+		"button_separator"	"10"
+		"button_separator_lodef"	"5"
+		"buttongap"			"50"
+		"textadjust"		"3"
+		"buttonoffsety"		"20"
+		"buttonoffsety_hidef"		"0"
+		"buttonoffsety_lodef"		"18"
+		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
+		"fgcolor"			"HudOffWhite" 	
+		
+		"button"
+		{
+			"name"		"intro"
+			"text"		"#TF_WatchIntro_360"
+			"icon"		"#GameUI_Icons_Y_BUTTON"	
+		}
+		
+		"button"
+		{
+			"name"		"continue"
+			"text"		"#TF_Continue_360"
+			"icon"		"#GameUI_Icons_A_BUTTON"	
+		}
 	}	
 }

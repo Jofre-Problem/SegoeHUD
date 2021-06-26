@@ -369,7 +369,37 @@
 		pin_corner_to_sibling		PIN_TOPLEFT
 		pin_to_sibling_corner		PIN_BOTTOMLEFT						
 			}		
-	
+			"SeparatorNew"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"SeparatorNew"
+				"xpos"			"-2"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"p0.0012"
+				"tall"			"p0.10"
+				"bgcolor_override"		"W_ColorIcons1"	
+			"pin_to_sibling"		"TrainingLabel"
+			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"				
+			}
+			"PartySlot0"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot0"
+				"xpos"			"0"
+				"ypos"			"10"
+				"wide"			"42"
+				"tall"			"o1"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+			"pin_to_sibling"		"SeparatorNew"
+			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"	
+
+				"party_slot"	"0"
+			}			
 		}	
 
 		"ClosePanel"
@@ -647,6 +677,171 @@
 			pin_corner_to_sibling		PIN_TOPLEFT
 			pin_to_sibling_corner		PIN_BOTTOMLEFT	
 			
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
+		"TrainingMap1"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"TrainingMap1"
+			"xpos"										"20"
+			"ypos"										"215"
+			"wide"										"p0.065"
+			"tall"										"15"
+			"labelText"									"tr_walkway"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+			"command"		"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+
+			
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}	
+		"TrainingMap2"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"TrainingMap2"
+			"xpos"										"0"
+			"ypos"										"0"
+			"wide"										"p0.06"
+			"tall"										"15"
+			"labelText"									"tr_newbots"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+			"command"		"engine sv_allow_point_servercommand always; map tr_newbots"
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+			"pin_to_sibling"				"TrainingMap1"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT				
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}				
+		"TrainingMap3"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"TrainingMap3"
+			"xpos"										"0"
+			"ypos"										"0"
+			"wide"										"p0.06"
+			"tall"										"15"
+			"labelText"									"tr_aim"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+			"command"		"engine sv_allow_point_servercommand always; map tr_aim"
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+			"pin_to_sibling"				"TrainingMap2"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT	
+			
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}
+		"Server1"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Server1"
+			"xpos"										"0+p0.026"
+			"ypos"										"0"
+			"wide"										"p0.06"
+			"tall"										"15"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+			"pin_to_sibling"				"TrainingMap1"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}		
+		"Server2"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Server2"
+			"xpos"										"0"
+			"ypos"										"0"
+			"wide"										"p0.06"
+			"tall"										"15"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+			"pin_to_sibling"				"Server1"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
+			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
+		}		
+		"Server3"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Server3"
+			"xpos"										"0"
+			"ypos"										"0"
+			"wide"										"p0.06"
+			"tall"										"15"
+			"font"										"InstructionalText"
+			"textAlignment"		"west"
+			"actionsignallevel"	"2"
+
+		
+			"sound_depressed"							"UI/buttonclick.wav"
+			"sound_released"							"UI/buttonclickrelease.wav"
+			
+			"paintbackground"							"0"
+			"pin_to_sibling"				"Server2"
+			pin_corner_to_sibling		PIN_TOPLEFT
+			pin_to_sibling_corner		PIN_BOTTOMLEFT		
+			"defaultFgColor_override"					"W_ColorTexto1"
+			"armedFgColor_override" 					"W_ColorIcons1"
+			"depressedFgColor_override" 				"W_ColorLinea1"
+			
+	
 			"SubImage"		{		"ControlName"	"ImagePanel"			"fieldName"		"SubImage"			"wide"			"0"			"tall"			"0"			"image"			"replay/thumbnails/null"		}				
 		}				
 		"HudReload"
