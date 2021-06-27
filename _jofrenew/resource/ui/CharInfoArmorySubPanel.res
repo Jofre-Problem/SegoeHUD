@@ -1,5 +1,3 @@
-//#base "../#jofre/blur_bg.res"
-#base "../#jofre/blur_bg_image.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"

@@ -1,17 +1,9 @@
-#base "../#bases/reload_scheme.res"
 #base "../#jofre/loadout_explanation.res"
 #base "../#jofre/loadout_bg.res"
 //#base "../../#customization//resource/ui/summersale_border.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
-		"ClassLabel"
-		{
-			"ypos"		"c-60"
-			"xpos"		"cs-0.5"
-			"zpos"		"4000"
-			textAlignment	"center"
-			//"wide"					0
-			//"tall"					0
+		"ClassLabel"	{		"wide"					0
 		}			
 	// ---		
 	"2ndPanel"
@@ -31,87 +23,93 @@
 
 		paintbackground				0
 		
-		item_xpos_offcenter_a		80
-		item_xpos_offcenter_b		130
-		"item_ypos"		"150"
-		"item_ydelta"	"54"
-		"item_xdelta"	"0" //58
-		"item_mod_wide"	"120"
+		"item_xpos_offcenter_a"						"58"
+		"item_xpos_offcenter_b"						"204"
+		"item_ypos"									"130"
+		"item_ydelta"								"76"
+		"item_mod_wide"								"40"
 		
-		item_backpack_offcenter_x	-288
-		item_backpack_xdelta		4
-		item_backpack_ydelta		3
+		"item_backpack_offcenter_x"					"0"
+		"item_backpack_xdelta"						"0"
+		"item_backpack_ydelta"						"0"
 
-		button_xpos_offcenter		175		
-		button_ypos					150
-		button_ydelta				130
-		button_override_delete_xpos 0
+		"button_xpos_offcenter"						"175"		
+		"button_ypos"								"85"
+		"button_ydelta"								"80"
+		"button_override_delete_xpos" 				"0"
 		
 		"modelpanels_kv"
 		{
-			ControlName				CItemModelPanel
-			xpos						c-70
-			ypos						270
-			wide						50
-			tall						50
-			visible					0
-			bgcolor_override		"Blank"
-			noitem_textcolor		"W_ColorTheme1"		// no item equipped
-			PaintBackgroundType	2
-			paintborder				1
+			"ControlName"							"CItemModelPanel"
+			"xpos"									"c-70"
+			"ypos"									"270"
+			"wide"									"140"
+			"tall"									"70"
+			"visible"								"0"
+			"bgcolor_override"						"Blank"
+			"PaintBackgroundType"					"0"
+			"paintborder"							"1"
 			
-			"model_xpos"	"0"
-			"model_ypos"	"8"
-			"model_wide"	"50"
-			"model_tall"	"35"
-			text_ypos				50
-			text_center				1
-			name_only				1
+			"model_center_x"						"1"
+			"model_ypos"							"4"			
+			"model_tall"							"52"
+			"model_wide"							"78"
+			"text_ypos"								"53"
+			"text_center"							"1"
+			"name_only"								"1"
 			
 			"attriblabel"
 			{
-				font					"ItemFontAttribLarge"
-				visible				1
+
+				"visible"							"0"
 			}
 			
 			"itemmodelpanel"
 			{
-				use_item_rendertarget	0
-				inventory_image_type		1
-				allow_rot					0
+				"use_item_rendertarget" 			"0"
+				"inventory_image_type"				"1"
+				"allow_rot"							"0"
+			}
+
+			"ItemBackground"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"ItemBackground"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"-99"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+
+				"proportionaltoparent"				"1"
+				"mouseinputenabled" 				"0"
 			}
 		}
 
 		"itemoptionpanels_kv"
 		{
-			ControlName				CExButton
-			xpos						0
-			ypos						0
-			zpos						1
-			wide						20
-			tall						20
-			autoResize				0
-			visible					0
-			enabled					1
-			tabPosition				0
-			labelText				"I"
-			font						"NewIcons18"
-			textAlignment			center
-			dulltext					0
-			brighttext				0
-			default					1
-			
-			paintbackground		0
-			paintborder				0
-			
-			sound_depressed		"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-			
-			border_default			"ReplayBalloonBorder"
-			border_armed			"ReplayBalloonBorder"
-			
-			defaultFgColor_override 	"W_ColorIcons1"
-			armedFgColor_override 		"W_ColorTheme1"
+			"ControlName"							"CExButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"14"
+			"tall"									"14"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labelText"								"~"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"paintborder"							"0"
 		}
 	}
 

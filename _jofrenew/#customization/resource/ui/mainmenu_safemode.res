@@ -376,29 +376,12 @@
 				"xpos"			"-2"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"p0.0012"
+				"wide"			"p0.001"
 				"tall"			"p0.10"
 				"bgcolor_override"		"W_ColorIcons1"	
 			"pin_to_sibling"		"TrainingLabel"
 			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"				
-			}
-			"PartySlot0"
-			{
-				"ControlName"	"CDashboardPartyMember"
-				"fieldName"		"PartySlot0"
-				"xpos"			"0"
-				"ypos"			"10"
-				"wide"			"42"
-				"tall"			"o1"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"1"
-				"keyboardinputenabled"	"0"
-			"pin_to_sibling"		"SeparatorNew"
-			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
-			"pin_corner_to_sibling"	"PIN_CENTER_TOP"	
-
-				"party_slot"	"0"
 			}			
 		}	
 
@@ -684,7 +667,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"TrainingMap1"
 			"xpos"										"20"
-			"ypos"										"215"
+			"ypos"										"0+p0.468"
 			"wide"										"p0.065"
 			"tall"										"15"
 			"labelText"									"tr_walkway"

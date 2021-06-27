@@ -19,6 +19,34 @@
 {
 	"MainMenuOverride"
 	{	}
+			"PartySlot0"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot0"
+				"xpos"			"5"
+				"ypos"			"rs1-26"
+				"wide"			"42"
+				"tall"			"o1"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"	
+
+				"party_slot"	"0"
+			}
+		"SteamSummerBorder"
+		{
+		"ControlName""ImagePanel"
+		"fieldName""SteamSummerBorder"
+		"xpos""5"  //-5
+		"ypos"			"5"
+		"zpos""1"
+		"wide""52"  //+10
+		"tall""50"  //+12
+		"scaleImage""1"
+		"image""replay/thumbnails/steam_summersale/s_border_orange"
+		"mouseinputenabled"	"0"
+			"pin_to_sibling"		"PartySlot0"	
+		}		
 	"TFCharacterImage"
 	{
 		"tall"			"0"
@@ -727,7 +755,7 @@
 	{
 		ControlName				CExButton
 		FieldName				"OpenContracker"
-		xPos					2
+		xPos					5
 		yPos					0
 		zPos					109
 		wide					42
@@ -775,7 +803,7 @@
 	{
 		ControlName				CExLabel
 		FieldName				"TestQuest"
-		xPos					2
+		xPos					0
 		yPos					0
 		zPos					150
 		wide					42
@@ -786,12 +814,13 @@
 		textAlignment			center
 		paintBackground			0
 		fgcolor_override		"196 171 55 255"
+		"pin_to_sibling"		"OpenContracker"
 	}	
 	"TestQuest2"
 	{
 		ControlName				CExLabel
 		FieldName				"TestQuest2"
-		xPos					2
+		xPos					0
 		yPos					0
 		zPos					150
 		wide					42
@@ -802,6 +831,7 @@
 		textAlignment			center
 		paintBackground			0
 		fgcolor_override		"201 122 35 255"
+		"pin_to_sibling"		"OpenContracker"		
 	}	
 
 	"OpenDemo"		// open achievements window

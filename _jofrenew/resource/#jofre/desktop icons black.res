@@ -34,10 +34,10 @@
 	{
 		ControlName				CExButton
 		FieldName				"BrowseServers"
-		xPos					35+10
+		xPos					cs-2.5
 		yPos					rs1
 		zPos					1050
-		wide					28
+		wide					p0.03
 		tall					p0.043
 
 
@@ -62,10 +62,10 @@
 	{
 		ControlName				CExButton
 		FieldName				"CharacterSetupButton"
-		xPos					70+10
-		yPos					rs1
+		xPos					0
+		yPos					0
 		zPos					1050
-		wide					28
+		wide					p0.03
 		tall					p0.043
 		
 
@@ -84,21 +84,34 @@
 		
 		defaultFgColor_override		"W_ColorIcons1"
 		armedFgColor_override		"W_ColorIconsArmed1"
-
+		pin_to_sibling		"BrowseServers"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		paintBackground			0
 		"navRight"		"Settings"
 	}
-	
+//	"Reference"		// open options window
+//	{		ControlName				CExButton		FieldName				"Reference"		xPos					cs-0.5		//yPos					rs1-20		zPos					1050
+//		wide					p0.03
+//		tall					p0.043
+//		labelText				"Í"
+//		font					"NewIcons17"
+//		textAlignment			center
+//		
+//		command				"OpenOptionsDialog"
+//	}	
 	"Settings"		// open options window
 	{
 		ControlName				CExButton
 		FieldName				"Settings"
-		xPos					105+10
-		yPos					rs1
+		xPos					0
+		yPos					0
 		zPos					1050
-		wide					28
+		wide					p0.03
 		tall					p0.043
-
+		pin_to_sibling		"CharacterSetupButton"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		labelText				"Í"
 		font					"NewIcons17"
 		textAlignment			center
@@ -123,15 +136,17 @@
 	{
 		ControlName				CExButton
 		FieldName				"ToggleConsole"
-		xPos					150
-		yPos					rs1
+		xPos					0
+		yPos					0
 		zPos					1050
-		wide					28
+		wide					p0.03
 		tall					p0.043
 		labelText				"_"
 		font					"NewIcons17"
 		textAlignment			center
-		
+		pin_to_sibling		"Settings"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		command				"engine con_enable 1; toggleconsole"		// making sure it's enabled
 
 		sound_depressed			"UI/buttonclick.wav"
@@ -148,12 +163,14 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		xPos					185
-		yPos					rs1
+		xPos					0
+		yPos					0
 		zPos					1052
 		wide					28
 		tall					25
-
+		pin_to_sibling		"ToggleConsole"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -192,8 +209,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"NewusersLabel"
-		xPos					175+10
-		yPos					rs1
+		xPos					0
+		yPos					0
 		zPos					1051
 		wide					33
 		tall					p0.043
@@ -202,7 +219,7 @@
 		"labelText"		"x"
 		"textinsetx"	"0-p0.005"
 		"textAlignment"		"center"
-		
+		pin_to_sibling		"NewUserForumsButton"		
 		"fgcolor_override"		"W_ColorIcons1"
 		"bgcolor_override"		"Blank"
 		"font"					"NewIcons17"		

@@ -9,31 +9,77 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"Green"
 		"NegativeColor"			"red"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"CustomCuarto"
-		"delta_item_font_big"	"CustomQuinto"		//for crits		
+		"EventColor"			"35 195 255 255" //med drops n whatnots
+//		"RedRobotScoreColor"	"255 255 255 255"
+//		"BlueRobotScoreColor"	"255 255 255 255"
+		
+		"delta_lifetime"		"5.6"
+		"alpha" "125"
+		"Additive" "1"
+		"delta_item_font"		"CustomSegundo"
+		"delta_item_font_big"	"CustomSegundo"		//for crits		
 	}
 	
 	"DamageAccountValue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-		"xpos"				"-35"
-		"ypos"				"20"
+		"xpos"				"0"
+		"ypos"				"-25"
 		"zpos"				"2"
 		"wide"				"140"
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"fgcolor"			"235 220 50 255"
 		"font"				"CustomQuinto"
 		
 		"pin_to_sibling"	"Spacer"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"	
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_top"	
 	}
+	"DamageAccountValueClone"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"DamageAccountValueClone"
+		"xpos"				"0"
+		"ypos"				"-25"
+		"zpos"				"2"
+		"wide"				"140"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"center"
+		"fgcolor"			"235 220 50 255"
+		"font"				"CustomQuinto"
+		
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_top"	
+	}	
+	"DamageAccountValueClone2"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"DamageAccountValueClone2"
+		"xpos"				"0"
+		"ypos"				"-25"
+		"zpos"				"2"
+		"wide"				"140"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"center"
+		"fgcolor"			"235 220 50 255"
+		"font"				"CustomQuinto"
+		
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_top"	
+	}		
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	 	"CExLabel"
@@ -46,7 +92,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"	 		"%metal%"
-		"textAlignment"	 	"west"
+		"textAlignment"	 	"center"
 		"fgcolor"	 		"Black"
 		"font"	 			"CustomQuintoBlur"	
 		

@@ -10,8 +10,6 @@
 		"wide"		"f+20"
 		"tall"		"665"
 		"title"		"#GameUI_Loading"
-	//	"bgcolor"				"Blank"
-	//	"bgcolor_override"		"Blank"
 	}
 	"CancelButton"
 	{

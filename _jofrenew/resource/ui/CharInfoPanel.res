@@ -1,6 +1,6 @@
 //#base "../#jofre/downbar.res"
 //#base "../#jofre/blur_bg.res"
-#base "../#jofre/blur_bg_image.res"
+#base "../#hp/blurred-screen.res"
 #base "../#jofre/home.res"
 #base "../#jofre/downbar.res"
 "Resource/UI/CharInfoPanel.res"

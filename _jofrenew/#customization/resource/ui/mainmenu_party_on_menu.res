@@ -1,39 +1,18 @@
 "Resource/UI/Main.res"
 {
-	"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"rs1-33"
-			"ypos"			"rs1"
-			"zpos"			"1300"
-			"wide"			"20"
-			"tall"			"p0.04645"
-			"border"			"noborder"
-			"defaultborder"			"noborder"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-
-			"party_slot"	"0"
-		}
 
 		"PartySlot1"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"cs-0.5"//"rs1-33"
+			"ypos"			"30"//"rs1"
 			"zpos"			"1300"
 			"wide"			"20"
 			"tall"			"p0.04645"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "PartySlot0"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
 
 			"party_slot"	"1"
 		}
@@ -113,19 +92,4 @@
 
 			"party_slot"	"5"
 		}
-		"QuitBar3"		
-		{
-			ControlName				ImagePanel
-			FieldName				"QuitBar3"
-			xPos					0
-			yPos					0
-			zPos					1040
-			wide					1
-			tall					p0.045 //p0.525
-			fillColor				"W_ColorIcons1"
-			mouseInputEnabled			0			// mouse input passes though to panels below
-			"pin_to_sibling" "PartySlot5"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-		}		
 }

@@ -1,5 +1,10 @@
 "Resource\HudLayout.res"
 {
+	CDamageAccountPanel
+	{
+		"wide"					"p1"
+		"tall"					"p1"
+	}
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"

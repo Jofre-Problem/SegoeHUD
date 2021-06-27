@@ -1,6 +1,4 @@
-#base "../#jofre/downbar.res"
-#base "../#jofre/charbg.res"
-#base "../#jofre/cancelbutton.res"
+#base "../#hp/blurred-screen.res"
 "Resource/UI/ClassSelection.res"
 {
 	"class"
@@ -12,8 +10,7 @@
 		wide					f0
 		tall					480
 	}
-
-	"Offense"
+"Offense"
 	{
 		"xpos"			"0"
 		"ypos"			"0"
@@ -71,55 +68,47 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	"CancelButton" 
-	{
-		"Command"		"vguicancel"
-	}
-	"CancelContinue" 
-	{
-		"Command"		"vguicancel"
-	}	
-	"Footer"
-	{
-		"tall"				"0"
-	}	
 	// to enable debug borders replace "paintbackground\t\t\t0" with "paintbackground\t\t\t1" (regex enabled)
 
-	
-	"CountLabel"
+	"Filter"		// for consistancy with resource\ui\MapInfoMenu.res and resource\ui\TeamMenu.res
 	{
-		"xpos"			"rs1"
-		"ypos"			"rs1"
-		"wide"			"200"
-		"tall"			"p0.045"
-		"font"			"HudFontSmallishBold"
-		"fgcolor"		"W_ColorIcons1"
-		"textAlignment"		"east"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		ControlName				ImagePanel
+		fieldName				"Filter"
+		xpos					0
+		ypos					0
+		zpos					-10
+		wide					f0
+		tall					f0
+		proportionaltoparent		1
+		fillColor				"37 37 37 208"
 	}
-	
+
 	"WheelImage"
 	{
 		ControlName				ImagePanel
 		fieldName				"WheelImage"
-		xpos					cs-1.3
-		ypos					cs-0.55
-		zpos					5
+		xpos					cs-0.5
+		ypos					cs-0.5
+		zpos					-2
 		wide					o1
 		tall					300
 		alpha					50
 
 		image					"replay/thumbnails/hud/SelectionWheel9"
-		scaleImage				1
 		drawcolor				"W_ColorTheme1"
+		scaleImage				1
 	}
+	
+	// #region BUTTONS 
+	
+	// #region SCOUT 
+
 	"scout"				// icon, updates the player model
 	{
 		ControlName				CExButton
 		fieldName				"scout"
-		xpos					cs-4.5
-		ypos					75
+		xpos					cs-0.5
+		ypos					90
 		zpos					6
 		wide					o1
 		tall					60
@@ -134,8 +123,7 @@
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
-		"image_default"		"replay/thumbnails/null"
-		"image_armed"		"replay/thumbnails/null"
+				
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
@@ -152,8 +140,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"scout_extra_0"
-		xpos					cs-4.5
-		ypos					101
+		xpos					cs-0.5
+		ypos					116
 		zpos					4
 		wide					78
 		tall					36
@@ -171,8 +159,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"scout_extra_1"
-		xpos					cs-4.5
-		ypos					70
+		xpos					cs-0.5
+		ypos					85
 		zpos					4
 		wide					98
 		tall					32
@@ -190,8 +178,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"scout_extra_2"
-		xpos					cs-4.5
-		ypos					30
+		xpos					cs-0.5
+		ypos					45
 		zpos					4
 		wide					120
 		tall					40
@@ -209,8 +197,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"scout_extra_3"
-		xpos					cs-4.5
-		ypos					-15
+		xpos					cs-0.5
+		ypos					0
 		zpos					4
 		wide					160
 		tall					45
@@ -232,13 +220,13 @@
 	{
 		ControlName				CExButton
 		fieldName				"soldier"
-		xpos					cs-4.5+78
-		ypos					103
+		xpos					cs-0.5+78
+		ypos					118
 		zpos					6
 		wide					o1
 		tall					60
 		proportionaltoparent		1
-		"image_default"		"replay/thumbnails/null"
+
 		labelText				"b"
 		font					"NewIcons57"
 		textAlignment			center
@@ -266,7 +254,7 @@
 		ControlName				CExButton
 		fieldName				"soldier_extra_0"
 		xpos					c39
-		ypos					-15
+		ypos					0
 		zpos					2
 		wide					p0.5
 		tall					160
@@ -285,7 +273,7 @@
 		ControlName				CExButton
 		fieldName				"soldier_extra_1"
 		xpos					c70
-		ypos					145
+		ypos					160
 		zpos					2
 		wide					p0.5
 		tall					31
@@ -307,8 +295,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"pyro"
-		xpos					cs-4.5+119
-		ypos					177
+		xpos					cs-0.5+119
+		ypos					192
 		zpos					6
 		wide					o1
 		tall					60
@@ -331,11 +319,12 @@
 
 		defaultFgColor_override		"W_ColorTheme1"
 		selectedFgColor_override	"W_BorderArmed"
-		"image_default"		"replay/thumbnails/null"
+
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 	}
+
 	"pyro_extra_0"
 	{
 		ControlName				CExButton
@@ -487,6 +476,7 @@
 		paintbackground			0
 		paintborder				0
 	}
+
 	// #endregion
 
 	// #region DEMOMAN 
@@ -495,8 +485,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"demoman"
-		xpos					cs-4.5+104
-		ypos					255
+		xpos					cs-0.5+104
+		ypos					270
 		zpos					6
 		wide					o1
 		tall					60
@@ -506,7 +496,7 @@
 		font					"NewIcons57"
 		textAlignment			center
 		textinsety				-5
-		"image_default"		"replay/thumbnails/null"
+
 		Command				"select 4"
 		stayselectedonclick		1
 		selectonhover			1
@@ -523,6 +513,7 @@
 		paintbackground			0
 		paintborder				0
 	}
+
 	"demoman_extra_0"
 	{
 		ControlName				CExButton
@@ -561,7 +552,6 @@
 		paintborder				0
 	}
 
-
 	// #endregion
 
 	// #region HEAVY 
@@ -570,8 +560,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"heavyweapons"
-		xpos					cs-4.5+40
-		ypos					310
+		xpos					cs-0.5+40
+		ypos					325
 		zpos					6
 		wide					o1
 		tall					60
@@ -586,7 +576,7 @@
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
-		"image_default"		"replay/thumbnails/null"				
+				
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
@@ -683,8 +673,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"engineer"
-		xpos					cs-4.5-40
-		ypos					310
+		xpos					cs-0.5-40
+		ypos					325
 		zpos					6
 		wide					o1
 		tall					60
@@ -706,7 +696,7 @@
 
 		defaultFgColor_override		"W_ColorTheme1"
 		selectedFgColor_override	"W_BorderArmed"
-		"image_default"		"replay/thumbnails/null"
+
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
@@ -796,13 +786,13 @@
 	{
 		ControlName				CExButton
 		fieldName				"medic"
-		xpos					cs-4.5-104
-		ypos					255
+		xpos					cs-0.5-104
+		ypos					270
 		zpos					6
 		wide					o1
 		tall					60
 		proportionaltoparent		1
-		"image_default"		"replay/thumbnails/null"
+
 		labelText				"g"
 		font					"NewIcons57"
 		textAlignment			center
@@ -871,8 +861,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"sniper"
-		xpos					cs-4.5-119
-		ypos					177
+		xpos					cs-0.5-119
+		ypos					192
 		zpos					6
 		wide					o1
 		tall					60
@@ -887,7 +877,7 @@
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
-		"image_default"		"replay/thumbnails/null"				
+				
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
@@ -1061,8 +1051,8 @@
 	{
 		ControlName				CExButton
 		fieldName				"spy"
-		xpos					cs-4.5-78
-		ypos					103
+		xpos					cs-0.5-78
+		ypos					118
 		zpos					6
 		wide					o1
 		tall					60
@@ -1081,9 +1071,7 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
-		
-		"image_default"		"replay/thumbnails/null"
-		
+
 		defaultFgColor_override		"W_ColorTheme1"
 		selectedFgColor_override	"W_BorderArmed"
 
@@ -1159,8 +1147,8 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numScout"
-		xpos					cs-8.5
-		ypos					50
+		xpos					cs-0.5
+		ypos					66
 		zpos					5
 		wide					30
 		tall					30
@@ -1178,8 +1166,8 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numSoldier"
-		xpos					cs-8.5+102
-		ypos					80
+		xpos					cs-0.5+102
+		ypos					102
 		zpos					5
 		wide					30
 		tall					30
@@ -1197,7 +1185,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numPyro"
-		xpos					cs-8.5+154
+		xpos					cs-0.5+154
 		ypos					198
 		zpos					5
 		wide					30
@@ -1216,7 +1204,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numDemoman"
-		xpos					cs-8.5+140
+		xpos					cs-0.5+140
 		ypos					306
 		zpos					5
 		wide					30
@@ -1235,7 +1223,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numHeavy"
-		xpos					cs-8.5+58
+		xpos					cs-0.5+58
 		ypos					376
 		zpos					5
 		wide					30
@@ -1254,7 +1242,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numEngineer"
-		xpos					cs-8.5-58
+		xpos					cs-0.5-58
 		ypos					376
 		zpos					5
 		wide					30
@@ -1273,7 +1261,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numMedic"
-		xpos					cs-8.5-140
+		xpos					cs-0.5-140
 		ypos					306
 		zpos					5
 		wide					30
@@ -1292,7 +1280,7 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numSniper"
-		xpos					cs-8.5-154
+		xpos					cs-0.5-154
 		ypos					198
 		zpos					5
 		wide					30
@@ -1311,8 +1299,8 @@
 	{
 		ControlName				CExLabel
 		fieldName				"numSpy"
-		xpos					cs-8.5-102
-		ypos					86
+		xpos					cs-0.5-102
+		ypos					102
 		zpos					5
 		wide					30
 		tall					30
@@ -1464,45 +1452,185 @@
 
 	"TFPlayerModel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"TFPlayerModel"
+		ControlName				CTFPlayerModelPanel
+		fieldName				"TFPlayerModel"
 		
-		"xpos"			"rs1+100"
-		"ypos"			"10"
-		"zpos"			"-1"		
-		"wide"			"660"
-		"tall"			"480"
+		xpos					cs-0.5
+		ypos					cs-0.5
+		zpos					-10
+		wide					f0
+		tall					480
 		
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"render_texture"	"0"
-		"fov"			"25"
-		"allow_rot"		"0"
+		render_texture			0
+		fov					16
+		allow_rot				0
 
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
+		paintbackground			0
+		paintbackgroundenabled 		1	// ?
 		
 		"model"
 		{
-			"force_pos"	"1"
+			"force_pos"						"1"
 
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "320"
-			"origin_y" "10"
-			"origin_z" "-49"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"angles_x" 						"0"
+			"angles_y" 						"180"
+			"angles_z" 						"0"
+			"origin_x" 						"300"
+			"origin_y" 						"0"
+			"origin_z" 						"-45"
+			"frame_origin_x"				"0"
+			"frame_origin_y"				"0"
+			"frame_origin_z"				"0"
+			"spotlight" 					"1"
 		
-			"modelname"		""
-			"vcd"		"class_select.vcd"
+			"modelname"						""
+			"vcd"					"class_select.vcd"
+			
+			"animation"
+			{
+				"name"						"PRIMARY"
+				"activity"					"ACT_MP_STAND_PRIMARY"
+				"default"					"1"
+			}
+			"animation"
+			{
+				"name"						"SECONDARY"
+				"activity"					"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"						"MELEE"
+				"activity"					"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"						"BUILDING"
+				"activity"					"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"						"PDA"
+				"activity"					"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"						"ITEM1"
+				"activity"					"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"						"ITEM2"
+				"activity"					"ACT_MP_STAND_ITEM2"
+			}	
+			"animation"
+			{
+				"name"						"MELEE_ALLCLASS"
+				"activity"					"ACT_MP_STAND_MELEE_ALLCLASS"
+			}						
+		}
+		
+		"customclassdata"
+		{
+			"undefined"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"300"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Scout"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Sniper"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Soldier"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Demoman"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"-5"
+				"origin_z" 					"-45"
+			}
+			"Medic"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Heavy"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Pyro"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
+			"Spy"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"-5"
+				"origin_z" 					"-45"
+			}
+			"Engineer"
+			{
+				"fov"						"16"
+				"angles_x" 					"0"
+				"angles_y" 					"180"
+				"angles_z" 					"0"
+				"origin_x" 					"640"
+				"origin_y" 					"0"
+				"origin_z" 					"-45"
+			}
 		}
 	}
 	
@@ -1644,23 +1772,6 @@
 	}
 
 	// #endregion
-
-	// #region DISABLED 
-
-	"ClassInfo"
-	{
-		visible			0
-	}
-	"ClassTipsPanel"
-	{
-		visible			0
-	}
-	"localPlayerImage"
-	{
-		visible			0
-		wide				0
-		tall				0
-	}
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1835,7 +1946,22 @@
 		"scaleImage"	"1"	
 		pin_to_sibling	"countImage9"
 	}
-	
+	// #region DISABLED 
+
+	"ClassInfo"
+	{
+		visible			0
+	}
+	"ClassTipsPanel"
+	{
+		visible			0
+	}
+	"localPlayerImage"
+	{
+		visible			0
+		wide				0
+		tall				0
+	}
 	"localPlayerBG"
 	{
 		visible			0
