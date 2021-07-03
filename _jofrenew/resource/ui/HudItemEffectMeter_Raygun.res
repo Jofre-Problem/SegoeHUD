@@ -1,8 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_Raygun.res"
+#base "HudItemChargeBar.res"
+// Bison
+
+"Resource/UI/HudItemEffectMeter_raygun.res"
 {
-	ItemEffectMeter
+	"ItemMeterDescription" {
+		"fieldName"	"Bison"
+	}
+	HudItemEffectMeter
 	{
-		"ypos"			"-14"
+		"ypos"		"r109"
 	}
 }

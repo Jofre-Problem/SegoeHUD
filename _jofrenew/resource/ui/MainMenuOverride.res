@@ -23,8 +23,8 @@
 			{
 				"ControlName"	"CDashboardPartyMember"
 				"fieldName"		"PartySlot0"
-				"xpos"			"5"
-				"ypos"			"rs1-26"
+				"xpos"			"cs-0.5"
+				"ypos"			"26"
 				"wide"			"42"
 				"tall"			"o1"
 				"proportionaltoparent"	"1"

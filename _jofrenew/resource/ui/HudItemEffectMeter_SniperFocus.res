@@ -1,13 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+#base "HudItemChargeBar.res"
+// Heatmaker
+
+"Resource/UI/HudItemEffectMeter_sniperfocus.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"	"SniperFocus"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
-	}
-	
-	ItemEffectMeter
-	{
-		"ypos"			"-22"
+		"ypos"		"r140"
 	}
 }

@@ -1,18 +1,14 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_Scout.res"
+#base "HudItemChargeBar.res"
+// Scout Secondary (Bonk/Cola)
+
+"Resource/UI/HudItemEffectMeter_scout.res"
 {
+	"ItemMeterDescription"
+	{
+		"fieldName"	"ScoutSecondary"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
+		"ypos"		"r140"
 	}
-	
-	"ItemEffectMeterLabel"
-	{
-	}
-
-	"ItemEffectMeter"
-	{	
-		"xpos"					"0"
-		"ypos"					"-22"
-	}					
 }

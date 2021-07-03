@@ -1,12 +1,16 @@
-#base "base/HudItemEffectMeter_bg.res"
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+#base "HudItemChargeBar.res"
+// Sapper
+
+"Resource/UI/HudItemEffectMeter_Sapper.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"	"Sapper"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
+		"ypos"		"r104" // "r150" above spycicle
 	}
-	ItemEffectMeter
-	{
-		"ypos"			"-14"
-	}	
+	"ItemEffectMeterLabel" {
+		"labelText"	"#TF_ENERGYDRINK"
+	}
 }

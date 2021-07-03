@@ -1,0 +1,7 @@
+colly - class images (the weapons ones)
+joshuawn - crosshairs (the ones directly inside replay\thumbnails)
+thesupremecommander - statusspec images
+whayay - yahud vtf's
+omni - noto vtf's
+rawrsor - materialhud vtf's
+face2face - payload stuff

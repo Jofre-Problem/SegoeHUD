@@ -1,0 +1,101 @@
+//proxies that work
+// https://developer.valvesoftware.com/wiki/List_Of_Material_Proxies
+// calculation: all
+// generation: Sine, LinearRamp, UniformNoise, GaussianNoise, Playerspeed - most other ones initialize but don't work on the hud without an entity to tie it to
+// manipulation: AnimatedTexture, TextureTransform - not sure about TextureScroll - the rest don't work on the hud
+// entity integration: none on the hud
+// utility: the empty proxy doesn't initialize, but that's the point
+// game specific: all initialize but afaik none work on the hud
+
+//useful vmt vars to manipulate
+//	"$color"	"[1.0 1.0 1.0]"
+//	"resultVar"		"$basetexturetransform"
+//	"$alpha"		"1.0"
+//can also create your own variables to do some math on
+
+//not a whole lot, but the three main things then are:
+// rotating, changing color, or changing alpha
+// all being continuously changing, or based on player speed
+//and also animated vtfs but that doesn't really count
+
+"UnlitGeneric"
+{
+	"$translucent"	"1"
+	"$basetexture"	"vgui\replay\thumbnails\crosshair"
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	
+	//changing variables
+	"$color"	"[1.0 1.0 1.0]"
+	"$alpha"	"1.0"
+
+	//defined variables
+	"$speed"		"0"
+	"$angle"		"0.0"
+	"$translate"	"[0.0 0.0]"
+	"$center"		"[0.5 0.5]"
+	
+	//example proxies
+	"Proxies"
+	{
+		//basic animated vtf setup
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"			"$basetexture"
+			"animatedtextureframenumvar"	"$frame"
+			"animatedtextureframerate"		"30"
+		}
+		
+		//checks how fast the player is going, changes the green color channel of the image (no speed = no green, full speed = regular levels of green)
+		"PlayerSpeed"
+		{
+			"resultVar"	"$speed"
+		}
+		"Clamp"
+		{
+			"min"		"0.0"
+			"max"		"1.0"
+			"srcVar1"	"$speed"
+			"resultVar"	"$color[1]" //0=red, 1=green, 2=blue
+		}
+		
+		//checks how fast the player is going, changes the alpha of the image
+		"PlayerSpeed"
+		{
+			"resultVar"	"$speed"
+		}
+		"Clamp"
+		{
+			"min"		"0.5"
+			"max"		"1.0"
+			"srcVar1"	"$speed"
+			"resultVar"	"$color[1]" //0=red, 1=green, 2=blue
+		}
+		
+		//continuously adds to the angle of the image, rotating it
+		"LinearRamp"
+		{
+			"rate" 			"50" // Adjust this, higher spins faster
+			"initialValue"	"0.0"
+			"resultVar"		"$angle"
+		}
+		"TextureTransform"
+		{
+			"translateVar"	"$translate"
+			"rotateVar"		"$angle"
+			"centerVar"		"$center"
+			"resultVar"		"$basetexturetransform"
+		}
+		
+		//continuously pulses blue-ness
+		"Sine"
+		{
+			"sinemin"		"0.3"
+			"minemax"		"0.5"
+			"sineperiod"	"5"
+			"resultVar"		"$color[2]"
+		}
+	}
+}

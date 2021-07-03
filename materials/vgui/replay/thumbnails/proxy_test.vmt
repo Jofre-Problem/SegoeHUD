@@ -1,0 +1,137 @@
+"UnlitGeneric"
+{
+	"$translucent"	"1"
+	"$basetexture"	"vgui\replay\thumbnails\crosshair\crosshair_dot_shadow"
+	
+	"$angle"		"0.0"
+	"$translate"	"[0.0 0.0]"
+	"$center"		"[0.5 0.5]"
+	
+	"$color"	"[1.0 1.0 1.0]"
+	"$speed"	"0"
+	
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	
+	"$var1" "1"
+	"$var2" "1"
+	"$result" "1"
+	
+	"Proxies"
+	{
+		"LinearRamp" //fails
+		{
+			"rate" 			"600"
+		}
+		"PlayerSpeed"
+		{
+			"resultVar"	"$speed"
+			"resultVarer" "$speed"
+		}
+		
+		
+		"Add"
+		{
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"Subtract"
+		{
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"Divide"
+		{
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"Equals"
+		{
+			"srcVar1" "$var1"
+			"resultVar" "$result"
+		}
+		"Abs"
+		{
+			"srcVar1" "$var1"
+			"resultVar" "$result"
+		}
+		"Frac"
+		{
+			"srcVar1" "$var1"
+			"resultVar" "$result"
+		}
+		"Clamp"
+		{
+			"min" "0"
+			"max" "2"
+			"srcVar1" "$var1"
+			"resultVar" "$result"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar" "$var1"
+			"greaterVar" "$var2"
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1" "$var1"
+			"srcVar2" "$var2"
+			"resultVar" "$result"
+		}
+		"Exponential"
+		{
+			"srcVar1" "$var1"
+			"offset" "0"
+			"minVal" "0"
+			"maxVal" "2"
+			"scale" "1"
+			"resultVar" "$result"
+		}
+		
+		
+		"CurrentTime"
+		{
+			"resultVar" "$result"
+		}
+		"PlayerPosition"
+		{
+			"scale" "1"
+			"resultVar" "$result"
+		}
+		"PlayerHealth" //fails
+		{
+			"scale" "1"
+			"resultVar" "$result"
+		}
+		"PlayerDamageTime" //fails
+		{
+			"scale" "1"
+			"resultVar" "$result"
+		}
+		"CustomSteamImageOnModel" // works but doesn't do anything
+		{
+		}
+		"TeamTexture"
+		{
+			"resultVar" "$result"
+		}
+		"BuildingRescueLevel"
+		{
+			"resultVar" "$result"
+		}
+	}
+}

@@ -1,12 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_Pomson.res"
+#base "HudItemChargeBar.res"
+// Pomson
+
+"Resource/UI/HudItemEffectMeter_pomson.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"		"Pomson"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
-	}
-	ItemEffectMeter
-	{
-		"ypos"			"-22"
+		"ypos"		"r101"
 	}
 }

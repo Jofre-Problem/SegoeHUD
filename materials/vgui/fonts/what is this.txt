@@ -1,0 +1,10 @@
+this is set up to give an indicator of sv_pure
+the vbf file down in replay/thumbnails will read this default file and point to shit
+
+in sv_pure 0, this custom will be used and it'll point to an image saying "sv_pure 0"
+in sv_pure 1 or 2, this won't be used, and it'll point to nothing displaying nothing
+
+unfortunately timepath needs to update his tools so I can actually make it
+
+also valve is silly and made this affected by mat_picmip, which this little mod solves
+only in sv_pure 0 but eh

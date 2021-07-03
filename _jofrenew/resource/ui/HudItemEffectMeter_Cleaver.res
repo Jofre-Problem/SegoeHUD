@@ -1,13 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+#base "HudItemChargeBar.res"
+// Cleaver
+
+"Resource/UI/HudItemEffectMeter_cleaver.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"	"Cleaver"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
+		"ypos"		"r140"
 	}
-
-	"ItemEffectMeter"
-	{	
-		"ypos"					"-30"
-	}					
 }

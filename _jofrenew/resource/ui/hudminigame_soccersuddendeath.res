@@ -1,4 +1,4 @@
-#base "res_base/hudminigame_soccer.res"
+#base "HudMiniGame_Soccer.res"
 
 "Resource/UI/HudMiniGame_SuddenDeath.res"
 {
@@ -31,11 +31,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedSkullImage"
-		"xpos"			"c70"
-		"ypos"			"r60"
+		"xpos"			"c100"
+		"ypos"			"r29"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../effects/skull001_hud"
@@ -47,11 +47,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueSkullImage"
-		"xpos"			"c-120"
-		"ypos"			"r60"
+		"xpos"			"c-130"
+		"ypos"			"r29"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../effects/skull001_hud"

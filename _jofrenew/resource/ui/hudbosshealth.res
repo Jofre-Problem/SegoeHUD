@@ -1,5 +1,3 @@
-#base "../#hp/main-usage1.res"
-#base "../#hp/team-blur.res"
 "Resource/UI/HudBossHealth.res"
 {
 	"BorderImage"
@@ -9,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -20,17 +18,21 @@
 		"scaleImage"	"1"					
 	}
 	
-	"Blur"
+	"BossBG"
 	{
-		"xpos"			"15"
-		"ypos"			"16"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BossBG"
+		"xpos"			"14"
+		"ypos"			"15"
 		"zpos"			"0"
-		"wide"			"168"
-		"tall"			"8"
-		"border"		"SteamWorkshopBorder"
+		"wide"			"170"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"32 32 32 255"
 	}
-
-
+	
 	"HealthBarPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -39,10 +41,10 @@
 		"ypos"			"16"
 		"zpos"			"4"
 		"wide"			"168"
-		"tall"			"8"
+		"tall"			"18"
 		"visible"			"1"
 		"enabled"			"1"
-
+		
 		"BarImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -58,9 +60,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"image"			"../hud/halloween_bar"
-			"scaleImage"	"1"				
-			"drawcolor"		"255 0 255 255"
-					
+			"scaleImage"	"1"					
 		}
 	}				
 

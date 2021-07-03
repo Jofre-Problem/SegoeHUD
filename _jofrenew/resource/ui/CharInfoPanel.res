@@ -1,69 +1,123 @@
-//#base "../#jofre/downbar.res"
-//#base "../#jofre/blur_bg.res"
-#base "../#hp/blurred-screen.res"
-#base "../#jofre/home.res"
-#base "../#jofre/downbar.res"
 "Resource/UI/CharInfoPanel.res"
 {
-
-	"character_info"		// drawn over main menu
+	"character_info"
 	{
-		ControlName				EditablePanel
-		fieldName				"character_info"
-		xpos					0
-		ypos					0
-		wide					f0
-		tall					f-10
-		title					""
-		settitlebarvisible		0
-		paintbackground			0
+		"ControlName"	"EditablePanel"
+		"fieldName"		"character_info"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible"	"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"NotoBackground"
+		"infocus_bgcolor_override" "NotoBackground"
+		"outoffocus_bgcolor_override" "NotoBackground"
 		
-		clientinsetx_override		0		// content xpos offset
-		sheetinset_bottom			-7		// content ypos offset (reversed)
-	}
-	"BackgroundHeader"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}				
-	"BackgroundFooter"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}				
-	"FooterLine"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}	
-
-	"CloseShortcut"		// keyboard shortcut
-	{
-		ControlName			CExButton
-		fieldName			"CloseShortcut"
-		wide				0
-		labelText			"&E"
-		Command			"close"
+		"title"			"#CharInfoAndSetup"
+		"title_font"	"noto1"
+		"titletextinsetX"	"0"
+		"titletextinsetY"	"-19"
+		"titlebarfgcolor_override"				"200 187 161 0"
+		"titlebardisabledfgcolor_override"		"200 187 161 0"
+		"titlebarbgcolor_override"				"46 43 42 255"
+		
+		"clientinsetx_override"			"0"
+		"sheetinset_bottom"				"40"
 	}
 	
-
-	// #region CONTENT 
-
-	// Sheet containts the charinfo panels
-	// It also has two tab buttons on top that switch between the stats panel and other panels
-
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundHeaderCustom"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"24 24 24 0"
+	}
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}
+	"BackgroundFooterCustom"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"440"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"32 32 32 0"
+	}		
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}				
+	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-			zpos					1003		// buttons above sheet	
-			tall 		"f0"			//JP f0
 		"tabxindent"	"5"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"10"			//JP 10
+		"tabheight"		"26"
 		"transition_time" "0"
-		yoffset				-10	//JP 10 tab y pos, pushes other content		
+		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -71,126 +125,121 @@
 			"xpos"			"0"
 			"ypos"			"32"
 			"zpos"			"5"
-			"wide"			"0"
-			"tall"			"0"
+			"wide"			"f0"
+			"tall"			"10"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			textinsety				-13   //cant be changed
 			"textinsetx"		"3"
-			"font"				"Blank"
-			"defaultBgColor_override"	"Blank"
-			"selectedcolor"		"Blank"
-			"unselectedcolor"	"Blank"	
+			"font"				"NotoBold24"
+			"defaultBgColor_override"	"43 43 43 255"
+			"selectedcolor"		"NotoMenuText"
+			"unselectedcolor"	"NotoMenuText2"	
 			"paintbackground"	"0"
-			"activeborder_override"	"noborder"
-			"normalborder_override" "noborder"
+			"activeborder_override"	"FuckinBorderDude"
+			"normalborder_override" "FuckinBorderDude"
 			
-			"fgcolor"	"Blank"
-			"defaultBgColor_override" "Blank"
-			"defaultFgColor_override" "Blank"
-			"armedBgColor_override" "Blank"
-			"armedFgColor_override" "Blank"
-			"selectedBgColor_override" "Blank"
-			"selectedFgColor_override"	"Blank"
+			"fgcolor"	"NotoWhite"
+			"defaultBgColor_override" "36 36 36 0"
+			"defaultFgColor_override" "24 24 24 255"
+			"armedBgColor_override" "32 32 32 0"
+			"armedFgColor_override" "NotoWhite"
+			"selectedBgColor_override" "0 0 0 0"
+			"selectedFgColor_override"	"NotoWhite"
 		}
 	}
+	
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"r84"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Back"
+		"font"			"NotoBold24"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		
+		"defaultFgColor_override" "NotoMenuText"
+		"armedFgColor_override" "NotoMenuText2"
+		"depressedFgColor_override" "NotoMenuText2"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
 
-	// Visible when notifications are present, clicking it goes back to main menu
-	// Same position as the notification alert on main menu
+	"BackButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton2"
+		"xpos"			"9999"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"(&Q) Back"
+		"font"			"NotoBold18"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		
+		// default style
+		"defaultBgColor_override"	"NotoWhite"
+		"defaultFgColor_override" "NotoDark"
+		"border_default"		"FuckinBorderDude"
+        
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+    
+		// depressed style    
+		"depressedBgColor_override"	"NotoWhite"
+		"depressedFgColor_override" "NotoDark"
+	}		
 	
 	"NotificationsPresentPanel"
 	{
-		ControlName				CNotificationsPresentPanel
-		fieldName				"NotificationsPresentPanel"
-		xPos					0
-		yPos					0
-		zPos					10000
-		wide					42
-		tall					o1
-		visible				0
-		alpha					0
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"r200"
+		"ypos"			"10"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
 	}
-
-	// #endregion
-
-	// #region DISABLED 
-
-	"frame_caption"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_topGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_bottomGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_leftGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_rightGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_tlGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_trGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-
-	"frame_blGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-	
-	"frame_brGrip"
-	{
-		fieldName		"frame_caption"
-		xpos			9999
-		visible		0
-	}
-	"BackSC"			// straight to main menu
-	{
-		ControlName				CExButton
-		fieldName				"BackSC"
-		wide					0
-		tall					0
-		labelText				"&Q"
-		Command				"close"
-	}
-	// #endregion
 }

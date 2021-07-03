@@ -1,0 +1,9 @@
+"Refract"
+{
+	"%keywords" "tf"
+	"$refractamount" "0.5"
+	"$refracttint" "{20 255 255}"
+	
+	"$scale" "[1 1]"
+	"$normalmap" "vgui/replay/thumbnails/zoom/zoom"
+}

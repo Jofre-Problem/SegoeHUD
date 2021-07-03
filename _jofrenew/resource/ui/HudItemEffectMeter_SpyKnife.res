@@ -1,12 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+#base "HudItemChargeBar.res"
+// Spy-cicle
+
+"Resource/UI/HudItemEffectMeter_spyknife.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"	"SpyCicle"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
-	}
-	ItemEffectMeter
-	{
-		"ypos"			"-35"
+		"ypos"		"r140"
 	}
 }

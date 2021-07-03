@@ -1,12 +1,13 @@
-#base "base/HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+#base "HudItemChargeBar.res"
+// Scout Primary
+
+"Resource/UI/HudItemEffectMeter_sodapopper.res"
 {
+	"ItemMeterDescription" {
+		"fieldName"	"ScoutPrimary"
+	}
 	HudItemEffectMeter
 	{
-		"x_offset"		"0"
-	}
-	ItemEffectMeter
-	{
-		"ypos"			"-50"
+		"ypos"		"r150"
 	}
 }

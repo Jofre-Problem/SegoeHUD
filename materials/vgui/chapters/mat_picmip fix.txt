@@ -1,0 +1,2 @@
+idk
+i just thought they needed to not be affected by mat_picmip
