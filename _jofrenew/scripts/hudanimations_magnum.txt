@@ -353,8 +353,12 @@ event HudMedicChargedStop
 	Animate	TriUber		 	Alpha		"255"					Linear 0.0 0.0001
 	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
 }
-
 event DamagedPlayer
+{
+	StopEvent DamagedPlayerStuff 0.0
+	RunEvent DamagedPlayerStuff 0.0	
+}
+event DamagedPlayerStuff
 {
 	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
 	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.01 0.0
